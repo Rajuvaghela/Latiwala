@@ -1,0 +1,268 @@
+<resources>
+    <string name = "app_name"> Latiwalaa </string>
+
+    <string name = "action_settings"> Indstillinger </string>
+    <string name = "action_search"> Søg </string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <!-- <string name = "nav_item_home"> Hjem </string> -->
+    <string name = "nav_item_category"> Kategorier </string>
+    <string name = "nav_item_shop"> Shop </string>
+    <string name = "nav_item_shoppingcart"> Indkøbskurv </string>
+    <!-- <string name = "nav_item_wishlist"> Min ønskeseddel </string> -->
+    <string name = "nav_item_contactus"> Kontakt os </string>
+    <string name = "nav_item_terms_condition"> Vilkår &amp; Betingelse </string>
+    <string name = "nav_item_account"> Min konto </string>
+
+    <!-- navigation drawer item labels  -->
+    <string-array name="nav_drawer_labels">
+        <!--<item>@string/nav_item_home</item>-->
+        <item>@string/nav_item_category</item>
+        <item>@string/nav_item_shop</item>
+        <item>@string/nav_item_shoppingcart</item>
+        <!--<item>@string/nav_item_wishlist</item>-->
+        <item>@string/nav_item_contactus</item>
+        <item>@string/nav_item_terms_condition</item>
+        <item>@string/nav_item_account</item>
+    </string-array>
+    <!-- <string name = "title_home"> Hjem </string> -->
+    <string name = "title_profile"> Profil </string>
+    <string name = "title_category"> Kategorier </string>
+    <string name = "title_shop"> Shop </string>
+    <string name = "title_recent"> Seneste </string>
+    <string name = "title_popular"> Mest populære </string>
+    <string name = "title_product_detail"> Produktdetalj </string>
+    <string name = "title_shoppingcart"> Indkøbskurv </string>
+    <string name = "title_wishlist"> Min ønskeseddel </string>
+    <string name = "title_search"> Søg </string>
+
+    <string name = "title_pastOrders"> Tidligere ordrer </string>
+    <string name = "title_changepassword"> Skift kodeord </string>
+    <string name = "title_contactus"> Kontakt os </string>
+    <string name = "title_terms_condition"> Vilkår &amp; Betingelse </string>
+    <string name = "title_account"> Min konto </string>
+    <string name = "title_editProfile"> Rediger profil </string>
+    <string name = "title_edit_address"> Rediger adresse </string>
+    <string name = "title_edit_billing"> Faktureringsadresse </string>
+    <string name = "title_edit_shipping"> Fragtadresse </string>
+    <!-- FORDO: Fjern eller skift denne pladsholdertekst -->
+    <string name = "hello_blank_fragment"> Hej blank fragment </string>
+
+    <string name = "name"> Navn </string>
+
+    <string name = "orderConfirm"> ORDER BEKRÆFTELSE </string>
+    <string name = "forgotPassword"> Glemt kodeord </string>
+    <string name = "forgotusername"> Glemt brugernavn </string>
+
+    <string name = "forgot_pass"> Glemt dit kodeord? </string>
+    <string name = "forgot_username"> Glemt dit brugernavn? </string>
+    <string name = "create_account"> Opret en konto </string>
+    <string name = "need_help"> NEED HELP? </string>
+
+
+    <!-- Opret konto -->
+    <string name = "If_you_already"> Hvis du allerede har en konto hos os, skal du klikke her for at logge ind. </string>
+
+    <!-- glemt password -->
+    <string name = "Forgotten_Password"> Glemt kodeord </string>
+    <string name = "Enter_email"> Indtast e-mail-adressen, der er knyttet til din konto. En bekræftelseskode vil blive sendt til dig. Når du har
+    modtaget bekræftelseskoden. du vil vælge en ny adgangskode til din konto. </string>
+    <string name = "product_shortdescription"> Beskrivelse ikke tilgængelig </string>
+    <!-- Ny adresse -->
+    <string name = "firstName"> Fornavn *</string>
+    <string name = "lastName"> Efternavn *</string>
+    <string name = "address"> Adresse *</string>
+    <string name = "city"> By *</string>
+    <string name = "postCode"> Postnummer *</string>
+    <string name = "State"> Stat *</string>
+    <string name = "mobile"> Mobile *</string>
+    <string name = "phone"> Telefon *</string>
+    <string name = "company"> Firma </string>
+    <string name = "username"> Brugernavn *</string>
+    <string name = "userName"> Brugernavn *</string>
+    <string name = "password"> Adgangskode *</string>
+    <string name = "confirmPassword"> Bekræft kodeord *</string>
+    <string name = "eMail"> Emailadresse *</string>
+    <string name = "country"> Land *</string>
+    <string name = "confirmEmail"> Bekræft e-mail *</string>
+    <string name = "e_mail"> E-mail *</string>
+    <string name="validationpass">Hint: The password should be at least twelve characters long. To make it stronger, use upper and lower case letters, numbers, and symbols like ! " ? $ % ^ &amp; ).</string>
+
+
+    <string name = "conf_detail"> Tak for din ordre \ n \ nEn bekræftelses e-mail er blevet sendt til </string>
+    <string name = "your_order"> Din ordre </string>
+    <string name = "paymentMethod"> Vælg en af ​​betalingsindstillingerne </string>
+    <string name = "ViewallReviews"> Se alle anmeldelser </string>
+    <string name = "reviews_rating"> <![CDATA[Anmeldelser & Rating]]> </string>
+    <string name = "add_a_review"> Tilføj en anmeldelse </string>
+    <string name = "sorry_combination_not_available"> Beklager, kombination ikke tilgængelig </string>
+    <string name = "select_variations"> Vælg variationer </string>
+
+    <string name = "forgot_password"> Mistet dit kodeord? </string>
+    <string name = "create_an_account"> Opret en konto </string>
+    <string name = "checkout_as_guest"> Checkout som gæst </string>
+    <string name = "price_details"> Prisdetaljer </string>
+    <string name = "price_items"> Pris (elementer) </string>
+
+
+    <string name = "alert_title_message"> Meddelelse </string>
+    <string name = "alert_body_network_error"> Kontroller din netværksforbindelse. </string>
+    <string name = "alert_body_server_error"> Serverfejl. Prøv efter lidt tid. </string>
+    <string name = "alert_body_something_was_wrong"> Kontroller venligst URL korrekt. </string>
+    <string name = "alert_title_loading"> Vent venligst </string> ">
+    <string name = "alert_body_wait"> Indlæser &#8230; </string>
+
+    <string name = "btn_ok"> OK </string>
+    <string name = "profile"> Profil </string>
+    <string name = "orders"> Ordrer </string>
+    <string name = "change_password"> Skift kodeord </string>
+    <string name = "logout"> Logout </string>
+    <string name = "product_not_found"> ​​Produkt blev ikke fundet </string>
+    <string name = "wp_webservice_service"> <![CDATA[http://phpjoomlacoders.com/christine/]]> </string>
+    <string name = "title_product"> Produkter </string>
+    <string name = "title_subcategory"> underkategori </string>
+    <string name = "checkusername"> Kontroller venligst brugernavn og kodeord </string>
+    <string name = "enter_your_url"> Indtast url med http: // eller https: // </string>
+    <string name = "you_have_not_any_wish"> Du har ikke noget ønske </string>
+    <string name = "back_to_category"> Gå tilbage </string>
+    <string name = "reload"> Genindlæs </string>
+    <string name = "apply_coupon"> Anvend kupon </string>
+    <string name = "coupon_code"> Kuponkode </string>
+    <string name = "billing_address"> Faktureringsadresse </string>
+    <string name = "change_billing_address"> Skift faktureringsadresse </string>
+    <string name = "billing_address_same_as_shipping_address"> Faktureringsadresse samme som forsendelsesadresse </string>
+    <string name = "shipping_address"> Afsendelsesadresse </string>
+    <string name = "change_shipping_address"> Skift forsendelsesadresse </string>
+    <string name = "shipping_methods"> Forsendelsesmetoder </string>
+    <string name = "additional_charge"> Yderligere gebyr </string>
+    <string name = "tax"> Skat </string>
+    <string name = "coupon"> Kupon: </string>
+    <string name = "payment_methods"> Betalingsmetoder </string>
+    <string name = "total"> I alt: </string>
+    <string name = "continue1"> FORTSÆT </string>
+    <string name = "thank_you_your_order_has_been_received"> Tak. Din ordre er modtaget. </string>
+    <string name = "instructions"> Instruktioner </string>
+    <string name = "our_bank_details"> Vores bankoplysninger </string>
+    <string name = "finish"> Afslut </string>
+    <string name = "billing_address_as_shipping_adress"> Faktureringsadresse som forsendelsesadresse </string>
+    <string name = "send_email"> Send email </string>
+    <string name = "connected"> Connected </string>
+    <string name = "skip"> SKIP </string>
+    <string name = "login"> Log på </string>
+    <string name = "sign_in_to_access_your_orders_and_recommendations"> Log ind for at få adgang til dine ordrer og anbefalinger. </string>
+    <string name = "login1"> LOGIN </string>
+    <string name = "save"> SAVE </string>
+    <string name = "search"> søgning </string>
+    <string name = "choose_an_option"> Vælg en indstilling </string>
+    <string name = "add_to_cart"> ADD TO CART </string>
+    <string name = "buy_now"> KØB NU </string>
+    <string name = "payable_amount"> Betalingsbeløb </string>
+    <string name = "proceed_to_checkout"> PROCEED TO CHECKOUT </string>
+    <string name = "your_rating"> Din vurdering </string>
+    <string name = "write_review"> Skriv anmeldelse </string>
+    <string name = "current_password"> Nuværende kodeord </string>
+    <string name = "new_password"> Nyt kodeord </string>
+    <string name = "confirm_new_password"> Bekræft nyt kodeord </string>
+    <string name = "save_change"> Gem ændring </string>
+    <string name = "cash_on_delivery"> kontant ved levering </string>
+    <string name = "you_have_no_favourite"> Du har ingen favorit </string>
+    <string name = "card_number"> KORTNUMMER </string>
+    <string name = "valid_card_number"> Gyldigt kortnummer </string>
+    <string name = "expiration_date"> UDFØRELSESDATO </string>
+    <string name = "mm"> MM </string>
+    <string name = "yy"> YY </string>
+    <string name = "cvc_doce"> CVC DOCE </string>
+    <string name = "cv"> cv </string>
+    <string name = "enter_coupon_code"> Indtast kuponkode </string>
+    <string name = "paypal_method"> paypal metode </string>
+    <string name = "detail"> Detalje </string>
+    <string name = "sale"> Salg! </string>
+    <string name = "load_more"> Indlæs mere </string>
+    <string name = "i_am_empty"> jeg er tom </string>
+    <string name = "your_cart_is_empty"> din indkøbsvogn er tom </string>
+    <string name = "continue_shopping"> FORTSÆT SHOPPING </string>
+    <string name = "color"> Farve </string>
+    <string name = "account_name"> Kontonavn </string>
+    <string name = "bank_name"> Banknavn </string>
+    <string name = "account_number"> Kontonummer </string>
+    <string name = "sort_code"> Sorter kode </string>
+    <string name = "iban"> IBAN </string>
+    <string name = "bic_swift"> BIC / Swift </string>
+    <string name = "category_name"> kategorinavn </string>
+    <string name = "category"> Kategori </string>
+    <string name = "order_id"> Ordre-id: </string>
+    <string name = "date"> Dato: </string>
+    <string name = "status"> Status: </string>
+    <string name = "on_hold"> På vent </string>
+    <string name = "amount"> Beløb: </string>
+    <string name = "flat_rate"> Flat Rate </string>
+    <string name = "cloth_title"> klud titel </string>
+    <string name = "title"> Titel </string>
+    <string name = "trial"> Trial </string>
+    <string name = "cancel"> Annuller </string>
+    <string name = "please_add_your_shipping_address"> Tilføj venligst din fragtadresse </string>
+    <string name = "please_enter_code"> Indtast venligst kode </string>
+    <string name = "register"> Tilmeld </string>
+    <string name = "please_enter_your_rul"> Indtast venligst din url </string>
+    <string name = "invalid_url"> Ugyldig webadresse </string>
+    <string name = "please_select_country"> Vælg venligst land </string>
+    <string name = "please_enter_your_first_name"> Indtast venligst dit fornavn </string>
+    <string name = "please_enter_your_last_name"> Indtast venligst dit efternavn </string>
+    <string name = "please_enter_your_address"> Indtast venligst din adresse </string>
+    <string name = "please_enter_your_country"> Indtast venligst dit land </string>
+    <string name = "please_enter_your_state"> angiv venligst din tilstand </string>
+    <string name = "please_enter_your_city"> angiv venligst din by </string>
+    <string name = "please_enter_your_postcode"> Indtast venligst dit postnummer </string>
+    <string name = "please_enter_your_email"> Skriv venligst din email </string>
+    <string name = "please_enter_your_phone"> Indtast venligst din telefon </string>
+    <string name = "please_enter_password"> Indtast venligst adgangskode </string>
+    <string name = "please_enter_your_username"> angiv venligst dit brugernavn </string>
+    <string name = "please_enter_registered_email_ID"> Indtast registreret email-id </string>
+    <string name = "please_enter_current_password"> Indtast nuværende kodeord </string>
+    <string name = "please_enter_new_password"> Indtast venligst ny adgangskode </string>
+    <string name = "please_re_enter_password"> Venligst indtast adgangskode igen </string>
+    <string name = "password_not_match"> Kodeord matcher ikke </string>
+    <string name = "please_add_your_billing_address"> Tilføj venligst din faktureringsadresse </string>
+    <string name = "please_add_your_shipping_address1"> Tilføj venligst din fragtadresse </string>
+    <string name = "press_back_again_to_exit"> Tryk på Tilbage igen til Afslut. </string>
+    <string name = "order_not_found"> ​​Ordre ikke fundet </string>
+    <string name = "order_detail"> Bestil detaljer </string>
+    <string name = "subtotal"> Subtotal </string>
+    <string name = "discount"> Rabat </string>
+    <string name = "shipping"> Forsendelse </string>
+    <string name = "payment_details"> Betalingsoplysninger </string>
+    <string name = "customer_details"> Kundeoplysninger </string>
+    <string name = "email"> Email </string>
+    <string name = "please_select_variations"> Vælg venligst variationer </string>
+    <string name = "please_enter_review"> Indtast venligst anmeldelse </string>
+    <string name = "please_select_rating"> vælg venligst rating </string>
+    <string name = "please_enter_name"> angiv venligst navn </string>
+    <string name = "please_enter_email"> Indtast venligst Email </string>
+    <string name = "review_for"> anmeldelse for </string>
+    <string name = "no_review_for_this_prodcut"> Ingen anmeldelse af dette produkt </string>
+    <string name = "error_to_fetch_data"> fejl for at hente data </string>
+    <string name = "all_product"> Alle produkter </string>
+    <string name = "showing"> Viser </string>
+    <string name = "items"> elementer </string>
+    <string name = "please_add_your_phone_number"> bedes du tilføje dit telefonnummer </string>
+    <string name = "cart_is_empty"> Kurv er tom </string>
+    <string name = "subcategory_not_found"> ​​Underkategori ikke fundet </string>
+    <string name = "unknown_error"> Ukendt fejl </string>
+    <string name = "data_was_empty"> Data var tom </string>
+    <string name = "update_wishlist"> Opdater ønskeliste </string>
+    <string name = "add_to_wishlist"> Tilføj til ønskeliste </string>
+    <string name = "remove_from_wishlist"> Fjern fra ønskeliste </string>
+    <string name = "updated_cart"> Opdateret indkøbsvogn </string>
+    <string name = "item_added"> Element tilføjet </string>
+    <string name = "price"> Pris </string>
+    <string name = "checkout"> Checkout </string>
+    <string name = "please_Check_Payment_method"> Se venligst Betalingsmetode </string>
+    <string name = "please_Check_shipping_Method_Payment_method_and_Shipping_address"> Kontroller afsendermetode, betalingsmetode og forsendelsesadresse </string>
+    <string name = "please_Enter_Keywords"> Indtast venligst søgeord </string>
+    <string name = "enabled_your_input_language"> Aktiveret dit indtastningssprog </string>
+    <string name="quantity">Antal</string>
+    <string name="readmore">Læs mere</string>
+    <string name="please_choose_the_quantity_of_items_you_wish_to_add_to_your_cart">Vælg venligst antallet af varer, du vil tilføje til din indkøbsvogn</string>
+    <string name="sorry_this_product_not_availabler">Beklager, dette produkt er ikke tilgængeligt</string>
+    <string name="there_is_no_more_product_available">Der er ikke mere tilgængelig</string>
+</resources>

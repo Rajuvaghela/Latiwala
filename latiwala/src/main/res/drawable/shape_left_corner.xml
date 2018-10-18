@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@color/color_white"/>
+
+    <item
+        android:top="0dp"
+        android:bottom="0dp"
+        android:left="0dp"
+        android:right="0dp">
+        <rotate
+            android:fromDegrees="45"
+            android:toDegrees="45"
+            android:pivotX="0%"
+            android:pivotY="0%"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent">
+
+            <shape android:shape="rectangle">
+
+                <corners android:bottomLeftRadius="0dp"
+                    android:bottomRightRadius="0dp"
+                    android:topLeftRadius="0dp"
+                    android:topRightRadius="0dp"
+                    />
+                <stroke
+                    android:width="0dp"
+                    android:color="#000000" />
+                <solid android:color="@color/color_perpal" />
+            </shape>
+        </rotate>
+    </item>
+</layer-list>-->
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+        <item>
+                <bitmap
+                    android:src="@drawable/cat_shape1"/>
+        </item>
+</layer-list>
+
+<!--<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="@dimen/_25sdp"
+    android:width="@dimen/_25sdp"
+    android:viewportWidth="1"
+    android:viewportHeight="3">
+    <group
+        android:name="rotationGroup"
+        android:pivotX="10.0"
+        android:pivotY="10.0"
+        android:rotation="11.5">
+
+        <path
+            android:pathData="M0,11.5c3.2,6.3 6,11.5 6.3,11.5 0.3,0 3.1,-5.2 6.3,-11.5l5.7,-11.5 -12,0 -12,0 5.7,11.5z"
+            android:strokeColor="#00000000"
+            android:fillColor="@color/color_perpal"
+            />
+        <path
+            android:pathData="M3.1,11.5c3.2,6.3 6,11.5 6.3,11.5 0.3,0 3.1,-5.2 6.3,-11.5l5.7,-11.5 -12,0 -12,0 5.7,11.5z"
+            android:strokeColor="#00000000"
+            android:fillColor="@color/color_white"
+            />
+
+        </group>
+
+</vector>-->
+
+<!--<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="100dp"
+    android:width="100dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+
+        <path
+            android:pathData="M0,100 l0,-100 100,100 M50,-0 l-50,0 100,100z"
+            android:strokeColor="#00000000"
+            android:fillColor="@color/color_perpal"
+            />
+
+</vector>-->
+
+
+
+
+ <!--white left coner-->
+<!--<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="600dp"
+    android:width="600dp"
+    android:viewportWidth="600"
+    android:viewportHeight="600">
+
+        <path
+            android:pathData="M600,600 l0,-200 -400,-0 M300,600 l300,0 -400,-200z"
+            android:strokeColor="#00000000"
+            android:fillColor="@color/color_white"
+            />
+
+</vector>-->
+
+
+

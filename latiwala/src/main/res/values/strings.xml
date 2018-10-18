@@ -1,0 +1,302 @@
+<resources>
+    <string name="app_name">Latiwalaa</string>
+
+    <!--
+Danish =da
+Arabic = ar
+German = de
+Spanish = es
+Franch = fr
+Hindi = hi
+Italian = it
+Dutch = nl
+Portuguese = pt
+Russian = ru
+Turkish = tr
+-->
+
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <!-- <string name="nav_item_home">Home</string>-->
+    <string name="nav_item_category">Categories</string>
+    <string name="nav_item_shop">Shop</string>
+    <string name="nav_item_shoppingcart">Shopping Cart</string>
+    <!--<string name="nav_item_wishlist">My Wishlist</string>-->
+    <string name="nav_item_contactus">Contact Us</string>
+    <string name="nav_item_terms_condition">Terms &amp; Condition</string>
+    <string name="nav_item_account">My Account</string>
+
+    <!-- navigation drawer item labels  -->
+    <string-array name="nav_drawer_labels">
+        <!--<item>@string/nav_item_home</item>-->
+        <item>@string/nav_item_category</item>
+        <item>@string/nav_item_shop</item>
+        <item>@string/nav_item_shoppingcart</item>
+        <!--<item>@string/nav_item_wishlist</item>-->
+        <item>@string/nav_item_contactus</item>
+        <item>@string/nav_item_terms_condition</item>
+        <item>@string/nav_item_account</item>
+    </string-array>
+
+    <!--<string name="title_home">Home</string>-->
+    <string name="title_profile">Profile</string>
+    <string name="title_category">Categories</string>
+    <string name="title_shop">Shop</string>
+    <string name="title_recent">Recent</string>
+    <string name="title_popular">Most Popular</string>
+    <string name="title_product_detail">Product Detail</string>
+    <string name="title_shoppingcart">Shopping Cart</string>
+    <string name="title_wishlist">My Wishlist</string>
+    <string name="title_search">Search</string>
+
+    <string name="title_pastOrders">Past Orders</string>
+    <string name="title_changepassword">Change Password</string>
+    <string name="title_contactus">Contact Us</string>
+    <string name="title_terms_condition">Terms &amp; Condition</string>
+    <string name="title_account">My Account</string>
+    <string name="title_editProfile">Edit Profile</string>
+    <string name="title_edit_address">Edit Address</string>
+    <string name="title_edit_billing">Billing Address</string>
+    <string name="title_edit_shipping">Shipping Address</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="name">Name</string>
+    <string name="orderConfirm">ORDER CONFIRMATION</string>
+    <string name="forgotPassword">Forgot Password</string>
+    <string name="forgotusername">Forgot Username</string>
+
+    <string name="forgot_pass">Forgot your password?</string>
+    <string name="forgot_username">Forgot your username?</string>
+    <string name="create_account">Create An account</string>
+    <string name="need_help">NEED HELP?</string>
+
+    <!--Create account-->
+    <string name="If_you_already"> If you already have an account with us, please click here for login.</string>
+
+    <!--forgot password-->
+    <string name="Forgotten_Password">Forgot Password</string>
+    <string name="Enter_email">Enter the email address associated with your account. A verification code will be sent to you. Once you have
+    received the verification code. you will to choose a new password for your account.</string>
+    <string name="product_shortdescription">Description not available</string>
+
+    <!--new address-->
+    <string name="firstName">First Name *</string>
+    <string name="lastName">Last Name *</string>
+    <string name="address">Address *</string>
+    <string name="city">City *</string>
+    <string name="postCode">Postal Code *</string>
+    <string name="State">State *</string>
+    <string name="mobile">Mobile *</string>
+    <string name="phone">Phone *</string>
+    <string name="company">Company </string>
+    <string name="username">Username *</string>
+    <string name="userName">Username *</string>
+    <string name="password">Password *</string>
+    <string name="confirmPassword">Confirm Password *</string>
+    <string name="eMail">Email Address *</string>
+    <string name="country">Country *</string>
+    <string name="confirmEmail">Confirm Email *</string>
+    <string name="e_mail">E-mail *</string>
+    <string name="validationpass">Hint: The password should be at least twelve characters long. To make it stronger, use upper and lower case letters, numbers, and symbols like ! " ? $ % ^ &amp; ).</string>
+
+    <string name="conf_detail">Thank you for your order \n\nA confirmation email has been sent to</string>
+    <string name="your_order">Your Order</string>
+    <string name="paymentMethod">Choose any of the payment options</string>
+    <string name="ViewallReviews">View all Reviews</string>
+    <string name="reviews_rating"><![CDATA[Reviews & Rating]]></string>
+    <string name="add_a_review">Add a review</string>
+    <string name="sorry_combination_not_available">Sorry, combination not available</string>
+    <string name="select_variations">Select variations</string>
+
+    <string name="forgot_password">Lost your Password?</string>
+    <string name="create_an_account">Create An Account</string>
+    <string name="checkout_as_guest">Checkout as guest</string>
+    <string name="price_details">Price Details</string>
+    <string name="price_items">Price(items)</string>
+
+
+    <string name="alert_title_message">Message</string>
+    <string name="alert_body_network_error">Please check your network connection.</string>
+    <string name="alert_body_server_error">Server error. Please try after some time.</string>
+    <string name="alert_body_something_was_wrong">Please check URL properly.</string>
+    <string name="alert_title_loading">Please Wait</string>">
+    <string name="alert_body_wait">Loading&#8230;</string>
+
+    <string name="btn_ok">OK</string>
+    <string name="profile">Profile</string>
+    <string name="orders">Orders</string>
+    <string name="change_password">Change password</string>
+    <string name="logout">Logout</string>
+    <string name="product_not_found">Product not found</string>
+    <string name="wp_webservice_service"><![CDATA[http://phpjoomlacoders.com/christine/]]></string>
+    <string name="title_product">Products</string>
+    <string name="title_subcategory">subcategory</string>
+    <string name="checkusername">Please check username and password</string>
+    <string name="enter_your_url">Enter url with http:// or https://</string>
+    <string name="you_have_not_any_wish">You have not any wish</string>
+    <string name="back_to_category">Go back</string>
+    <string name="reload">Reload</string>
+    <string name="apply_coupon">Apply Coupon</string>
+    <string name="coupon_code">Coupon Code</string>
+    <string name="billing_address">Billing Address</string>
+    <string name="change_billing_address">Change Billing Address</string>
+    <string name="billing_address_same_as_shipping_address">Billing Address same as Shipping Address</string>
+    <string name="shipping_address">Shipping Address</string>
+    <string name="change_shipping_address">Change Shipping Address</string>
+    <string name="shipping_methods">Shipping methods</string>
+    <string name="additional_charge">Additional Charge</string>
+    <string name="tax">Tax</string>
+    <string name="coupon">Coupon:</string>
+    <string name="payment_methods">Payment Methods</string>
+    <string name="total">Total:</string>
+    <string name="continue1">CONTINUE</string>
+    <string name="thank_you_your_order_has_been_received">Thank you. Your order has been received.</string>
+    <string name="instructions">Instructions</string>
+    <string name="our_bank_details">Our Bank Details</string>
+    <string name="finish">Finish</string>
+    <string name="billing_address_as_shipping_adress">Billing address as Shipping adress</string>
+    <string name="send_email">Send email</string>
+    <string name="connected">Connected</string>
+    <string name="skip">SKIP</string>
+    <string name="login">Login</string>
+    <string name="sign_in_to_access_your_orders_and_recommendations">Sign in to access your orders and Recommendations.</string>
+    <string name="login1">LOGIN</string>
+    <string name="save">SAVE</string>
+    <string name="search">search</string>
+    <string name="choose_an_option">Choose an option</string>
+    <string name="add_to_cart">ADD TO CART</string>
+    <string name="buy_now">BUY NOW</string>
+    <string name="payable_amount">Payable Amount</string>
+    <string name="proceed_to_checkout">PROCEED TO CHECKOUT</string>
+    <string name="your_rating">Your Rating</string>
+    <string name="write_review">Write Review</string>
+    <string name="current_password">Current Password</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_new_password">Confirm New Password</string>
+    <string name="save_change">Save Change</string>
+    <string name="cash_on_delivery">cash on delivery</string>
+    <string name="you_have_no_favourite">You have no favourite</string>
+    <string name="card_number">CARD NUMBER</string>
+    <string name="valid_card_number">Valid Card Number</string>
+    <string name="expiration_date">EXPIRATION DATE</string>
+    <string name="mm">MM</string>
+    <string name="yy">YY</string>
+    <string name="cvc_doce">CVC DOCE</string>
+    <string name="cv">cv</string>
+    <string name="enter_coupon_code">Enter Coupon Code</string>
+    <string name="paypal_method">paypal method</string>
+    <string name="detail">Detail</string>
+    <string name="sale">Sale!</string>
+    <string name="load_more">Load More</string>
+    <string name="i_am_empty">i am empty</string>
+    <string name="your_cart_is_empty">Your cart is empty</string>
+    <string name="continue_shopping">CONTINUE SHOPPING</string>
+    <string name="color">Color</string>
+    <string name="account_name">Account Name</string>
+    <string name="bank_name">Bank Name</string>
+    <string name="account_number">Account Number</string>
+    <string name="sort_code">Sort Code</string>
+    <string name="iban">IBAN</string>
+    <string name="bic_swift">BIC/Swift</string>
+    <string name="category_name">category name</string>
+    <string name="category">Category</string>
+    <string name="order_id">Order Id:</string>
+    <string name="date">Date:</string>
+    <string name="status">Status:</string>
+    <string name="on_hold">On hold</string>
+    <string name="amount">Amount:</string>
+    <string name="flat_rate">Flat Rate</string>
+    <string name="cloth_title">cloth title</string>
+    <string name="title">Title</string>
+    <string name="trial">Trial</string>
+    <string name="cancel">Cancel</string>
+    <string name="please_add_your_shipping_address">Please add your shipping address</string>
+    <string name="please_enter_code">Please enter code</string>
+    <string name="register">Register</string>
+    <string name="please_enter_your_rul">please enter your url</string>
+    <string name="invalid_url">Invalid URL</string>
+    <string name="please_select_country">Please select country</string>
+    <string name="please_enter_your_first_name">please enter your first name</string>
+    <string name="please_enter_your_last_name">please enter your last name</string>
+    <string name="please_enter_your_address">please enter your address</string>
+    <string name="please_enter_your_country">please enter your country</string>
+    <string name="please_enter_your_state">please enter your state</string>
+    <string name="please_enter_your_city">please enter your city</string>
+    <string name="please_enter_your_postcode">please enter your postcode</string>
+    <string name="please_enter_your_email">please enter your email</string>
+    <string name="please_enter_your_phone">please enter your phone</string>
+    <string name="please_enter_password">Please enter password</string>
+    <string name="please_enter_your_username">please enter your username</string>
+    <string name="please_enter_registered_email_ID">please enter registered email ID</string>
+    <string name="please_enter_current_password">Please enter current password</string>
+    <string name="please_enter_new_password">Please enter new password</string>
+    <string name="please_re_enter_password">Please re-enter password</string>
+    <string name="password_not_match">Password not match</string>
+    <string name="please_add_your_billing_address">Please add your billing address</string>
+    <string name="please_add_your_shipping_address1">Please add your shipping address</string>
+    <string name="press_back_again_to_exit">Press Back again to Exit.</string>
+    <string name="order_not_found">Order not found</string>
+    <string name="order_detail">Order Detail</string>
+    <string name="subtotal">Subtotal</string>
+    <string name="discount">Discount</string>
+    <string name="shipping">Shipping</string>
+    <string name="payment_details">Payment Details</string>
+    <string name="customer_details">Customer Details</string>
+    <string name="email">Email</string>
+    <string name="please_select_variations">Please select variations</string>
+    <string name="please_enter_review">please enter review</string>
+    <string name="please_select_rating">please select rating</string>
+    <string name="please_enter_name">please enter Name</string>
+    <string name="please_enter_email">please enter Email</string>
+    <string name="review_for">review for</string>
+    <string name="no_review_for_this_prodcut">No review for this product</string>
+    <string name="error_to_fetch_data">error to fetch data</string>
+    <string name="all_product">All Product</string>
+    <string name="showing">Showing</string>
+    <string name="items">items</string>
+    <string name="please_add_your_phone_number">please add your phone number</string>
+    <string name="cart_is_empty">Cart is empty</string>
+    <string name="subcategory_not_found">Subcategory not found</string>
+    <string name="unknown_error">Unknown error</string>
+    <string name="data_was_empty">Data was empty</string>
+    <string name="update_wishlist">Update wishlist</string>
+    <string name="add_to_wishlist">Add to wishlist</string>
+    <string name="remove_from_wishlist">Remove from wishlist</string>
+    <string name="updated_cart">Updated Cart</string>
+    <string name="item_added">Item Added</string>
+    <string name="price">Price</string>
+    <string name="checkout">Checkout</string>
+    <string name="please_Check_Payment_method">please Check Payment method</string>
+    <string name="please_Check_shipping_Method_Payment_method_and_Shipping_address">please Check shipping Method, Payment method and Shipping address</string>
+    <string name="please_Enter_Keywords">Please Enter Keywords</string>
+    <string name="enabled_your_input_language">Enabled your input language</string>
+    <string name="quantity">Quantity</string>
+    <string name="readmore">Read more</string>
+    <string name="please_choose_the_quantity_of_items_you_wish_to_add_to_your_cart">Please choose the quantity of items you wish to add to your cart</string>
+    <string name="sorry_this_product_not_availabler">Sorry, This product is not available</string>
+    <string name="there_is_no_more_product_available">There is no more item available</string>
+    <string name="default_font">sans-serif</string>
+    <string name="log_out_user">Log out user</string>
+    <string name="payumoney_trasation_fail">Payment Transaction Failed \n Please Contact Admin Department</string>
+    <string name="similar_product">Similar Products</string>
+    <string name="check_conection">No Internet connection</string>
+    <string name="please_try_againg">Sorry, no internet connectivity detected. please reconnect and try again</string>
+    <string name="Try_again">try again</string>
+    <string name="try_again">Try again</string>
+    //http://phpjoomlacoders.com/wp/
+    //http://phpjoomlacoders.com/gelindo/
+    //http://192.168.100.102/wootest/
+    //http://192.168.100.102/hadasu/
+    //http://phpjoomlacoders.com/wrightsense/
+    //http://192.168.100.107/woo/
+    //http://192.168.100.105/woo_store/
+    //http://192.168.100.105/woo/
+    //http://192.168.100.102/codoil/
+    //http://192.168.100.107/woo1/
+    //http://phpjoomlacoders.com/orandajewelry/
+    //http://phpjoomlacoders.com/christine/
+    //http://phpjoomlacoders.com/harbal/
+    //http://www.cityfinefoods.com.au/
+</resources>

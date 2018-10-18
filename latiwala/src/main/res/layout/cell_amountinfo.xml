@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/card_margin"
+        android:elevation="3dp"
+        card_view:cardCornerRadius="@dimen/card_album_radius">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_white">
+        <TextView
+            android:id="@+id/tvLableYourOrder"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/price_details"
+            android:textSize="@dimen/cellAmount_lablesize"
+            android:textColor="@color/color_grey_light"
+            android:background="@color/color_white"
+            android:layout_marginRight="@dimen/activity_vertical_margin"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:layout_marginBottom="@dimen/activity_margin_bottom"
+            android:layout_marginTop="@dimen/activity_margin_top"/>
+
+        <View
+            android:id="@+id/vwCheckout"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/color_viewLine"
+            android:layout_below="@id/tvLableYourOrder">
+
+        </View>
+
+        <RelativeLayout
+            android:id="@+id/rlSubtotal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvLableYourOrder"
+            android:layout_marginRight="@dimen/activity_vertical_margin"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:layout_marginBottom="@dimen/activity_margin_bottom"
+            android:layout_marginTop="@dimen/activity_margin_top">
+
+            <TextView
+                android:id="@+id/tvlableSubtotal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/price_items"
+                android:textSize="@dimen/cellAmount_textsize"
+                android:paddingTop="@dimen/cellAmount_txt_padding"
+                android:paddingBottom="@dimen/cellAmount_txt_padding"
+                android:textColor="@color/color_grey_light"
+                android:layout_alignParentLeft="true"/>
+            <TextView
+                android:id="@+id/tvSubtotal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="100"
+                android:textSize="@dimen/cellAmount_textsize"
+                android:paddingTop="@dimen/cellAmount_txt_padding"
+                android:paddingBottom="@dimen/cellAmount_txt_padding"
+                android:textColor="@color/color_grey_light"
+                android:layout_alignParentRight="true"/>
+
+        </RelativeLayout>
+
+
+
+
+        <RelativeLayout
+            android:id="@+id/rlcellshipping"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rlSubtotal"
+            android:layout_marginRight="@dimen/activity_vertical_margin"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:layout_marginBottom="@dimen/activity_margin_bottom"
+            android:layout_marginTop="@dimen/activity_margin_top">
+
+            <TextView
+                android:id="@+id/tvlableShipping"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/shipping_methods"
+                android:textSize="@dimen/cellAmount_textsize"
+                android:paddingTop="@dimen/cellAmount_txt_padding"
+                android:paddingBottom="@dimen/cellAmount_txt_padding"
+                android:textColor="@color/color_grey_light"
+                android:layout_alignParentLeft="true"
+                />
+
+            <RadioGroup
+                android:id="@+id/rgShipping"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvlableShipping"
+                android:orientation="vertical"
+                >
+            </RadioGroup>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlcellCharge"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rlcellshipping"
+            android:layout_marginRight="@dimen/activity_vertical_margin"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:layout_marginBottom="@dimen/activity_margin_bottom"
+            android:layout_marginTop="@dimen/activity_margin_top">
+            <TextView
+                android:id="@+id/tvlablecharge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/additional_charge"
+                android:textSize="@dimen/cellAmount_textsize"
+                android:paddingTop="@dimen/cellAmount_txt_padding"
+                android:paddingBottom="@dimen/cellAmount_txt_padding"
+                android:textColor="@color/color_grey_light"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"/>
+            <TextView
+                android:id="@+id/tvtaxShip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/cellAmount_textsize"
+                android:paddingTop="@dimen/cellAmount_txt_padding"
+                android:paddingBottom="@dimen/cellAmount_txt_padding"
+                android:textColor="@color/color_grey_light"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                />
+
+            <TextView
+                android:id="@+id/tvcharge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="@dimen/cellAmount_textsize"
+                android:paddingTop="@dimen/cellAmount_txt_padding"
+                android:paddingBottom="@dimen/cellAmount_txt_padding"
+                android:textColor="@color/color_grey_light"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@id/tvtaxShip"/>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/rlcellTax"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rlcellCharge"
+            android:layout_marginRight="@dimen/activity_vertical_margin"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:layout_marginBottom="@dimen/activity_margin_bottom"
+            android:layout_marginTop="@dimen/activity_margin_top">
+            <TextView
+                android:id="@+id/tvlableTax"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tax"
+                android:textSize="@dimen/cellAmount_textsize"
+                android:paddingTop="@dimen/cellAmount_txt_padding"
+                android:paddingBottom="@dimen/cellAmount_txt_padding"
+                android:textColor="@color/color_grey_light"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"/>
+
+
+            <TextView
+                android:id="@+id/tvTax"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="@dimen/cellAmount_textsize"
+                android:paddingTop="@dimen/cellAmount_txt_padding"
+                android:paddingBottom="@dimen/cellAmount_txt_padding"
+                android:textColor="@color/color_grey_light"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlcellCoupon1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rlcellTax"
+            android:layout_marginRight="@dimen/activity_vertical_margin"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:layout_marginBottom="@dimen/activity_margin_bottom"
+            android:layout_marginTop="@dimen/activity_margin_top"
+           >
+
+            <TextView
+                android:id="@+id/tvLabelCoupon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/coupon"
+                android:paddingTop="@dimen/cellAmount_txt_padding"
+                android:paddingBottom="@dimen/cellAmount_txt_padding"
+                android:textSize="@dimen/cellAmount_textsize"
+                android:textColor="@color/color_grey_light"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:id="@+id/tvCouponcode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/coupon"
+                android:textSize="@dimen/cellAmount_textsize"
+                android:paddingTop="@dimen/cellAmount_txt_padding"
+                android:paddingBottom="@dimen/cellAmount_txt_padding"
+                android:textColor="@color/color_grey_light"
+                android:layout_toRightOf="@id/tvLabelCoupon"
+                android:layout_centerVertical="true"/>
+            <ImageView
+                android:id="@+id/ivcancelCoupon"
+                android:layout_width="@dimen/cellAmount_iv_width"
+                android:layout_height="@dimen/cellAmount_iv_height"
+                android:src="@drawable/ic_cancel_black"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:padding="@dimen/cellAmount_iv_padding"
+                android:foreground="@drawable/ripple_effect"
+                />
+
+            <TextView
+                android:id="@+id/tvCouponCost"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="@dimen/cellAmount_textsize"
+                android:paddingTop="@dimen/cellAmount_txt_padding"
+                android:paddingBottom="@dimen/cellAmount_txt_padding"
+                android:textColor="@color/color_grey_light"
+                android:layout_toLeftOf="@id/ivcancelCoupon"
+                android:layout_centerVertical="true"
+                />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

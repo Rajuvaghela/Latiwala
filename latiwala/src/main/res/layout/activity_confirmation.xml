@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back_product"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardviewIndicate_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/card_margin"
+                android:elevation="3dp"
+                card_view:cardCornerRadius="@dimen/card_album_radius">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/activity_margin_bottom"
+                    android:layout_marginTop="@dimen/activity_margin_top"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="@dimen/conf_ic_width"
+                        android:layout_height="@dimen/conf_ic_height"
+                        android:layout_gravity="center_horizontal"
+                        android:padding="@dimen/conf_ic_padding"
+                        android:src="@drawable/ic_thankyou" />
+
+                    <TextView
+                        android:id="@+id/tvThankymsg"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="@dimen/conf_tv_padding"
+                        android:text="@string/thank_you_your_order_has_been_received"
+                        android:textColor="@color/color_grey_light"
+                        android:textSize="@dimen/conf_tv_textsize" />
+
+                    <View
+                        android:id="@+id/View02"
+                        android:layout_width="wrap_content"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="@dimen/fp_vw_margin"
+                        android:background="@color/color_viewLine" />
+
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/activity_margin_bottom"
+                        android:layout_marginLeft="@dimen/activity_vertical_margin"
+                        android:layout_marginRight="@dimen/activity_horizontal_margin"
+                        android:layout_marginTop="@dimen/activity_margin_top"
+                        android:text="@string/instructions"
+                        android:textColor="@color/color_grey_light"
+                        android:textSize="@dimen/cellAmount_lablesize" />
+
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="@dimen/fp_vw_margin"
+                        android:background="@color/color_viewLine" />
+
+                    <TextView
+                        android:id="@+id/tvinstruction_comfirm"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/activity_margin_bottom"
+                        android:layout_marginLeft="@dimen/activity_vertical_margin"
+                        android:layout_marginRight="@dimen/activity_horizontal_margin"
+                        android:layout_marginTop="@dimen/activity_margin_top"
+                        android:text="@string/instructions"
+                        android:textColor="@color/color_grey_light"
+                        android:textSize="@dimen/cellAmount_textsize" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card_comfirm"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/cardviewIndicate_view"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/card_margin"
+                android:layout_marginTop="@dimen/detail_marginTop"
+                android:elevation="3dp"
+                card_view:cardCornerRadius="@dimen/card_album_radius">
+
+                <LinearLayout
+                    android:id="@+id/llbanklistLable"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="6dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="16dp"
+                        android:layout_marginTop="6dp"
+                        android:text="@string/our_bank_details"
+                        android:textColor="@color/color_grey_light"
+                        android:textSize="@dimen/cellAmount_lablesize" />
+
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="@dimen/fp_vw_margin"
+                        android:background="@color/color_viewLine" />
+
+                    <LinearLayout
+                        android:id="@+id/llBanklist"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/card_comfirm"
+                android:layout_margin="@dimen/fp_ll_marging"
+                android:orientation="vertical">
+
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    card_view:cardCornerRadius="@dimen/_4sdp">
+
+                <TextView
+                    android:id="@+id/btnFinish"
+                    style="@style/btn_all_normal"
+                    android:gravity="center"
+                    android:layout_width="fill_parent"
+                    android:text="@string/finish" />
+
+                </android.support.v7.widget.CardView>
+
+               <!-- <TextView
+                    android:id="@+id/btnFinish"
+                    style="@style/marginLeftRightStyleTen"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_35sdp"
+                    android:layout_marginTop="@dimen/common_20_dp"
+                    android:background="@drawable/selector_simple_btn"
+                    android:text="@string/finish"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/common_16_sp" />-->
+
+            </LinearLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

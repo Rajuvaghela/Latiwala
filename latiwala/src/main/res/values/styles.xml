@@ -1,0 +1,454 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:fontFamily">@string/default_font</item>
+        <item name="fontFamily">@string/default_font
+        </item> <!-- target android sdk versions < 26 and > 14 if theme other than AppCompat -->
+
+    </style>
+
+    <style name="MyMaterialTheme" parent="MyMaterialTheme.Base">
+
+    </style>
+
+    <style name="MyMaterialTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="customRatingBar" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/customratingstars</item>
+        <item name="android:minHeight">@dimen/ftReview_rt_height</item>
+        <item name="android:maxHeight">@dimen/ftReview_rt_height</item>
+    </style>
+
+    <style name="Theme.Rating" parent="Theme.AppCompat.Light">
+        <item name="colorAccent">@color/rating</item>
+    </style>
+
+    <style name="Custom" parent="android:Theme.DeviceDefault.Dialog">
+        <item name="DialogTitleAppearance">@android:style/TextAppearance.Medium</item>
+        <item name="DialogTitleText">Please Wait</item>
+        <item name="DialogSpotColor">@android:color/holo_orange_dark</item>
+        <item name="DialogSpotCount">8</item>
+    </style>
+
+    <style name="AppTheme.WhiteAccent">
+        <item name="colorAccent">@color/color_white</item> <!-- Whatever color you want-->
+    </style>
+
+
+    <style name="PopupAnimation" mce_bogus="1" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/in</item>
+        <item name="android:windowExitAnimation">@anim/out</item>
+    </style>
+
+    <style name="btn_all_normal">
+        <item name="android:layout_height">@dimen/_35sdp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textColor">@color/color_white</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:textSize">@dimen/_12sdp</item>
+        <item name="android:foreground">@drawable/ripple_effect</item>
+        <item name="android:paddingLeft">@dimen/_5sdp</item>
+        <item name="android:paddingRight">@dimen/_5sdp</item>
+    </style>
+
+    <style name="editText_all_normal">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/_12sdp</item>
+        <item name="android:textColorHint">@color/color_grey_light</item>
+        <item name="android:paddingLeft">@dimen/_5sdp</item>
+        <item name="android:paddingRight">@dimen/_5sdp</item>
+
+
+    </style>
+
+    <style name="btn_all_normal_new">
+        <item name="android:layout_height">@dimen/_35sdp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textColor">@color/color_white</item>
+        <item name="android:background">@drawable/selector_simple_btn</item>
+        <item name="android:textSize">@dimen/_12sdp</item>
+        <item name="android:paddingLeft">@dimen/_5sdp</item>
+        <item name="android:paddingRight">@dimen/_5sdp</item>
+    </style>
+
+
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/slide_up_dialog</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_down</item>
+    </style>
+
+    <style name="DialogAnimation1">
+        <item name="android:windowEnterAnimation">@anim/tran_right_in</item>
+        <item name="android:windowExitAnimation">@anim/tran_right_out</item>
+    </style>
+
+    <style name="PopupMenu" parent="@android:style/Widget.PopupMenu">
+        <item name="android:popupBackground">@android:color/white</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="MyTabLayout" parent="Base.Widget.Design.TabLayout">
+        <item name="tabTextAppearance">@style/MyTabTextAppearance</item>
+    </style>
+
+    <style name="MyTabTextAppearance" parent="TextAppearance.AppCompat.Button">
+        <item name="android:textSize">@dimen/_18sdp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="textAllCaps">true</item>
+    </style>
+
+    <style name="bigtext_black">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/blackLight1</item>
+        <item name="android:textSize">@dimen/_14sdp</item>
+    </style>
+
+    <style name="bigtext_white">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/_14sdp</item>
+    </style>
+
+    <style name="bigtext_appcolor">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">@dimen/_14sdp</item>
+    </style>
+
+    <style name="bigtext_diffrent">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/green2</item>
+        <item name="android:textSize">@dimen/_14sdp</item>
+    </style>
+
+    <style name="bigtext_grey">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/textdarkgrey</item>
+        <item name="android:textSize">@dimen/_14sdp</item>
+    </style>
+
+    <style name="bigtext_lightgrey">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/textgrey</item>
+        <item name="android:textSize">@dimen/_14sdp</item>
+    </style>
+
+    <style name="edittext_big" parent="Widget.AppCompat.EditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/blackLight1</item>
+        <item name="android:textColorHint">@color/textgrey</item>
+        <item name="android:textSize">@dimen/_14sdp</item>
+    </style>
+
+    <style name="edittext_small" parent="Widget.AppCompat.EditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/blackLight1</item>
+        <item name="android:textColorHint">@color/textgrey</item>
+        <item name="android:textSize">@dimen/_13sdp</item>
+    </style>
+
+    <style name="small_grey">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/textdarkgrey</item>
+        <item name="android:textSize">@dimen/_13sdp</item>
+    </style>
+
+    <style name="small_lightgrey">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/textgrey</item>
+        <item name="android:textSize">@dimen/_13sdp</item>
+    </style>
+
+    <style name="small_different">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/green2</item>
+        <item name="android:textSize">@dimen/_13sdp</item>
+    </style>
+
+    <style name="small_blue">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/blue</item>
+        <item name="android:textSize">@dimen/_13sdp</item>
+    </style>
+
+    <style name="small_yellow">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/yellow1</item>
+        <item name="android:textSize">@dimen/_13sdp</item>
+    </style>
+
+    <style name="small_appcolor">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">@dimen/_13sdp</item>
+    </style>
+
+    <style name="very_small_appcolor">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">@dimen/_10sdp</item>
+    </style>
+
+    <style name="very_small_grey">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/textdarkgrey</item>
+        <item name="android:textSize">@dimen/_10sdp</item>
+    </style>
+
+    <style name="small_black">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/blackLight1</item>
+        <item name="android:textSize">@dimen/_13sdp</item>
+    </style>
+
+    <style name="big_white">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/_14sdp</item>
+    </style>
+
+    <style name="very_small_black">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/blackLight1</item>
+        <item name="android:textSize">@dimen/_10sdp</item>
+    </style>
+
+    <style name="small_white">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/_13sdp</item>
+    </style>
+
+    <style name="very_small_white">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/_10sdp</item>
+    </style>
+
+    <style name="CustomTextStyle" parent="@android:style/TextAppearance.Widget.TabWidget">
+        <item name="android:textSize">@dimen/_10sdp</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="small1_black">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/blackLight1</item>
+        <item name="android:textSize">@dimen/_10sdp</item>
+    </style>
+
+    <style name="small1_grey">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/textdarkgrey</item>
+        <item name="android:textSize">@dimen/_10sdp</item>
+    </style>
+
+
+    <style name="small_radio">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/radio</item>
+        <item name="android:textSize">@dimen/_13sdp</item>
+    </style>
+
+    <style name="marginLeftRightStyleTen">
+        <item name="android:layout_marginRight">@dimen/common_10_dp</item>
+        <item name="android:layout_marginLeft">@dimen/common_10_dp</item>
+    </style>
+
+
+    //payUmoney theme.
+
+    <style name="AppTheme.Base" parent="PayumoneyAppTheme">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="colorButtonNormal">@color/primary</item>
+    </style>
+
+
+    <style name="AppTheme.Green" parent="PayumoneyAppTheme">
+        <item name="colorPrimary">@color/persian_green_primary</item>
+        <item name="colorPrimaryDark">@color/persian_green_dark</item>
+        <item name="colorAccent">@color/persian_green_accent</item>
+        <item name="colorButtonNormal">@color/persian_green_primary</item>
+        <item name="alertDialogTheme">@style/AlertDialogStyle_green</item>
+        <item name="actionMenuTextColor">@color/white</item>
+    </style>
+
+    <style name="ThemeRadioButton.Green">
+        <item name="colorControlNormal">@color/persian_green_accent</item>
+        <item name="colorControlActivated">@color/persian_green_accent</item>
+    </style>
+
+    <style name="AlertDialogStyle_green" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/persian_green_accent</item>
+        <item name="android:textColorPrimary">@color/payumoney_text_color</item>
+    </style>
+
+    <style name="AppTheme.pink" parent="PayumoneyAppTheme">
+        <item name="colorPrimary">@color/pink_primary</item>
+        <item name="colorPrimaryDark">@color/pink_dark</item>
+        <item name="colorAccent">@color/pink_accent</item>
+        <item name="colorButtonNormal">@color/pink_primary</item>
+        <item name="alertDialogTheme">@style/AlertDialogStyle_pink</item>
+        <item name="actionMenuTextColor">@color/white</item>
+    </style>
+
+    <style name="ThemeRadioButton" parent="Theme.AppCompat.Light" />
+
+    <style name="AppTheme.default" parent="PayumoneyAppTheme">
+        <item name="colorPrimary">@color/orange_accent</item>
+        <item name="colorPrimaryDark">@color/orange_accent</item>
+        <item name="colorAccent">@color/orange_accent</item>
+        <item name="colorButtonNormal">@color/orange_accent</item>
+        <item name="alertDialogTheme">@style/AlertDialogStyle_Default</item>
+        <item name="actionMenuTextColor">@color/white</item>
+    </style>
+
+    <style name="ThemeRadioButton.Default">
+        <item name="colorControlNormal">@color/orange_accent</item>
+        <item name="colorControlActivated">@color/orange_accent</item>
+    </style>
+
+    <style name="AlertDialogStyle_Default" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/orange_accent</item>
+        <item name="android:textColorPrimary">@color/payumoney_text_color</item>
+    </style>
+
+    <style name="ThemeRadioButton.Pink">
+        <item name="colorControlNormal">@color/pink_accent</item>
+        <item name="colorControlActivated">@color/pink_accent</item>
+    </style>
+
+
+    <style name="AlertDialogStyle_pink" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/pink_accent</item>
+        <item name="android:textColorPrimary">@color/payumoney_text_color</item>
+    </style>
+
+    <style name="AppTheme.blue" parent="PayumoneyAppTheme">
+        <item name="colorPrimary">@color/royal_blue_primary</item>
+        <item name="colorPrimaryDark">@color/royal_blue_dark</item>
+        <item name="colorAccent">@color/royal_blue_accent</item>
+        <item name="colorButtonNormal">@color/royal_blue_primary</item>
+        <item name="alertDialogTheme">@style/AlertDialogStyle_blue</item>
+        <item name="actionMenuTextColor">@color/white</item>
+    </style>
+
+    <style name="ThemeRadioButton.Blue">
+        <item name="colorControlNormal">@color/royal_blue_accent</item>
+        <item name="colorControlActivated">@color/royal_blue_accent</item>
+    </style>
+
+    <style name="AlertDialogStyle_blue" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/royal_blue_accent</item>
+        <item name="android:textColorPrimary">@color/payumoney_text_color</item>
+    </style>
+
+    <style name="AppTheme.purple" parent="PayumoneyAppTheme">
+        <item name="colorPrimary">@color/purple_primary</item>
+        <item name="colorPrimaryDark">@color/purple_dark</item>
+        <item name="colorAccent">@color/purple_accent</item>
+        <item name="colorButtonNormal">@color/purple_primary</item>
+        <item name="alertDialogTheme">@style/AlertDialogStyle_purple</item>
+        <item name="actionMenuTextColor">@color/white</item>
+    </style>
+
+    <style name="ThemeRadioButton.Purple">
+        <item name="colorControlNormal">@color/purple_accent</item>
+        <item name="colorControlActivated">@color/purple_accent</item>
+    </style>
+
+    <style name="AlertDialogStyle_purple" parent="PayumoneyAppTheme">
+        <item name="colorAccent">@color/purple_accent</item>
+        <item name="android:textColorPrimary">@color/payumoney_text_color</item>
+    </style>
+
+    <style name="ButtonStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingBottom">@dimen/dimen_10dp</item>
+        <item name="android:paddingTop">@dimen/dimen_10dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/dimen_18sp</item>
+        <item name="android:background">@drawable/bg_rounded_button</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="MySwitch" parent="Theme.AppCompat.Light">
+        <!-- active thumb & track color (30% transparency) -->
+        <item name="colorControlActivated">@color/indigo</item>
+
+        <!-- inactive thumb color -->
+        <item name="colorSwitchThumbNormal">@color/pink</item>
+
+        <!-- inactive track color (30% transparency) -->
+        <item name="android:colorForeground">@color/grey</item>
+    </style>
+
+
+    <style name="AppTheme.Grey" parent="PayumoneyAppTheme">
+        <item name="colorPrimary">@color/persian_grey_primary</item>
+        <item name="colorPrimaryDark">@color/persian_grey_dark</item>
+        <item name="colorAccent">@color/persian_grey_accent</item>
+        <item name="colorButtonNormal">@color/persian_grey_primary</item>
+        <item name="alertDialogTheme">@style/AlertDialogStyle_grey</item>
+        <item name="actionMenuTextColor">@color/white</item>
+    </style>
+
+    <style name="ThemeRadioButton.Grey">
+        <item name="colorControlNormal">@color/persian_grey_accent</item>
+        <item name="colorControlActivated">@color/persian_grey_accent</item>
+    </style>
+
+    <style name="AlertDialogStyle_grey" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/persian_grey_accent</item>
+        <item name="android:textColorPrimary">@color/payumoney_text_color</item>
+    </style>
+
+
+    <color name="persian_grey_primary">#616161</color>
+    <color name="persian_grey_dark">#424242</color>
+    <color name="persian_grey_accent">#9e9e9e</color>
+</resources>

@@ -1,0 +1,269 @@
+<resources>
+    <string name = "app_name"> Latiwalaa </string>
+
+    <string name = "action_settings"> Instellingen </string>
+    <string name = "action_search"> Zoek </string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <!--<string name = "nav_item_home"> Home </string>-->
+    <string name = "nav_item_category"> Categorieën </string>
+    <string name = "nav_item_shop"> Winkel </string>
+    <string name = "nav_item_shoppingcart"> Winkelwagen </string>
+    <!--<string name = "nav_item_wishlist"> Mijn verlanglijst </string> -->
+    <string name = "nav_item_contactus"> Contacteer ons </string>
+    <string name = "nav_item_terms_condition"> Voorwaarden &amp; Voorwaarde </string>
+    <string name = "nav_item_account"> Mijn account </string>
+
+    <!-- navigation drawer item labels  -->
+    <string-array name="nav_drawer_labels">
+        <!--<item>@string/nav_item_home</item>-->
+        <item>@string/nav_item_category</item>
+        <item>@string/nav_item_shop</item>
+        <item>@string/nav_item_shoppingcart</item>
+        <!--<item>@string/nav_item_wishlist</item>-->
+        <item>@string/nav_item_contactus</item>
+        <item>@string/nav_item_terms_condition</item>
+        <item>@string/nav_item_account</item>
+    </string-array>
+
+    <!-- <string name = "title_home"> Home </string> -->
+    <string name = "title_profile"> Profiel </string>
+    <string name = "title_category"> Categorieën </string>
+    <string name = "title_shop"> Winkel </string>
+    <string name = "title_recent"> Recent </string>
+    <string name = "title_popular"> Meest populair </string>
+    <string name = "title_product_detail"> Productdetail </string>
+    <string name = "title_shoppingcart"> Winkelwagen </string>
+    <string name = "title_wishlist"> Mijn verlanglijst </string>
+    <string name = "title_search"> Zoeken </string>
+
+    <string name = "title_pastOrders"> Afgelopen orders </string>
+    <string name = "title_changepassword"> Wachtwoord wijzigen </string>
+    <string name = "title_contactus"> Contacteer ons </string>
+    <string name = "title_terms_condition"> Voorwaarden &amp; Voorwaarde </string>
+    <string name = "title_account"> Mijn account </string>
+    <string name = "title_editProfile"> Profiel bewerken </string>
+    <string name = "title_edit_address"> Adres bewerken </string>
+    <string name = "title_edit_billing"> Factuuradres </string>
+    <string name = "title_edit_shipping"> Verzendadres </string>
+    <!-- TODO: Verwijder of verander deze plaatshoudertekst -->
+    <string name = "hello_blank_fragment"> Hello blank fragment </string>
+
+    <string name = "name"> Naam </string>
+
+    <string name = "orderConfirm"> ORDER CONFIRMATION </string>
+    <string name = "forgotPassword"> Wachtwoord vergeten </string>
+    <string name = "forgotusername"> Gebruikersnaam vergeten </string>
+
+    <string name = "forgot_pass"> Wachtwoord vergeten? </string>
+    <string name = "forgot_username"> Uw gebruikersnaam vergeten? </string>
+    <string name = "create_account"> Maak een account aan </string>
+    <string name = "need_help"> NODIG HULP? </string>
+
+
+    <!--Maak een account aan -->
+    <string name = "If_you_already"> Als u al een account bij ons hebt, klik dan hier om in te loggen. </string>
+
+    <!--Wachtwoord vergeten -->
+    <string name = "Forgotten_Password"> Wachtwoord vergeten </string>
+    <string name = "Enter_email"> Voer het e-mailadres in dat bij uw account is geassocieerd. Er wordt een verificatiecode verzonden naar u. Eens je hebt
+    de verificatiecode ontvangen. u zal een nieuw wachtwoord voor uw account kiezen. </string>
+    <string name = "product_shortdescription"> Beschrijving niet beschikbaar </string>
+    <!-- nieuw adres-->
+    <string name = "firstName"> Voornaam *</string>
+    <string name = "lastName"> achternaam *</string>
+    <string name = "address"> Adres *</string>
+    <string name = "city"> Stad *</string>
+    <string name = "postCode"> postcode *</string>
+    <string name = "State"> Staat *</string>
+    <string name = "mobile"> Mobiel *</string>
+    <string name = "phone"> Telefoon *</string>
+    <string name = "company"> Bedrijf </string>
+    <string name = "username"> Gebruikersnaam *</string>
+    <string name = "userName"> Gebruikersnaam *</string>
+    <string name = "password"> Wachtwoord *</string>
+    <string name = "confirmPassword"> Bevestig wachtwoord *</string>
+    <string name = "eMail"> Emailadres *</string>
+    <string name = "country"> Land *</string>
+    <string name = "confirmEmail"> Bevestig e-mail *</string>
+    <string name = "e_mail"> E-mail *</string>
+    <string name="validationpass">Hint: The password should be at least twelve characters long. To make it stronger, use upper and lower case letters, numbers, and symbols like ! " ? $ % ^ &amp; ).</string>
+
+
+    <string name = "conf_detail"> Bedankt voor uw bestelling \ n \ nEen bevestigings email is verzonden naar </string>
+    <string name = "your_order"> Uw bestelling </string>
+    <string name = "paymentMethod"> Kies een van de betaalopties </string>
+    <string name = "ViewallReviews"> Bekijk alle beoordelingen </string>
+    <string name = "reviews_rating"> <![CDATA[Reviews & Rating]]> </string>
+    <string name = "add_a_review"> Voeg een review toe </string>
+    <string name = "sorry_combination_not_available"> Sorry, combinatie niet beschikbaar </string>
+    <string name = "select_variations"> Selecteer variaties </string>
+
+    <string name = "forgot_password"> Wachtwoord vergeten? </string>
+    <string name = "create_an_account"> Maak een account aan </string>
+    <string name = "checkout_as_guest"> Checkout als gast </string>
+    <string name = "price_details"> Prijsgegevens </string>
+    <string name = "price_items"> Prijs (items) </string>
+
+
+    <string name = "alert_title_message"> Bericht </string>
+    <string name = "alert_body_network_error"> Controleer uw netwerkverbinding. </string>
+    <string name = "alert_body_server_error"> Server fout. Probeer het even na een tijdje. </string>
+    <string name = "alert_body_something_was_wrong"> Controleer de URL correct. </string>
+    <string name = "alert_title_loading"> Even geduld aub </string> ">
+    <string name = "alert_body_wait"> Laden&#8230; </string>
+
+    <string name = "btn_ok"> OK </string>
+    <string name = "profile"> Profiel </string>
+    <string name = "orders"> Bestellingen </string>
+    <string name = "change_password"> Wijzig wachtwoord </string>
+    <string name = "logout"> Uitloggen </string>
+    <string name = "product_not_found"> ​​Product niet gevonden </string>
+    <string name = "wp_webservice_service"> <![CDATA[http://phpjoomlacoders.com/christine/]]> </string>
+    <string name = "title_product"> Producten </string>
+    <string name = "title_subcategory"> subcategorie </string>
+    <string name = "checkusername"> Controleer alstublieft gebruikersnaam en wachtwoord </string>
+    <string name = "enter_your_url"> Vul url in met http: // of https: // </string>
+    <string name = "you_have_not_any_wish"> U heeft geen wensen </string>
+    <string name = "back_to_category"> Ga terug </string>
+    <string name = "reload"> Herladen </string>
+    <string name = "apply_coupon"> Pas coupon toe </string>
+    <string name = "coupon_code"> Coupon Code </string>
+    <string name = "billing_address"> Factuuradres </string>
+    <string name = "change_billing_address"> Wijzig factuuradres </string> wijzigen
+    <string name = "billing_address_same_as_shipping_address"> factuuradres hetzelfde als verzendadres </string>
+    <string name = "shipping_address"> Verzendadres </string>
+    <string name = "change_shipping_address"> Wijzig verzendadres </string>
+    <string name = "shipping_methods"> Verzendmethoden </string>
+    <string name = "additional_charge"> Extra Charge </string>
+    <string name = "tax"> belasting </string>
+    <string name = "coupon"> Coupon: </string>
+    <string name = "payment_methods"> Betaalmethoden </string>
+    <string name = "total"> Totaal: </string>
+    <string name = "continue1"> VERVOLG </string>
+    <string name = "thank_you_your_order_has_been_received"> Bedankt. Uw bestelling is ontvangen. </string>
+    <string name = "instructions"> Instructies </string>
+    <string name = "our_bank_details"> Onze bankdetails </string>
+    <string name = "finish"> Voltooi </string>
+    <string name = "billing_address_as_shipping_adress"> Factuuradres als verzendadres </string>
+    <string name = "send_email"> Stuur e-mail </string>
+    <string name = "connected"> Verbonden </string>
+    <string name = "skip"> SKIP </string>
+    <string name = "login"> Log in </string>
+    <string name = "sign_in_to_access_your_orders_and_recommendations"> Log in om toegang te krijgen tot uw bestellingen en aanbevelingen. </string>
+    <string name = "login1">LOG IN</string>
+    <string name = "save"> SAVE </string>
+    <string name = "search"> zoek </string>
+    <string name = "choose_an_option"> Kies een optie </string>
+    <string name = "add_to_cart"> TOEVOEGEN AAN CART </string>
+    <string name = "buy_now"> KOOP NU </string>
+    <string name = "payable_amount"> Betaalbaar bedrag </string>
+    <string name = "proceed_to_checkout"> PROCEDURE TO CHECKOUT </string>
+    <string name = "your_rating"> Uw beoordeling </string>
+    <string name = "write_review"> Schrijf recensie </string>
+    <string name = "current_password"> Huidig ​​wachtwoord </string>
+    <string name = "new_password"> Nieuw wachtwoord </string>
+    <string name = "confirm_new_password"> Bevestig nieuw wachtwoord </string>
+    <string name = "save_change"> Save Change </string>
+    <string name = "cash_on_delivery"> contant bij levering </string>
+    <string name = "you_have_no_favourite"> U heeft geen favoriete </string>
+    <string name = "card_number"> CARD NUMBER </string>
+    <string name = "valid_card_number"> Geldig kaartnummer </string>
+    <string name = "expiration_date"> EXPIRATION DATE </string>
+    <string name = "mm"> MM </string>
+    <string name = "yy"> YY </string>
+    <string name = "cvc_doce"> CVC DOCE </string>
+    <string name = "cv"> cv </string>
+    <string name = "enter_coupon_code"> Vul couponcode in </string>
+    <string name = "paypal_method"> paypal methode </string>
+    <string name = "detail"> Detail </string>
+    <string name = "sale"> Verkoop! </string>
+    <string name = "load_more"> Meer laden </string>
+    <string name = "i_am_empty"> ik ben leeg </string>
+    <string name = "your_cart_is_empty"> uw winkelwagen is leeg </string>
+    <string name = "continue_shopping"> VERVOLG SHOPPING </string>
+    <string name = "color"> Kleur </string>
+    <string name = "account_name"> accountnaam </string>
+    <string name = "bank_name"> Banknaam </string>
+    <string name = "account_number"> accountnummer </string>
+    <string name = "sort_code"> Sorterencode </string>
+    <string name = "iban"> IBAN </string>
+    <string name = "bic_swift"> BIC / Swift </string>
+    <string name = "category_name"> categorie naam </string>
+    <string name = "category"> Categorie </string>
+    <string name = "order_id"> Order-id: </string>
+    <string name = "date"> Datum: </string>
+    <string name = "status"> Status: </string>
+    <string name = "on_hold"> In de wacht </string>
+    <string name = "amount"> Bedrag: </string>
+    <string name = "flat_rate"> Flat Rate </string>
+    <string name = "cloth_title"> doek titel </string>
+    <string name = "title"> Titel </string>
+    <string name = "trial"> Proef </string>
+    <string name = "cancel"> Annuleren </string>
+    <string name = "please_add_your_shipping_address"> Voeg uw verzendadres toe </string>
+    <string name = "please_enter_code"> Vul alstublieft code in </string>
+    <string name = "register"> Registreren </string>
+    <string name = "please_enter_your_rul"> vul alstublieft uw url in </string>
+    <string name = "invalid_url"> Ongeldige URL </string>
+    <string name = "please_select_country"> Selecteer een land </string>
+    <string name = "please_enter_your_first_name"> vul alstublieft uw voornaam in </string>
+    <string name = "please_enter_your_last_name"> vul alstublieft uw achternaam in </string>
+    <string name = "please_enter_your_address"> vul alstublieft uw adres in </string>
+    <string name = "please_enter_your_country"> vul alstublieft uw land in </string>
+    <string name = "please_enter_your_state"> vul alstublieft uw staat in </string>
+    <string name = "please_enter_your_city"> vul alstublieft uw stad in </string>
+    <string name = "please_enter_your_postcode"> vul alstublieft uw postcode in </string>
+    <string name = "please_enter_your_email"> vul alstublieft uw email in </string>
+    <string name = "please_enter_your_phone"> vul je telefoon in </string>
+    <string name = "please_enter_password"> Vul alstublieft wachtwoord in </string>
+    <string name = "please_enter_your_username"> vul alstublieft uw gebruikersnaam in </string>
+    <string name = "please_enter_registered_email_ID"> voer alstublieft een geregistreerd email-ID in </string>
+    <string name = "please_enter_current_password"> Voer het huidige wachtwoord in </string>
+    <string name = "please_enter_new_password"> Vul alstublieft nieuw wachtwoord in </string>
+    <string name = "please_re_enter_password"> Voer het wachtwoord opnieuw in </string>
+    <string name = "password_not_match"> Wachtwoord niet overeenkomen </string>
+    <string name = "please_add_your_billing_address"> Voeg uw factuuradres toe </string>
+    <string name = "please_add_your_shipping_address1"> Voeg uw verzendadres toe </string>
+    <string name = "press_back_again_to_exit"> Druk nogmaals op Terug naar Exit. </string>
+    <string name = "order_not_found"> ​​Bestelling niet gevonden </string>
+    <string name = "order_detail"> Besteldetail </string>
+    <string name = "subtotal"> Subtotaal </string>
+    <string name = "discount"> korting </string>
+    <string name = "shipping"> Verzenden </string>
+    <string name = "payment_details"> Betalingsgegevens </string>
+    <string name = "customer_details"> klantgegevens </string>
+    <string name = "email"> Email </string>
+    <string name = "please_select_variations"> Selecteer variaties </string>
+    <string name = "please_enter_review"> voer een review in </string>
+    <string name = "please_select_rating"> selecteer rating </string>
+    <string name = "please_enter_name"> voer alsjeblieft Naam in </string>
+    <string name = "please_enter_email"> vul alstublieft e-mail in </string>
+    <string name = "review_for"> review voor </string>
+    <string name = "no_review_for_this_prodcut"> Geen beoordeling voor dit product </string>
+    <string name = "error_to_fetch_data"> fout om gegevens te halen </string>
+    <string name = "all_product"> Alle producten </string>
+    <string name = "showing"> Toont </string>
+    <string name = "items"> items </string>
+    <string name = "please_add_your_phone_number"> voeg uw telefoonnummer toe </string>
+    <string name = "cart_is_empty"> Winkelwagen is leeg </string>
+    <string name = "subcategory_not_found"> ​​Subcategorie niet gevonden </string>
+    <string name = "unknown_error"> Onbekende fout </string>
+    <string name = "data_was_empty"> Gegevens waren leeg </string>
+    <string name = "update_wishlist"> Update wenslijst </string>
+    <string name = "add_to_wishlist"> Voeg toe aan wenslijst </string>
+    <string name = "remove_from_wishlist"> Verwijder uit wenslijst </string>
+    <string name = "updated_cart"> Bijgewerkte winkelwagen </string>
+    <string name = "item_added"> Item toegevoegd </string>
+    <string name = "price"> Prijs </string>
+    <string name = "checkout"> Afrekenen </string>
+    <string name = "please_Check_Payment_method"> Controleer de betaalmethode </string>
+    <string name = "please_Check_shipping_Method_Payment_method_and_Shipping_address"> Controleer verzendmethode, betaalmethode en verzendadres </string>
+    <string name = "please_Enter_Keywords"> Vul alstublieft trefwoorden in </string>
+    <string name = "enabled_your_input_language"> Enabled your input language </string>
+    <string name="quantity">Aantal stuks</string>
+    <string name="readmore">Lees verder</string>
+    <string name="please_choose_the_quantity_of_items_you_wish_to_add_to_your_cart">Kies alstublieft de hoeveelheid artikelen die u in uw winkelwagen wilt toevoegen</string>
+    <string name="sorry_this_product_not_availabler">Sorry, dit product is niet beschikbaar</string>
+    <string name="there_is_no_more_product_available">Er is geen artikel meer beschikbaar</string>
+</resources>

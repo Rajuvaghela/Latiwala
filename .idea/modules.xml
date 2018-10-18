@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Latiwala.iml" filepath="$PROJECT_DIR$/Latiwala.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PGSDK_V2.1/PGSDK_V2.1.iml" filepath="$PROJECT_DIR$/PGSDK_V2.1/PGSDK_V2.1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PayU-release/PayU-release.iml" filepath="$PROJECT_DIR$/PayU-release/PayU-release.iml" />
+      <module fileurl="file://$PROJECT_DIR$/YouTubeAndroidPlayerApi/YouTubeAndroidPlayerApi.iml" filepath="$PROJECT_DIR$/YouTubeAndroidPlayerApi/YouTubeAndroidPlayerApi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/latiwala/latiwala.iml" filepath="$PROJECT_DIR$/latiwala/latiwala.iml" />
+      <module fileurl="file://$PROJECT_DIR$/photoview/photoview.iml" filepath="$PROJECT_DIR$/photoview/photoview.iml" />
+    </modules>
+  </component>
+</project>

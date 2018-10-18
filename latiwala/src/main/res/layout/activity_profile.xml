@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto">
+
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:padding="@dimen/prfl_rl_padding"
+            >
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardviewProfilepic"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/card_margin"
+                android:elevation="3dp"
+                card_view:cardCornerRadius="@dimen/card_album_radius">
+
+            <RelativeLayout
+                android:id="@+id/rlProfilepic"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/prfl_rl_height"
+                >
+
+                <RelativeLayout
+                    android:id="@+id/rlProfileRound"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:visibility="gone">
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/ivProfilePic"
+                        android:layout_width="@dimen/prfl_iv_pic_width"
+                        android:layout_height="@dimen/prfl_iv_pic_height"
+                        android:layout_centerInParent="true"
+                        app:border_color="@color/color_grey"
+                        app:border_width="2dp"
+                        />
+                </RelativeLayout>
+
+
+
+                <ImageView
+                    android:id="@+id/ivEditProfile"
+                    android:layout_width="@dimen/prfl_ic_edit_width"
+                    android:layout_height="@dimen/prfl_ic_edit_height"
+                    android:src="@drawable/ic_edit"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="@dimen/prfl_ic_edit_marginTop"
+                    android:layout_marginRight="@dimen/prfl_ic_edit_marginRight"
+                    android:padding="@dimen/prfl_ic_edit_padding"
+                    android:foreground="@drawable/ripple_effect"
+                    />
+
+                <TextView
+                    android:id="@+id/tvUsername"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:layout_below="@id/rlProfileRound"
+                    android:layout_centerInParent="true"
+                    android:textSize="@dimen/prfl_tv_name_fontsize"
+                    android:textColor="@color/color_black"/>
+
+            </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardviewLocation"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/card_margin"
+                android:elevation="3dp"
+                android:layout_below="@id/cardviewProfilepic"
+                card_view:cardCornerRadius="@dimen/card_album_radius">
+
+
+            <RelativeLayout
+                android:id="@+id/rlLocation"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp">
+
+                <ImageView
+                    android:id="@+id/ivLocation"
+                    android:layout_width="@dimen/prfl_ic_width"
+                    android:layout_height="@dimen/prfl_ic_height"
+                    android:src="@drawable/ic_location"
+                    android:layout_centerVertical="true"
+                    android:padding="@dimen/prfl_ic_padding"
+                    />
+                <TextView
+                    android:id="@+id/tvLocation_profile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="@dimen/prfl_tv_fontsize"
+                    android:layout_toRightOf="@id/ivLocation"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"/>
+
+            </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <View
+                android:id="@+id/vw"
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@color/color_grey_light"
+                android:layout_below="@id/cardviewLocation"
+                android:visibility="gone"
+                >
+            </View>
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardviewcontect"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/card_margin"
+                android:elevation="3dp"
+                android:layout_below="@id/vw"
+                card_view:cardCornerRadius="@dimen/card_album_radius">
+
+
+            <RelativeLayout
+                android:id="@+id/rlcontect"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp">
+
+                <ImageView
+                    android:id="@+id/ivContect"
+                    android:layout_width="@dimen/prfl_ic_width"
+                    android:layout_height="@dimen/prfl_ic_height"
+                    android:src="@drawable/ic_call"
+                    android:layout_centerVertical="true"
+                    android:padding="@dimen/prfl_ic_padding"
+                    />
+                <TextView
+                    android:id="@+id/tvPhone_profile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="@dimen/prfl_tv_fontsize"
+                    android:layout_toRightOf="@id/ivContect"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"/>
+
+            </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <View
+                android:id="@+id/vw1"
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@color/color_grey_light"
+                android:layout_below="@id/cardviewcontect"
+                android:visibility="gone"
+                >
+            </View>
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardviewEmail"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/card_margin"
+                android:elevation="3dp"
+                android:layout_below="@id/vw1"
+                card_view:cardCornerRadius="@dimen/card_album_radius">
+
+
+            <RelativeLayout
+                android:id="@+id/rlEmail"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/vw1"
+                android:layout_margin="10dp">
+
+                <ImageView
+                    android:id="@+id/ivEmail"
+                    android:layout_width="@dimen/prfl_ic_width"
+                    android:layout_height="@dimen/prfl_ic_height"
+                    android:src="@drawable/ic_email"
+                    android:layout_centerVertical="true"
+                    android:padding="@dimen/prfl_ic_padding"
+                    />
+                <TextView
+                    android:id="@+id/tvEmail_profile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="@dimen/prfl_tv_fontsize"
+                    android:layout_toRightOf="@id/ivEmail"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"/>
+
+            </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <View
+                android:id="@+id/vw2"
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@color/color_grey_light"
+                android:layout_below="@id/cardviewEmail"
+                android:visibility="gone"
+                >
+            </View>
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

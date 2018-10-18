@@ -1,0 +1,45 @@
+{
+  "project_info": {
+    "project_number": "109364736528",
+    "firebase_url": "https://latiwala-1ff59.firebaseio.com",
+    "project_id": "latiwala-1ff59",
+    "storage_bucket": "latiwala-1ff59.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:109364736528:android:f820b754be28fcef",
+        "android_client_info": {
+          "package_name": "com.lujayn.latiwala"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "109364736528-qqblgacahl7obiecg4i9eoh8c3ndncko.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCM3dZwT5w7i1lDcOUs6_hmQwVjmpSEeSU"
+        },
+        {
+          "current_key": "AIzaSyCM3dZwT5w7i1lDcOUs6_hmQwVjmpSEeSU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

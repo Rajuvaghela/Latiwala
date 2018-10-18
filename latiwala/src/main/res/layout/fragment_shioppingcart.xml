@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <include
+        android:id="@+id/footer_cart"
+        layout="@layout/footer_cart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="1dp"></include>
+
+    <RelativeLayout
+        android:id="@+id/rlListviewCart"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/footer_cart">
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <LinearLayout
+                android:id="@+id/llCartlist"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+        <LinearLayout
+            android:id="@+id/llNoproduct"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvNoproductfound"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/your_cart_is_empty"
+                android:textColor="@color/color_red_light"
+                android:textSize="@dimen/product_tv_empty_textsize"
+
+                />
+
+            <TextView
+                android:id="@+id/btnCtnueShopping"
+                style="@style/btn_all_normal"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="@dimen/reload_tv_marginTop"
+                android:gravity="center"
+                android:text="@string/continue_shopping" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="false"
+    android:focusableInTouchMode="true">
+
+    <RelativeLayout
+        android:id="@+id/rl_header"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        android:background="@color/colorPrimary">
+
+        <LinearLayout
+            android:id="@+id/ll_back"
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="@dimen/_15sdp"
+                android:layout_height="@dimen/_15sdp"
+                android:background="@drawable/left_white" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_header"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/ll_back"
+            android:gravity="center"
+            android:paddingLeft="@dimen/_10sdp"
+            android:text=""
+            android:textColor="@color/color_white"
+            android:textSize="@dimen/_16sdp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/rl_header">
+
+        <RelativeLayout
+            android:id="@+id/ll_top"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:padding="@dimen/address_padding">
+
+            <TextView
+                android:id="@+id/tvaccountLogin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="@string/If_you_already"
+                android:textColor="@color/color_grey_light"
+                android:textSize="@dimen/address_tvsize"
+                android:visibility="gone" />
+
+            <CheckBox
+                android:id="@+id/chbxBillingAsShipping"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvaccountLogin"
+                android:layout_marginTop="@dimen/address_ckbx_margingTop"
+                android:text="@string/billing_address_as_shipping_adress"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:id="@+id/rlAddress"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp">
+
+                    <EditText
+                        android:id="@+id/etFirstName"
+                        style="@style/editText_all_normal"
+                        android:layout_width="match_parent"
+                        android:editable="true"
+                        android:hint="@string/firstName"
+                        android:singleLine="true" />
+
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp">
+
+                    <EditText
+                        android:id="@+id/etLastName"
+                        style="@style/editText_all_normal"
+                        android:layout_width="match_parent"
+                        android:editable="true"
+                        android:hint="@string/lastName"
+                        android:padding="@dimen/account_padding"
+                        android:singleLine="true" />
+
+
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp">
+
+                    <EditText
+                        android:id="@+id/etCompany"
+                        style="@style/editText_all_normal"
+                        android:layout_width="match_parent"
+                        android:editable="true"
+                        android:hint="@string/company"
+                        android:singleLine="true" />
+
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp">
+
+
+                    <EditText
+                        android:id="@+id/etAddress"
+                        style="@style/editText_all_normal"
+                        android:layout_width="match_parent"
+                        android:editable="true"
+                        android:hint="@string/address"
+                        android:singleLine="true" />
+
+                </android.support.design.widget.TextInputLayout>
+
+
+                <TextView
+                    android:id="@+id/etCountry"
+                    style="@style/editText_all_normal"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="@dimen/_22sdp"
+                    android:editable="true"
+                    android:hint="@string/country"
+                    android:drawableEnd="@drawable/ic_drop_down"
+                    android:drawableRight="@drawable/ic_drop_down"
+                    android:singleLine="true" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_1sdp"
+                    android:background="@color/color_edittext"></View>
+
+
+                <TextView
+                    android:id="@+id/etState"
+                    style="@style/editText_all_normal"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="@dimen/_22sdp"
+                    android:editable="true"
+                    android:drawableEnd="@drawable/ic_drop_down"
+                    android:drawableRight="@drawable/ic_drop_down"
+                    android:hint="@string/State"
+                    android:singleLine="true" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_1sdp"
+                    android:background="@color/color_edittext"></View>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp">
+
+                    <EditText
+                        android:id="@+id/etCity"
+                        style="@style/editText_all_normal"
+                        android:layout_width="match_parent"
+                        android:editable="true"
+                        android:hint="@string/city"
+                        android:singleLine="true" />
+
+
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp">
+
+
+                    <EditText
+                        android:id="@+id/etPostcode"
+                        style="@style/editText_all_normal"
+                        android:layout_width="match_parent"
+                        android:editable="true"
+                        android:hint="@string/postCode"
+                        android:singleLine="true" />
+
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/etEmail"
+                        style="@style/editText_all_normal"
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:editable="true"
+                        android:hint="@string/eMail"
+                        android:inputType="textWebEmailAddress"
+                        android:singleLine="true" />
+
+
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/etPhone"
+                        style="@style/editText_all_normal"
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:editable="true"
+                        android:hint="@string/phone"
+                        android:inputType="phone"
+                        android:singleLine="true" />
+
+
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/etPasswordAccount"
+                        style="@style/editText_all_normal"
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:editable="true"
+                        android:hint="@string/password"
+                        android:inputType="textWebPassword"
+                        android:singleLine="true"
+                        android:visibility="gone" />
+
+
+                </android.support.design.widget.TextInputLayout>
+
+                <CheckBox
+                    android:id="@+id/chbxAccount"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/etPhone"
+                    android:layout_marginTop="@dimen/address_ckbx1_marginTop"
+                    android:text="@string/create_account"
+                    android:visibility="gone" />
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/login_button_marginBottom"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    app:cardCornerRadius="@dimen/_4sdp">
+
+                    <TextView
+                        android:id="@+id/btnSave"
+                        style="@style/btn_all_normal"
+                        android:layout_width="fill_parent"
+                        android:gravity="center"
+                        android:text="@string/save" />
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

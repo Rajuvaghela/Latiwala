@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#7b105e</color>
+    <color name="colorPrimaryDark">#ffffff</color>
+    <color name="colorAccent">#ffb400</color>
+
+    <color name="color_white">#ffffff</color>
+    <color name="color_transparent">#00000000</color>
+    <color name="color_black_transparent">#99000000</color>
+    <color name="color_grey">#1e1e1e</color>
+    <color name="color_black">#000000</color>
+    <color name="color_green">#54a452</color>
+    <color name="color_perpal">#c09bb9</color>
+    <color name="color_disable_white">#e4e4e4</color>
+    <color name="black">#000000</color>
+    <color name="color_red">#f20a0a</color>
+    <color name="color_blue">#52a1db</color>
+    <color name="color_black_dark">#272627</color>
+    <color name="color_pink_light">#ec0b69</color>
+    <color name="color_grey_light">#919293</color>
+    <color name="color_blue_light">#529ed7</color>
+    <color name="color_red_light">#fb8393</color>
+    <color name="color_footer">#e3e5e6</color>
+    <color name="color_pink">#e9344c</color>
+    <color name="color_blue_verylight">#7fcaff</color>
+    <color name="color_viewLine">#cacaca</color>
+    <color name="color_edittext">#727272</color>
+
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+
+    <color name="back_categroy">#e4e3e3</color>
+    <color name="back_product">#EBEBEB</color>
+    <color name="back_profile">#a2a1a1</color>
+
+    <color name="checkout_lable">#e3e3e3</color>
+    <color name="checkout_content">#f8f6f6</color>
+    <color name="checkout_button">#69696a</color>
+
+    <color name="pastorder_back">#f8f6f6</color>
+    <color name="rating">#96588a</color>
+    <color name="color_blue_transparent">#ecefff</color>
+    <color name="color_forgot">#28cfe8</color>
+
+
+    <color name="red">#990000</color>
+    <color name="green">#009900</color>
+    <color name="blue">#000099</color>
+    <color name="orange">#FF9900</color>
+    <color name="lightgrey2">#FAFAFA</color>
+    <color name="white">#FFFFFF</color>
+    <color name="offwhite">#f2f2f2</color>
+    <color name="offwhite2">#e5e5e5</color>
+    <color name="appcolor2">#bd1820</color>
+
+    <color name="calcolor1">#FE7642</color>
+    <color name="calcolor2">#E32B23</color>
+    <color name="calcolor3">#DEADFA</color>
+    <color name="calcolor4">#A0C0F8</color>
+    <color name="calcolor5">#5884E2</color>
+    <color name="calcolor6">#22D6E0</color>
+    <color name="calcolor7">#6AE7C1</color>
+    <color name="calcolor8">#43B35A</color>
+    <color name="calcolor9">#FFD56F</color>
+    <color name="calcolor10">#FFB97A</color>
+    <color name="calcolor11">#FF8A80</color>
+    <color name="calcolor12">#E1E1E1</color>
+
+    <color name="textgrey">#BDBDBD</color>
+    <color name="textdarkgrey">#9E9E9E</color>
+    <color name="lightgrey">#e9ebee</color>
+    <color name="lightgrey3">#DCDEE3</color>
+    <color name="darkgrey2">#8a8a8b</color>
+    <color name="darkgrey">#8a8a8b</color>
+    <color name="background">#E0E0E0</color>
+    <color name="gry1">#f9f9f9</color>
+    <color name="gry2">#f3f3f3</color>
+    <color name="progress">#2F2769</color>
+    <color name="yellow">#FFF9C3</color>
+    <color name="green2">#1DA195</color>
+
+    <color name="transferant">#80000000</color>
+    <color name="darkgre3">#B9B8B8</color>
+    <color name="profile_transferant">#80ffffff</color>
+    <color name="view">#BDBDBD</color>
+    <color name="view_black">#424242</color>
+    <color name="view_grey">#616161</color>
+    <color name="radio">#757575</color>
+    <color name="yellow1">#FF9800</color>
+    <color name="green3">#009688</color>
+    <color name="border_color">#d4d4d4</color>
+
+    <color name="login_grey">#bcffffff</color>
+    <color name="login_grey2">#f8d5d5d5</color>
+    <color name="login_blue">#80014470</color>
+    <color name="blackLight1">#404040</color>
+
+    <color name="colorWhiteViewOverlay">#80FFFFFF</color>
+    <color name="color50Primary">#80FFFFFF</color>
+
+    <color name="cardBackgroundColor">#FF0000</color>
+    <color name="app_button_color">#2CA6CF</color>
+    <color name="light_white">#fcfcfc</color>
+</resources>

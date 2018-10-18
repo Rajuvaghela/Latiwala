@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back_product">
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/activity_main_swipe_refresh_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl_header">
+
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:id="@+id/relativeLayoutViewPager"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true">
+
+                    <android.support.v4.view.ViewPager
+                        android:id="@+id/viewPagerTopSlider"
+                        android:layout_width="match_parent"
+                        android:layout_height="230dp">
+
+                    </android.support.v4.view.ViewPager>
+
+                    <com.viewpagerindicator.CirclePageIndicator
+                        android:id="@+id/circlePageIndicator"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_15sdp"
+                        android:layout_marginTop="@dimen/_170sdp"
+                        app:fillColor="#ffffff"
+                        app:pageColor="#000000"
+                        app:radius="@dimen/_3sdp" />
+                </RelativeLayout>
+
+                <GridView
+                    android:id="@+id/gvCategory"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_below="@+id/relativeLayoutViewPager"
+                    android:layout_margin="0dp"
+                    android:gravity="center"
+                    android:horizontalSpacing="@dimen/horizontalSpace"
+                    android:numColumns="2"
+                    android:verticalSpacing="@dimen/verticalSpace"
+                    android:visibility="gone">
+
+                </GridView>
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/recyclerCategory"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_below="@+id/relativeLayoutViewPager"
+                    android:clipToPadding="false"
+                    android:scrollbars="vertical" />
+            </RelativeLayout>
+        </android.support.v4.widget.NestedScrollView>
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+    <TextView
+        android:id="@+id/empty_list_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/you_have_no_favourite"
+        android:textColor="@color/color_red_light"
+        android:textSize="@dimen/product_tv_empty_textsize"
+        android:visibility="gone" />
+</RelativeLayout>

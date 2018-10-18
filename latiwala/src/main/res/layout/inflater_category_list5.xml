@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardCategory2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:elevation="1dp"
+        android:layout_marginBottom="@dimen/_2sdp"
+        android:layout_marginLeft="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_2sdp"
+        android:layout_marginRight="@dimen/_5sdp"
+        card_view:cardCornerRadius="@dimen/_5sdp">
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/_100sdp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_100sdp"
+                android:layout_weight="0.5">
+
+                <ImageView
+                    android:id="@+id/rlCatlist"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/shape_middle_angle"/>
+
+                <LinearLayout
+                    android:layout_width="@dimen/_100sdp"
+                    android:layout_height="fill_parent"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_margin="@dimen/_3sdp">
+
+                    <TextView
+                        android:id="@+id/tvCategoryname"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Shirt"
+                        android:textColor="@color/color_white"
+                        android:textSize="@dimen/_14sdp"
+                        android:gravity="center"/>
+
+                    <TextView
+                        android:layout_width="@dimen/_55sdp"
+                        android:layout_height="@dimen/_20sdp"
+                        android:text="SHOP NOW"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="@dimen/_8sdp"
+                        android:padding="@dimen/_2sdp"
+                        android:gravity="center"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:background="@drawable/shape_shopnow"
+                        android:layout_marginBottom="@dimen/_3sdp"
+                        android:layout_gravity="bottom|center_horizontal"
+                        />
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_100sdp"
+                android:layout_weight="0.5">
+
+                <FrameLayout
+                    android:id="@+id/framCategoryimage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_alignParentRight="true"
+                    >
+
+                <ImageView
+                    android:id="@+id/ivCategoryImage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/logo"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:layout_gravity="center"/>
+
+                    <ProgressBar
+                        android:id="@+id/pbarCategory"
+                        android:layout_width="@dimen/_25sdp"
+                        android:layout_height="@dimen/_25sdp"
+                        android:layout_gravity="center"
+                        android:visibility="visible"
+                        />
+
+                </FrameLayout>
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+</RelativeLayout>

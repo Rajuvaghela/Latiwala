@@ -1,0 +1,272 @@
+<resources>
+    <string name="app_name">Latiwalaa</string>
+
+    <string name="action_settings">настройки</string>
+    <string name="action_search">Поиск</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+   <!-- <string name="nav_item_home">Home</string>-->
+    <string name="nav_item_category">категории</string>
+    <string name="nav_item_shop">Магазин</string>
+    <string name="nav_item_shoppingcart">Корзина</string>
+    <!--<string name="nav_item_wishlist">мой список желаний</string>-->
+    <string name="nav_item_contactus">Свяжитесь с нами</string>
+    <string name="nav_item_terms_condition">Сроки и условия</string>
+    <string name="nav_item_account">Мой аккаунт</string>
+
+    <!-- navigation drawer item labels  -->
+    <string-array name="nav_drawer_labels">
+        <!--<item>@string/nav_item_home</item>-->
+        <item>@string/nav_item_category</item>
+        <item>@string/nav_item_shop</item>
+        <item>@string/nav_item_shoppingcart</item>
+        <!--<item>@string/nav_item_wishlist</item>-->
+        <item>@string/nav_item_contactus</item>
+        <item>@string/nav_item_terms_condition</item>
+        <item>@string/nav_item_account</item>
+    </string-array>
+
+    <!--<string name="title_home">Home</string>-->
+    <string name="title_profile">Профиль</string>
+    <string name="title_category">категории</string>
+    <string name="title_recent">последний</string>
+    <string name="title_popular">Самый популярный</string>
+    <string name="title_product_detail">Информация о продукте</string>
+    <string name="title_shoppingcart">Корзина</string>
+    <string name="title_wishlist">мой список желаний</string>
+    <string name="title_search">Поиск</string>
+
+    <string name="title_pastOrders">Прошлые заказы</string>
+    <string name="title_changepassword">Изменить пароль</string>
+    <string name="title_contactus">Свяжитесь с нами</string>
+    <string name="title_terms_condition">Сроки и условия</string>
+    <string name="title_account">Мой аккаунт</string>
+    <string name="title_editProfile">Редактировать профиль</string>
+    <string name="title_edit_address">Изменить адрес</string>
+    <string name="title_edit_billing">Платежный адрес</string>
+    <string name="title_edit_shipping">Адрес доставки</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Привет, пустой фрагмент</string>
+
+    <string name="name">имя</string>
+
+    <string name="orderConfirm">ПОДТВЕРЖДЕНИЕ ЗАКАЗА</string>
+    <string name="forgotPassword">Забыли пароль</string>
+    <string name="forgotusername">Забыл имя пользователя</string>
+
+    <string name="forgot_pass">Забыли пароль?</string>
+    <string name="forgot_username">Забыли свой логин?</string>
+    <string name="create_account">Завести аккаунт</string>
+    <string name="need_help">НУЖНА ПОМОЩЬ?</string>
+
+
+    <!--Create account-->
+    <string name="If_you_already">Если у вас уже есть аккаунт, нажмите здесь для входа.</string>
+
+    <!--forgot password-->
+    <string name="Forgotten_Password">Забыли пароль</string>
+    <string name="Enter_email">Введите адрес электронной почты, связанный с вашей учетной записью. Вам будет отправлен проверочный код. Когда у вас есть
+    Получил код подтверждения. Вы должны выбрать новый пароль для своей учетной записи.</string>
+    <string name="product_shortdescription">New Spring style Fashion turn down co-coller slim solid long slive New Spring style Fashion turn down co-coller slim solid long slive</string>
+    <!--new address-->
+    <string name="firstName">Имя *</string>
+    <string name="lastName">Фамилия *</string>
+    <string name="address">Адрес *</string>
+    <string name="city">город *</string>
+    <string name="postCode">почтовый индекс *</string>
+    <string name="State">состояние *</string>
+    <string name="mobile">мобильный *</string>
+    <string name="phone">Телефон *</string>
+    <string name="company">Компания</string>
+    <string name="username">имя пользователя *</string>
+    <string name="userName">имя пользователя *</string>
+    <string name="password">пароль *</string>
+    <string name="confirmPassword">Подтвердите Пароль *</string>
+    <string name="eMail">Адрес электронной почты *</string>
+    <string name="country">Страна *</string>
+    <string name="confirmEmail">Подтвердите адрес электронной почты *</string>
+    <string name="e_mail">Электронная почта *</string>
+    <string name="validationpass">Hint: The password should be at least twelve characters long. To make it stronger, use upper and lower case letters, numbers, and symbols like ! " ? $ % ^ &amp; ).</string>
+
+
+    <string name="conf_detail">Спасибо за ваш заказ \n\nПисьмо с подтверждением отправлено</string>
+    <string name="your_order">Твоя очередь</string>
+    <string name="paymentMethod">Выберите любой из вариантов оплаты</string>
+    <string name="ViewallReviews">Посмотреть все отзывы</string>
+    <string name="reviews_rating"><![CDATA[Отзывы и рейтинг]]></string>
+    <string name="add_a_review">Добавить отзыв</string>
+    <string name="sorry_combination_not_available">Извините, комбинация недоступна</string>
+    <string name="select_variations">Выберите варианты</string>
+
+    <string name="forgot_password">Забыли пароль?</string>
+    <string name="create_an_account">Завести аккаунт</string>
+    <string name="checkout_as_guest">Оформить заказ в качестве гостя</string>
+    <string name="price_details">Информация о цене</string>
+    <string name="price_items">Цена (пункты)</string>
+
+
+    <string name="alert_title_message">Сообщение</string>
+    <string name="alert_body_network_error">Проверьте подключение к сети.</string>
+    <string name="alert_body_server_error">Ошибка сервера. Пожалуйста, попробуйте через некоторое время.</string>
+    <string name="alert_body_something_was_wrong">Проверьте правильность URL.</string>
+    <string name="alert_title_loading">Пожалуйста, подождите</string>">
+    <string name="alert_body_wait">загрузка&#8230;</string>
+
+    <string name="btn_ok">ОК</string>
+    <string name="profile">Профиль</string>
+    <string name="orders">заказы</string>
+    <string name="change_password">Изменить пароль</string>
+    <string name="logout">Выйти</string>
+    <string name="product_not_found">Товар не найден</string>
+    <string name="wp_webservice_service"><![CDATA[http://phpjoomlacoders.com/christine/]]></string>
+    <string name="title_product">Продукты</string>
+    <string name="title_subcategory">Подкатегория</string>
+    <string name="checkusername">Пожалуйста, проверьте имя пользователя и пароль.</string>
+    <string name="enter_your_url">Введите url с http: // или https: //</string>
+    <string name="you_have_not_any_wish">У вас нет желания</string>
+    <string name="apply_coupon">Применить купон</string>
+    <string name="coupon_code">код купона</string>
+    <string name="billing_address">Платежный адрес</string>
+    <string name="change_billing_address">Изменить платежный адрес</string>
+    <string name="billing_address_same_as_shipping_address">Платежный адрес совпадает с адресом доставки</string>
+    <string name="shipping_address">Адрес доставки</string>
+    <string name="change_shipping_address">Изменить адрес доставки</string>
+    <string name="shipping_methods">Методы доставки</string>
+    <string name="additional_charge">Дополнительный заряд</string>
+    <string name="tax">налог</string>
+    <string name="coupon">Купон:</string>
+    <string name="payment_methods">Способы оплаты</string>
+    <string name="total">Всего:</string>
+    <string name="continue1">ПРОДОЛЖАТЬ</string>
+    <string name="thank_you_your_order_has_been_received">Спасибо. Ваш заказ был получен.</string>
+    <string name="instructions">инструкции</string>
+    <string name="our_bank_details">Наши данные банка</string>
+    <string name="finish">Конец</string>
+    <string name="billing_address_as_shipping_adress">Адрес выставления счета как Адрес доставки</string>
+    <string name="send_email">Отправить электронное письмо</string>
+    <string name="connected">Связанный</string>
+    <string name="skip">ПРОПУСКАТЬ</string>
+    <string name="login">Авторизоваться</string>
+    <string name="sign_in_to_access_your_orders_and_recommendations">Войдите в систему, чтобы получить доступ к своим заказам и рекомендациям.</string>
+    <string name="login1">Авторизоваться</string>
+    <string name="save">СПАСТИ</string>
+    <string name="reload">перезагружать</string>
+    <string name="search">поиск</string>
+    <string name="choose_an_option">Выберите опцию</string>
+    <!--<string name="quantity">Количество</string>-->
+    <string name="add_to_cart">ДОБАВИТЬ В КОРЗИНУ</string>
+    <string name="buy_now">КУПИ СЕЙЧАС</string>
+    <string name="payable_amount">Сумма кредитоспособности</string>
+    <string name="proceed_to_checkout">ПЕРЕЙТИ К ОФОРМЛЕНИЮ ЗАКАЗА</string>
+    <string name="your_rating">Ваш рейтинг</string>
+    <string name="write_review">Написать обзор</string>
+    <string name="current_password">текущий пароль</string>
+    <string name="new_password">новый пароль</string>
+    <string name="confirm_new_password">Подтвердите новый пароль</string>
+    <string name="save_change">Сохранить изменения</string>
+    <string name="you_have_no_favourite">У вас нет любимой</string>
+    <string name="detail">подробность</string>
+    <string name="load_more">Загрузи больше</string>
+    <string name="i_am_empty">я пуст</string>
+    <string name="sale">Продажа!</string>
+    <string name="your_cart_is_empty">Ваша корзина пуста</string>
+    <string name="continue_shopping">ПРОДОЛЖИТЬ ПОКУПКИ</string>
+    <string name="title">заглавие</string>
+    <string name="account_name">Имя пользователя</string>
+    <string name="bank_name">Название банка</string>
+    <string name="account_number">Номер аккаунта</string>
+    <string name="sort_code">Сортировать код</string>
+    <string name="iban">Они были</string>
+    <string name="bic_swift">BIC/Swift</string>
+    <string name="order_id">Номер заказа:</string>
+    <string name="date">Дата:</string>
+    <string name="status">Положение дел:</string>
+    <string name="amount">Количество:</string>
+    <string name="trial">пробный</string>
+    <string name="cancel">Отмена</string>
+    <string name="checkout">Проверять, выписываться</string>
+    <string name="please_add_your_shipping_address">Пожалуйста, добавьте свой адрес доставки</string>
+    <string name="please_enter_code">Введите код</string>
+    <string name="register">регистр</string>
+    <string name="please_enter_your_rul">введите свой url</string>
+    <string name="invalid_url">Инвалид URL</string>
+    <string name="please_select_country">Выберите страну</string>
+    <string name="please_enter_your_first_name">Пожалуйста, введите свое Имя</string>
+    <string name="please_enter_your_last_name">пожалуйста, введите свою фамилию</string>
+    <string name="please_enter_your_address">пожалуйста, введите свой адрес</string>
+    <string name="please_enter_your_country">пожалуйста, введите свою страну</string>
+    <string name="please_enter_your_state">введите свое состояние</string>
+    <string name="please_enter_your_city">Введите свой город</string>
+    <string name="please_enter_your_postcode">введите свой почтовый индекс</string>
+    <string name="please_enter_your_email">введите адрес электронной почты</string>
+    <string name="please_enter_your_phone">введите свой телефон</string>
+    <string name="please_enter_password">Пожалуйста введите пароль</string>
+    <string name="please_enter_your_username">Пожалуйста, введите Ваш логин</string>
+    <string name="please_enter_registered_email_ID">введите зарегистрированный адрес электронной почты</string>
+    <string name="please_enter_current_password">Введите текущий пароль</string>
+    <string name="please_enter_new_password">Введите новый пароль</string>
+    <string name="please_re_enter_password">Повторно введите пароль</string>
+    <string name="password_not_match">Пароль не соответствует</string>
+    <string name="please_add_your_billing_address">Добавьте свой платежный адрес</string>
+    <string name="please_add_your_shipping_address1">Пожалуйста, добавьте свой адрес доставки</string>
+    <string name="press_back_again_to_exit">Нажмите Назад еще раз для выхода</string>
+    <string name="order_not_found">Заказ не найден</string>
+    <string name="order_detail">Детали заказа</string>
+    <string name="subtotal">Промежуточный итог</string>
+    <string name="discount">скидка</string>
+    <string name="shipping">Перевозка</string>
+    <string name="payment_details">Детали оплаты</string>
+    <string name="customer_details">Информация о клиенте</string>
+    <string name="email">Эл. адрес</string>
+    <string name="please_select_variations">Выберите варианты</string>
+        <string name="please_enter_review">пожалуйста, введите отзыв</string>
+    <string name="please_select_rating">выберите рейтинг</string>
+    <string name="please_enter_name">введите имя</string>
+    <string name="please_enter_email">введите адрес электронной почты</string>
+    <string name="review_for">обзор для</string>
+    <string name="no_review_for_this_prodcut">Нет обзоров для этого prodcut</string>
+    <string name="error_to_fetch_data">ошибка для получения данных</string>
+    <string name="all_product">Весь продукт</string>
+    <string name="showing">показ</string>
+    <string name="items">Предметы</string>
+    <string name="please_add_your_phone_number">добавьте свой номер телефона</string>
+    <string name="cart_is_empty">Корзина пуста</string>
+    <string name="subcategory_not_found">Подкатегория не найдена</string>
+    <string name="unknown_error">Неизвестная ошибка</string>
+    <string name="data_was_empty">Данные были пусты</string>
+    <string name="update_wishlist">Обновить список желаний</string>
+    <string name="add_to_wishlist">Добавить в список желаний</string>
+    <string name="remove_from_wishlist">Удалить из списка желаний</string>
+    <string name="updated_cart">Обновленная корзина</string>
+    <string name="item_added">Добавлен элемент</string>
+    <string name="price">Цена</string>
+    <string name="please_Check_Payment_method">Пожалуйста, проверьте способ оплаты</string>
+    <string name="please_Check_shipping_Method_Payment_method_and_Shipping_address">пожалуйста, проверьте способ доставки, способ оплаты и адрес доставки</string>
+
+    <string name="please_Enter_Keywords">Введите ключевые слова</string>
+    <string name="enabled_your_input_language">Включен ваш язык ввода</string>
+    <string name="back_to_category">Возвращаться</string>
+    <string name="card_number">CARD NUMBER</string>
+    <string name="cash_on_delivery">оплата при доставке</string>
+    <string name="category_name">название категории</string>
+    <string name="category">категория</string>
+    <string name="cloth_title">название ткани</string>
+    <string name="color">цвет</string>
+    <string name="mm">MM</string>
+    <string name="yy">YY</string>
+    <string name="cvc_doce">CVC DOCE</string>
+    <string name="cv">cv</string>
+    <string name="enter_coupon_code">Введите код купона</string>
+    <string name="expiration_date">СРОК ГОДНОСТИ</string>
+    <string name="flat_rate">Квартирная плата</string>
+
+    <string name="on_hold">На удерживании</string>
+    <string name="paypal_method">метод paypal</string>
+    <string name="title_shop">Магазин</string>
+    <string name="valid_card_number">Действительный номер карты</string>
+    <string name="quantity">Количество</string>
+    <string name="readmore">Прочитайте больше</string>
+    <string name="please_choose_the_quantity_of_items_you_wish_to_add_to_your_cart">Выберите количество предметов, которые вы хотите добавить в корзину.</string>
+    <string name="sorry_this_product_not_availabler">Извините, этот продукт недоступен</string>
+    <string name="there_is_no_more_product_available">Больше нет товаров</string>
+</resources>

@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/activity_margin_top"
+        android:layout_marginBottom="@dimen/activity_margin_bottom"
+        android:layout_marginLeft="@dimen/activity_vertical_margin"
+        android:layout_marginRight="@dimen/activity_vertical_margin">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="@dimen/bank_tvlable_width"
+                android:layout_height="wrap_content"
+                android:text="@string/account_name"
+                android:textColor="@color/color_grey_light"
+                android:textSize="@dimen/bank_tv_textsize"
+                android:layout_marginTop="@dimen/bank_tv_marginTop"
+                android:layout_marginBottom="@dimen/bank_tv_marginBottom"
+                android:layout_marginRight="@dimen/bank_tv_marginRight"
+                />
+
+            <TextView
+                android:id="@+id/tvAccName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/color_grey_light"
+                android:textSize="@dimen/bank_tv_textsize"
+                android:layout_marginTop="@dimen/bank_tv_marginTop"
+                android:layout_marginBottom="@dimen/bank_tv_marginBottom"
+                android:layout_marginRight="@dimen/bank_tv_marginRight"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="@dimen/bank_tvlable_width"
+                android:layout_height="wrap_content"
+                android:text="@string/bank_name"
+                android:textColor="@color/color_grey_light"
+                android:textSize="@dimen/bank_tv_textsize"
+                android:layout_marginTop="@dimen/bank_tv_marginTop"
+                android:layout_marginBottom="@dimen/bank_tv_marginBottom"
+                android:layout_marginRight="@dimen/bank_tv_marginRight"
+                />
+
+            <TextView
+                android:id="@+id/tvBankName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/color_grey_light"
+                android:textSize="@dimen/bank_tv_textsize"
+                android:layout_marginTop="@dimen/bank_tv_marginTop"
+                android:layout_marginBottom="@dimen/bank_tv_marginBottom"
+                android:layout_marginRight="@dimen/bank_tv_marginRight"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="@dimen/bank_tvlable_width"
+                android:layout_height="wrap_content"
+                android:text="@string/account_number"
+                android:textColor="@color/color_grey_light"
+                android:textSize="@dimen/bank_tv_textsize"
+                android:layout_marginTop="@dimen/bank_tv_marginTop"
+                android:layout_marginBottom="@dimen/bank_tv_marginBottom"
+                android:layout_marginRight="@dimen/bank_tv_marginRight"
+                />
+
+            <TextView
+                android:id="@+id/tvAccNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/color_grey_light"
+                android:textSize="@dimen/bank_tv_textsize"
+                android:layout_marginTop="@dimen/bank_tv_marginTop"
+                android:layout_marginBottom="@dimen/bank_tv_marginBottom"
+                android:layout_marginRight="@dimen/bank_tv_marginRight"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="@dimen/bank_tvlable_width"
+                android:layout_height="wrap_content"
+                android:text="@string/sort_code"
+                android:textColor="@color/color_grey_light"
+                android:textSize="@dimen/bank_tv_textsize"
+                android:layout_marginTop="@dimen/bank_tv_marginTop"
+                android:layout_marginBottom="@dimen/bank_tv_marginBottom"
+                android:layout_marginRight="@dimen/bank_tv_marginRight"
+                />
+
+            <TextView
+                android:id="@+id/tvSortCode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/color_grey_light"
+                android:textSize="@dimen/bank_tv_textsize"
+                android:layout_marginTop="@dimen/bank_tv_marginTop"
+                android:layout_marginBottom="@dimen/bank_tv_marginBottom"
+                android:layout_marginRight="@dimen/bank_tv_marginRight"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="@dimen/bank_tvlable_width"
+                android:layout_height="wrap_content"
+                android:text="@string/iban"
+                android:textColor="@color/color_grey_light"
+                android:textSize="@dimen/bank_tv_textsize"
+                android:layout_marginTop="@dimen/bank_tv_marginTop"
+                android:layout_marginBottom="@dimen/bank_tv_marginBottom"
+                android:layout_marginRight="@dimen/bank_tv_marginRight"
+                />
+
+            <TextView
+                android:id="@+id/tvIBAN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/color_grey_light"
+                android:textSize="@dimen/bank_tv_textsize"
+                android:layout_marginTop="@dimen/bank_tv_marginTop"
+                android:layout_marginBottom="@dimen/bank_tv_marginBottom"
+                android:layout_marginRight="@dimen/bank_tv_marginRight"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="@dimen/bank_tvlable_width"
+                android:layout_height="wrap_content"
+                android:text="@string/bic_swift"
+                android:textColor="@color/color_grey_light"
+                android:textSize="@dimen/bank_tv_textsize"
+                android:layout_marginTop="@dimen/bank_tv_marginTop"
+                android:layout_marginBottom="@dimen/bank_tv_marginBottom"
+                android:layout_marginRight="@dimen/bank_tv_marginRight"
+                />
+
+            <TextView
+                android:id="@+id/tvBIC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/color_grey_light"
+                android:textSize="@dimen/bank_tv_textsize"
+                android:layout_marginTop="@dimen/bank_tv_marginTop"
+                android:layout_marginBottom="@dimen/bank_tv_marginBottom"
+                android:layout_marginRight="@dimen/bank_tv_marginRight"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/color_viewLine">
+
+    </View>
+
+</LinearLayout>

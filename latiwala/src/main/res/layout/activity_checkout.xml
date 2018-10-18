@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back_product">
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardtool_checkout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="0dp"
+        android:elevation="2dp"
+        card_view:cardCornerRadius="@dimen/card_album_radius">
+
+        <include layout="@layout/toolbar"
+            android:id="@+id/toolbar_checkout">
+        </include>
+
+    </android.support.v7.widget.CardView>
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/cardtool_checkout"
+        >
+        <RelativeLayout
+            android:id="@+id/rlPaymentInfo"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:paddingBottom="@dimen/checkout_paddingBottom">
+
+            <include layout="@layout/couponcode"
+                android:id="@+id/couponcode"
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent"
+                android:layout_marginTop="@dimen/detail_marginTop">
+            </include>
+
+
+
+            <include layout="@layout/cell_billing_address"
+                android:id="@+id/cell_billing_address"
+                android:layout_below="@id/couponcode"
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent"
+                android:layout_marginTop="@dimen/detail_marginTop">
+            </include>
+
+            <include layout="@layout/cell_shipping_address"
+                android:id="@+id/cell_shipping_address"
+                android:layout_below="@id/cell_billing_address"
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent"
+                android:layout_marginTop="@dimen/detail_marginTop">
+
+            </include>
+
+            <include layout="@layout/cell_amountinfo"
+                android:id="@+id/cell_amountinfo"
+                android:layout_below="@id/cell_shipping_address"
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent"
+                android:layout_marginTop="@dimen/detail_marginTop">
+            </include>
+
+            <include layout="@layout/activity_paymentmethods"
+                android:id="@+id/paymentmethod"
+                android:layout_below="@id/cell_amountinfo"
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent"
+                android:layout_marginTop="@dimen/detail_marginTop">
+            </include>
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>

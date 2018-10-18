@@ -1,0 +1,271 @@
+<resources>
+    <string name = "app_name"> Latiwalaa </string>
+
+
+    <string name = "action_settings"> Ayarlar </string>
+    <string name = "action_search"> Ara </string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <!-- <string name = "nav_item_home"> Ana Sayfa </string> -->
+    <string name = "nav_item_category"> Kategoriler </string>
+    <string name = "nav_item_shop"> Dükkan </string>
+    <string name = "nav_item_shoppingcart"> Alışveriş Sepeti </string>
+    <!-- <string name = "nav_item_wishlist"> İstek Listem </string> -->
+    <string name = "nav_item_contactus"> Bize Ulaşın </string>
+    <string name = "nav_item_terms_condition"> Şartlar &amp; Durum </string>
+    <string name = "nav_item_account"> Hesabım </string>
+
+    <!-- navigation drawer item labels  -->
+    <string-array name="nav_drawer_labels">
+        <!--<item>@string/nav_item_home</item>-->
+        <item>@string/nav_item_category</item>
+        <item>@string/nav_item_shop</item>
+        <item>@string/nav_item_shoppingcart</item>
+        <!--<item>@string/nav_item_wishlist</item>-->
+        <item>@string/nav_item_contactus</item>
+        <item>@string/nav_item_terms_condition</item>
+        <item>@string/nav_item_account</item>
+    </string-array>
+
+    <!-- <string name = "title_home"> Ana Sayfa </string> -->
+    <string name = "title_profile"> Profil </string>
+    <string name = "title_category"> Kategoriler </string>
+    <string name = "title_shop"> Dükkan </string>
+    <string name = "title_recent"> Son </string>
+    <string name = "title_popular"> En Popüler </string>
+    <string name = "title_product_detail"> Ürün Detayı </string>
+    <string name = "title_shoppingcart"> Alışveriş Sepeti </string>
+    <string name = "title_wishlist"> İstek Listem </string>
+    <string name = "title_search"> Ara </string>
+
+    <string name = "title_pastOrders"> Geçmiş Siparişler </string>
+    <string name = "title_changepassword"> Parolayı Değiştir </string>
+    <string name = "title_contactus"> Bize Ulaşın </string>
+    <string name = "title_terms_condition"> Terim &amp; Durum </string>
+    <string name = "title_account"> Hesabım </string>
+    <string name = "title_editProfile"> Profil Düzenle </string>
+    <string name = "title_edit_address"> Adres Düzenle </string>
+    <string name = "title_edit_billing"> Fatura Adresi </string>
+    <string name = "title_edit_shipping"> Sevkıyat Adresi </string>
+    <!-- TODO: Yer tutucu metni kaldırın veya değiştirin -->
+    <string name = "hello_blank_fragment"> Boş parçası boş </string>
+
+    <string name = "name"> Name </string>
+
+    <string name = "orderConfirm"> SİPARİŞ KONFİRMASYONU </string>
+    <string name = "forgotPassword"> Şifremi Unuttum </string>
+    <string name = "forgotusername"> Kullanıcı adınızı unuttunuz </string>
+
+    <string name = "forgot_pass"> Şifrenizi mi unuttunuz? </string>
+    <string name = "forgot_username"> Kullanıcı adınızı mı unuttunuz? </string>
+    <string name = "create_account"> Hesap oluştur </string>
+    <string name = "need_help"> YARDIM Mİ? </string>
+
+
+    <!-- Hesap oluştur -->
+    <string name = "If_you_already"> Zaten bizimle bir hesabınız varsa, giriş yapmak için lütfen burayı tıklayın. </string>
+
+    <!-- şifremi unuttum -->
+    <string name = "Forgotten_Password"> Şifrenizi Unuttunuz </string>
+    <string name = "Enter_email"> Hesabınızla ilişkili e-posta adresini girin. Size bir doğrulama kodu gönderilecek. Bir kere
+    doğrulama kodunu aldı. hesabınız için yeni bir şifre seçeceksiniz. </string>
+    <string name = "product_shortdescription"> Açıklama mevcut değil </string>
+    <!-- yeni adres -->
+    <string name = "firstName"> İlk Ad *</string>
+    <string name = "lastName"> Soyadı *</string>
+    <string name = "address"> Adres *</string>
+    <string name = "city"> Şehir *</string>
+    <string name = "postCode"> Posta kodu *</string>
+    <string name = "State"> Eyalet *</string>
+    <string name = "mobile"> Mobil *</string>
+    <string name = "phone"> Telefon *</string>
+    <string name = "company"> Şirket </string>
+    <string name = "username"> kullanıcı adı *</string>
+    <string name = "userName"> kullanıcı adı *</string>
+    <string name = "password"> Şifre *</string>
+    <string name = "confirmPassword"> Parolayı Onayla *</string>
+    <string name = "eMail"> E-posta Adresi *</string>
+    <string name = "country"> Ülke *</string>
+    <string name = "confirmEmail"> E-postayı Onaylayın *</string>
+    <string name = "e_mail"> E-posta *</string>
+    <string name="validationpass">Hint: The password should be at least twelve characters long. To make it stronger, use upper and lower case letters, numbers, and symbols like ! " ? $ % ^ &amp; ).</string>
+
+
+    <string name = "conf_detail"> Siparişiniz için teşekkür ederiz \ n \ nBir onay e-postası şu adrese gönderildi: </string>
+    <string name = "your_order"> Siparişiniz </string>
+    <string name = "paymentMethod"> Ödeme seçeneklerinden herhangi birini seçin </string>
+    <string name = "ViewallReviews"> Tüm değerlendirmeleri görüntüle </string>
+    <string name = "reviews_rating"> <![CDATA[İncelemeler ve Puan]]> </string>
+    <string name = "add_a_review"> Bir değerlendirme yazın </string>
+    <string name = "sorry_combination_not_available"> Üzgünüz, kombinasyon mevcut değil </string>
+    <string name = "select_variations"> Varyasyonları seçin </string>
+
+    <string name = "forgot_password"> Parolanızı mı kaybettiniz? </string>
+    <string name = "create_an_account"> Hesap Oluşturun </string>
+    <string name = "checkout_as_guest"> Müşteri olarak ödeme yapın </string>
+    <string name = "price_details"> Fiyat Detayları </string>
+    <string name = "price_items"> Fiyat (öğeler) </string>
+
+
+    <string name = "alert_title_message"> Mesaj </string>
+    <string name = "alert_body_network_error"> Lütfen ağ bağlantınızı kontrol edin. </string>
+    <string name = "alert_body_server_error"> Sunucu hatası. Lütfen biraz zaman sonra tekrar deneyin. </string>
+    <string name = "alert_body_something_was_wrong"> Lütfen URL\'yi doğru bir şekilde kontrol edin. </string>
+    <string name = "alert_title_loading"> Lütfen Bekleyin </string> ">
+    <string name = "alert_body_wait"> yükleniyor&#8230; </string>
+
+    <string name = "btn_ok"> Tamam </string>
+    <string name = "profile"> Profil </string>
+    <string name = "orders"> Siparişler </string>
+    <string name = "change_password"> Parolayı değiştir </string>
+    <string name = "logout"> Çıkış </string>
+    <string name = "product_not_found"> ​​Ürün bulunamadı </string>
+    <string name = "wp_webservice_service"> <![CDATA[http://phpjoomlacoders.com/christine/]]> </string>
+    <string name = "title_product"> Ürünler </string>
+    <string name = "title_subcategory"> alt kategori </string>
+    <string name = "checkusername"> Lütfen kullanıcı adını ve şifresini kontrol edin </string>
+    <string name = "enter_your_url">URL\'yi http: // veya https: // ile girin </string>
+    <string name = "you_have_not_any_wish"> İstenmedik </string>
+    <string name = "back_to_category"> Geri dönün </string>
+    <string name = "reload"> Yeniden yükle </string>
+    <string name = "apply_coupon"> Kupon Uygula </string>
+    <string name = "coupon_code"> Kupon Kodu </string>
+    <string name = "billing_address"> Fatura Adresi </string>
+    <string name = "change_billing_address"> Fatura Adresini Değiştir </string>
+    <string name = "billing_address_same_as_shipping_address"> Fatura adresi, Nakliye Adresi ile aynı </string>
+    <string name = "shipping_address"> Nakliye Adresi </string>
+    <string name = "change_shipping_address"> Nakliye Adresini Değiştir </string>
+    <string name = "shipping_methods"> Nakliye yöntemleri </string>
+    <string name = "additional_charge"> Ek Ücret </string>
+    <string name = "tax"> Vergi </string>
+    <string name = "coupon"> Kupon: </string>
+    <string name = "payment_methods"> Ödeme Yöntemleri </string>
+    <string name = "total"> Toplam: </string>
+    <string name = "continue1"> DEVAM ET </string>
+    <string name = "thank_you_your_order_has_been_received"> Teşekkür ederiz. Siparişiniz alındı. </string>
+    <string name = "instructions"> Talimatlar </string>
+    <string name = "our_bank_details"> Bankamızın Ayrıntıları </string>
+    <string name = "finish"> Bitir </string>
+    <string name = "billing_address_as_shipping_adress"> Fatura adresi, Nakliye adresi </string>
+    <string name = "send_email"> E-posta gönder </string>
+    <string name = "connected"> Bağlı </string>
+    <string name = "skip"> SKIP </string>
+    <string name = "login"> Giriş </string>
+    <string name = "sign_in_to_access_your_orders_and_recommendations"> Siparişlerinize ve Önerilerinize erişmek için oturum açın. </string>
+    <string name = "login1"> GİRİŞ </string>
+    <string name = "save"> SAVE </string>
+    <string name = "search"> arama </string>
+    <string name = "choose_an_option"> Bir seçenek seçin </string>
+    <string name = "add_to_cart"> SEPETE EKLE </string>
+    <string name = "buy_now"> SATIN AL </string>
+    <string name = "payable_amount"> borç miktarı </string>
+    <string name = "proceed_to_checkout"> KONTROL EDINIZ </string>
+    <string name = "your_rating"> Derecelendirme </string>
+    <string name = "write_review"> İnceleme Yaz </string>
+    <string name = "current_password"> Geçerli Şifre </string>
+    <string name = "new_password"> Yeni Parola </string>
+    <string name = "confirm_new_password"> Yeni Parolayı Doğrula </string>
+    <string name = "save_change"> Değişikliği Kaydet </string>
+    <string name = "cash_on_delivery"> nakit ödeme </string>
+    <string name = "you_have_no_favourite"> Sık kullanılanlarınız yok </string>
+    <string name = "card_number"> KART NUMARASI </string>
+    <string name = "valid_card_number"> Geçerli Kart Numarası </string>
+    <string name = "expiration_date"> EŞEK SÜRESİ </string>
+    <string name = "mm"> MM </string>
+    <string name = "yy"> YY </string>
+    <string name = "cvc_doce"> CVC DOCE </string>
+    <string name = "cv"> cv </string>
+    <string name = "enter_coupon_code"> Kupon Kodunu Girin </string>
+    <string name = "paypal_method"> paypal yöntemi </string>
+    <string name = "detail"> Ayrıntı </string>
+    <string name = "sale"> Satılık! </string>
+    <string name = "load_more"> Daha Fazla Yükle </string>
+    <string name = "i_am_empty"> boşum </string>
+    <string name = "your_cart_is_empty"> arabanız boş </string>
+    <string name = "continue_shopping"> DEVAM EDEN ALIŞVERİŞ </string>
+    <string name = "color"> Renk </string>
+    <string name = "account_name"> Hesap Adı </string>
+    <string name = "bank_name"> Banka Adı </string>
+    <string name = "account_number"> Hesap Numarası </string>
+    <string name = "sort_code"> Kod Sıralama </string>
+    <string name = "iban"> IBAN </string>
+    <string name = "bic_swift"> BIC / Swift </string>
+    <string name = "category_name"> kategori adı </string>
+    <string name = "category"> Kategori </string>
+    <string name = "order_id"> Sipariş Kimliği: </string>
+    <string name = "date"> Tarih: </string>
+    <string name = "status"> Durum: </string>
+    <string name = "on_hold"> Beklemede </string>
+    <string name = "amount"> Miktar: </string>
+    <string name = "flat_rate"> Düz Oran </string>
+    <string name = "cloth_title"> kumaş başlığı </string>
+    <string name = "title"> Başlık </string>
+    <string name = "trial"> Deneme </string>
+    <string name = "cancel"> İptal </string>
+    <string name = "please_add_your_shipping_address"> Lütfen gönderim adresinizi ekleyin </string>
+    <string name = "please_enter_code"> Lütfen kodu girin </string>
+    <string name = "register"> Kayıt </string>
+    <string name = "please_enter_your_rul"> Lütfen URL\'nizi girin </string>
+    <string name = "invalid_url"> Geçersiz URL </string>
+    <string name = "please_select_country"> Lütfen ülkeyi seçin </string>
+    <string name = "please_enter_your_first_name"> lütfen adınızı girin </string>
+    <string name = "please_enter_your_last_name"> lütfen soyadınızı girin </string>
+    <string name = "please_enter_your_address"> Lütfen adresinizi girin </string>
+    <string name = "please_enter_your_country"> Lütfen ülkenizi girin </string>
+    <string name = "please_enter_your_state"> eyaletinizi girin </string>
+    <string name = "please_enter_your_city"> Lütfen şehrinizi girin </string>
+    <string name = "please_enter_your_postcode"> posta kodunuzu giriniz </string>
+    <string name = "please_enter_your_email"> Lütfen e-postanızı girin </string>
+    <string name = "please_enter_your_phone"> Lütfen telefonunuzu girin </string>
+    <string name = "please_enter_password"> Lütfen şifreyi giriniz </string>
+    <string name = "please_enter_your_username"> Lütfen kullanıcı adınızı giriniz </string>
+    <string name = "please_enter_registered_email_ID"> lütfen kayıtlı e-posta kimlik numarasını girin </string>
+    <string name = "please_enter_current_password"> Lütfen geçerli şifreyi giriniz </string>
+    <string name = "please_enter_new_password"> Lütfen yeni şifre girin </string>
+    <string name = "please_re_enter_password"> Lütfen parolayı tekrar girin </string>
+    <string name = "password_not_match"> Parola eşleşmiyor </string>
+    <string name = "please_add_your_billing_address"> Lütfen fatura adresinizi ekleyin </string>
+    <string name = "please_add_your_shipping_address1"> Lütfen gönderim adresinizi ekleyin </string>
+    <string name = "press_back_again_to_exit"> Çıkmak için tekrar Geri\'ye basın. </string>
+    <string name = "order_not_found"> ​​Sipariş bulunamadı </string>
+    <string name = "order_detail"> Sipariş Ayrıntısı </string>
+    <string name = "subtotal"> Alt toplam </string>
+    <string name = "discount"> İndirim </string>
+    <string name = "shipping"> Nakliye </string>
+    <string name = "payment_details"> Ödeme Ayrıntıları </string>
+    <string name = "customer_details"> Müşteri Ayrıntıları </string>
+    <string name = "email"> E-posta </string>
+    <string name = "please_select_variations"> Lütfen varyasyon seçin </string>
+    <string name = "please_enter_review"> lütfen incelemeyi giriniz </string>
+    <string name = "please_select_rating"> derecelendirmesini seçin lütfen </string>
+    <string name = "please_enter_name"> Lütfen adını girin </string>
+    <string name = "please_enter_email"> Lütfen e-posta adresini girin </string>
+    <string name = "review_for"> için inceleyin </string>
+    <string name = "no_review_for_this_prodcut"> Bu ürün için inceleme yok </string>
+    <string name = "error_to_fetch_data"> veri getirme hatası </string>
+    <string name = "all_product"> Tüm Ürün </string>
+    <string name = "showing"> Gösteriliyor </string>
+    <string name = "items"> öğeler </string>
+    <string name = "please_add_your_phone_number"> lütfen telefon numaranızı ekleyin </string>
+    <string name = "cart_is_empty"> Sepet boş </string>
+    <string name = "subcategory_not_found"> ​​Alt kategori bulunamadı </string>
+    <string name = "unknown_error"> Bilinmeyen bir hata </string>
+    <string name = "data_was_empty"> Veri boştu </string>
+    <string name = "update_wishlist"> İstek listesi güncelleme </string>
+    <string name = "add_to_wishlist"> İstek listesine ekle </string>
+    <string name = "remove_from_wishlist"> İstek listesinden kaldır </string>
+    <string name = "updated_cart"> Güncellenmiş Kart </string>
+    <string name = "item_added"> Öğe Eklendi </string>
+    <string name = "price"> Price </string>
+    <string name = "checkout"> Ödeme </string>
+    <string name = "please_Check_Payment_method"> Lütfen Ödeme yöntemini kontrol edin </string>
+    <string name = "please_Check_shipping_Method_Payment_method_and_Shipping_address"> Lütfen nakliye yöntemini, Ödeme yöntemini ve gönderim adresini kontrol edin </string>
+
+    <string name = "please_Enter_Keywords"> Lütfen Anahtar Kelimeleri Girin </string>
+    <string name = "enabled_your_input_language"> Giriş dilinizi etkinleştirin </string>
+    <string name="quantity">miktar</string>
+    <string name="readmore">Daha fazla oku</string>
+    <string name="please_choose_the_quantity_of_items_you_wish_to_add_to_your_cart">Lütfen sepetinize eklemek istediğiniz ürünlerin miktarını seçin</string>
+    <string name="sorry_this_product_not_availabler">Üzgünüz, bu ürün mevcut değil</string>
+    <string name="there_is_no_more_product_available">Daha fazla ürün yok</string>
+</resources>

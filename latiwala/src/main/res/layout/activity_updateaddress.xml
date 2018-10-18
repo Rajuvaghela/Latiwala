@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardtool_update"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="0dp"
+        android:elevation="2dp"
+        card_view:cardCornerRadius="@dimen/card_album_radius">
+
+        <include
+            android:id="@+id/toolbar_createAccount"
+            layout="@layout/toolbar"/>
+
+    </android.support.v7.widget.CardView>
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/cardtool_update">
+
+        <RelativeLayout
+            android:id="@+id/ll_top"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:padding="@dimen/address_padding">
+
+            <LinearLayout
+                android:id="@+id/rlAddress"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:orientation="vertical"
+                android:layout_alignParentTop="true">
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp">
+
+                <EditText
+                    android:id="@+id/etFirstName_update"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_toEndOf="@+id/chbxAccount"
+                    android:layout_toRightOf="@+id/chbxAccount"
+                    android:hint="@string/firstName"
+                    android:padding="@dimen/account_padding"
+                    android:singleLine="true"
+                    android:textColor="@color/color_black"
+                    android:textColorHint="@color/color_grey_light"
+                    android:textSize="@dimen/account_fontSize" />
+
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp">
+
+                <EditText
+                    android:id="@+id/etLastName_update"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/etFirstName_update"
+                    android:hint="@string/lastName"
+                    android:padding="@dimen/account_padding"
+                    android:singleLine="true"
+                    android:textColor="@color/color_black"
+                    android:textColorHint="@color/color_grey_light"
+                    android:textSize="@dimen/account_fontSize" />
+
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp">
+
+                <EditText
+                    android:id="@+id/etCompany_update"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/etLastName_update"
+                    android:hint="@string/company"
+                    android:padding="@dimen/account_padding"
+                    android:singleLine="true"
+                    android:textColor="@color/color_black"
+                    android:textColorHint="@color/color_grey_light"
+                    android:textSize="@dimen/account_fontSize" />
+
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp">
+
+                <EditText
+                    android:id="@+id/etEmail_update"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/etCompany_update"
+                    android:hint="@string/eMail"
+                    android:inputType="textWebEmailAddress"
+                    android:padding="@dimen/account_padding"
+                    android:singleLine="true"
+                    android:textColor="@color/color_black"
+                    android:textColorHint="@color/color_grey_light"
+                    android:textSize="@dimen/account_fontSize" />
+
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp">
+
+                <EditText
+                    android:id="@+id/etPhone_update"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/etEmail_update"
+                    android:hint="@string/phone"
+                    android:inputType="phone"
+                    android:padding="@dimen/account_padding"
+                    android:singleLine="true"
+                    android:textColor="@color/color_black"
+                    android:textColorHint="@color/color_grey_light"
+                    android:textSize="@dimen/account_fontSize" />
+
+                </android.support.design.widget.TextInputLayout>
+
+
+
+                <EditText
+                    android:id="@+id/etCountry_update"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/etPhone_update"
+                    android:editable="false"
+                    android:focusable="false"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:hint="@string/country"
+                    android:padding="@dimen/account_padding"
+                    android:singleLine="true"
+                    android:drawableRight="@drawable/ic_drop_down"
+                    android:drawableEnd="@drawable/ic_drop_down"
+                    android:textColor="@color/color_black"
+                    android:textColorHint="@color/color_grey_light"
+                    android:textSize="@dimen/account_fontSize" />
+
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp">
+
+                <EditText
+                    android:id="@+id/etAddress_update"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/etCountry_update"
+                    android:hint="@string/address"
+                    android:padding="@dimen/account_padding"
+                    android:textColor="@color/color_black"
+                    android:textColorHint="@color/color_grey_light"
+                    android:textSize="@dimen/account_fontSize" />
+
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp">
+
+                <EditText
+                    android:id="@+id/etCity_update"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/etAddress_update"
+                    android:hint="@string/city"
+                    android:padding="@dimen/account_padding"
+                    android:singleLine="true"
+                    android:textColor="@color/color_black"
+                    android:textColorHint="@color/color_grey_light"
+                    android:textSize="@dimen/account_fontSize" />
+
+                </android.support.design.widget.TextInputLayout>
+
+
+
+                <EditText
+                    android:id="@+id/etState_update"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/etCity_update"
+                    android:editable="false"
+                    android:focusable="false"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:hint="@string/State"
+                    android:padding="@dimen/account_padding"
+                    android:singleLine="true"
+                    android:drawableEnd="@drawable/ic_drop_down"
+                    android:drawableRight="@drawable/ic_drop_down"
+                    android:textColor="@color/color_black"
+                    android:textColorHint="@color/color_grey_light"
+                    android:textSize="@dimen/account_fontSize" />
+
+
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp">
+
+
+                <EditText
+                    android:id="@+id/etPostcode_update"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/etState_update"
+                    android:hint="@string/postCode"
+                    android:padding="@dimen/account_padding"
+                    android:singleLine="true"
+                    android:textColor="@color/color_black"
+                    android:textColorHint="@color/color_grey_light"
+                    android:textSize="@dimen/account_fontSize" />
+
+                </android.support.design.widget.TextInputLayout>
+
+
+                <TextView
+                    android:id="@+id/btnUpdate"
+                    style="@style/btn_all_normal"
+                    android:layout_width="fill_parent"
+                    android:layout_below="@id/etPostcode_update"
+                    android:layout_marginTop="@dimen/address_btn_marginTop"
+                    android:gravity="center"
+                    android:text="@string/save" />
+            </LinearLayout>
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

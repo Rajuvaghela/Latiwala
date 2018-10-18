@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvshowItems_wish"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/product_tv_items_height"
+        android:text=""
+        android:textSize="@dimen/product_tv_items_textsize"
+        android:textColor="@color/color_grey_light"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="@dimen/activity_vertical_margin"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_wish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipToPadding="false"
+        android:scrollbars="vertical"
+        />
+
+
+    <LinearLayout
+        android:id="@+id/llNoproduct_wish"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tvNoproductfound_wish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/you_have_not_any_wish"
+            android:textSize="@dimen/product_tv_empty_textsize"
+            android:textColor="@color/color_red_light"
+            />
+        <TextView
+            android:id="@+id/btnCtnueShopping_wish"
+            android:layout_width="wrap_content"
+            style="@style/btn_all_normal"
+            android:gravity="center"
+            android:text="@string/continue_shopping"
+            android:layout_marginTop="@dimen/reload_tv_marginTop"/>
+    </LinearLayout>
+</RelativeLayout>

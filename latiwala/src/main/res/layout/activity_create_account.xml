@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardtool_create"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="0dp"
+        android:elevation="2dp"
+        card_view:cardCornerRadius="@dimen/card_album_radius">
+
+        <include
+            android:id="@+id/toolbar_createAccount"
+            layout="@layout/toolbar"/>
+
+    </android.support.v7.widget.CardView>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/cardtool_create">
+
+        <RelativeLayout
+            android:id="@+id/ll_top"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:padding="@dimen/address_padding">
+
+            <TextView
+                android:id="@+id/tvaccountLogin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="@string/If_you_already"
+                android:textColor="@color/color_grey_light"
+                android:textSize="@dimen/address_tvsize"
+                android:visibility="gone" />
+
+            <CheckBox
+                android:id="@+id/chbxBillingAsShipping"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvaccountLogin"
+                android:layout_marginTop="@dimen/address_ckbx_margingTop"
+                android:text="@string/billing_address_as_shipping_adress"
+                android:visibility="gone" />
+
+
+            <LinearLayout
+                android:id="@+id/rlAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_20sdp"
+                android:orientation="vertical">
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/etFirstName_create"
+                        style="@style/editText_all_normal"
+                        android:layout_width="fill_parent"
+                        android:editable="true"
+                        android:hint="@string/firstName"
+                        android:inputType="textWebEmailAddress"
+                        android:singleLine="true" />
+
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp">
+
+                    <EditText
+                        android:id="@+id/etLastName_create"
+                        style="@style/editText_all_normal"
+                        android:layout_width="fill_parent"
+                        android:editable="true"
+                        android:hint="@string/lastName"
+                        android:singleLine="true" />
+
+                </android.support.design.widget.TextInputLayout>
+
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp">
+
+                    <EditText
+                        android:id="@+id/etUsername_create"
+                        style="@style/editText_all_normal"
+                        android:layout_width="fill_parent"
+                        android:editable="true"
+                        android:hint="@string/username"
+                        android:singleLine="true" />
+
+                </android.support.design.widget.TextInputLayout>
+
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp">
+
+                    <EditText
+                        android:id="@+id/etCompany_create"
+                        style="@style/editText_all_normal"
+                        android:layout_width="fill_parent"
+                        android:editable="true"
+                        android:hint="@string/company"
+                        android:singleLine="true" />
+
+                </android.support.design.widget.TextInputLayout>
+
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp">
+
+
+                    <EditText
+                        android:id="@+id/etEmail_create"
+
+                        style="@style/editText_all_normal"
+                        android:layout_width="fill_parent"
+                        android:editable="true"
+                        android:hint="@string/eMail"
+                        android:inputType="textWebEmailAddress"
+                        android:maxLines="1"
+                        android:singleLine="true" />
+
+                </android.support.design.widget.TextInputLayout>
+
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp">
+
+                    <EditText
+                        android:id="@+id/etPhone_create"
+                        style="@style/editText_all_normal"
+                        android:layout_width="fill_parent"
+                        android:editable="true"
+                        android:hint="@string/phone"
+                        android:inputType="phone"
+                        android:maxEms="10"
+                        android:maxLength="10"
+                        android:maxLines="1"
+                        android:singleLine="true" />
+
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone">
+
+                    <EditText
+                        android:id="@+id/etCountry_create"
+                        style="@style/editText_all_normal"
+                        android:layout_width="fill_parent"
+                        android:editable="true"
+                        android:hint="@string/country"
+                        android:singleLine="true" />
+                </android.support.design.widget.TextInputLayout>
+
+                <Spinner
+                    android:id="@+id/spiner_country"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_16sdp">
+
+                </Spinner>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_1sdp"
+                    android:background="@color/color_edittext"></View>
+
+                <Spinner
+                    android:id="@+id/spiner_state"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_20sdp">
+
+                </Spinner>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_1sdp"
+                    android:background="@color/color_edittext"></View>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp">
+
+                    <EditText
+                        android:id="@+id/etCity_create"
+
+                        style="@style/editText_all_normal"
+                        android:layout_width="fill_parent"
+                        android:editable="true"
+                        android:hint="@string/city"
+                        android:singleLine="true" />
+
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp">
+
+                    <EditText
+                        android:id="@+id/etAddress_create"
+                        style="@style/editText_all_normal"
+                        android:layout_width="fill_parent"
+                        android:editable="true"
+                        android:hint="@string/address"
+                        android:singleLine="true" />
+
+                </android.support.design.widget.TextInputLayout>
+
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone">
+
+                    <EditText
+                        android:id="@+id/etState_create"
+                        style="@style/editText_all_normal"
+                        android:layout_width="fill_parent"
+                        android:editable="true"
+                        android:hint="@string/State"
+                        android:singleLine="true" />
+
+
+                </android.support.design.widget.TextInputLayout>
+
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/etPostcode_create"
+                        style="@style/editText_all_normal"
+                        android:layout_width="fill_parent"
+                        android:editable="true"
+                        android:hint="@string/postCode"
+                        android:singleLine="true" />
+
+                </android.support.design.widget.TextInputLayout>
+
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    card_view:passwordToggleEnabled="true">
+
+                    <EditText
+                        android:id="@+id/etPasswordAccount_create"
+                        style="@style/editText_all_normal"
+                        android:layout_width="fill_parent"
+                        android:editable="true"
+                        android:hint="@string/password"
+                        android:inputType="textWebPassword"
+                        android:singleLine="true" />
+
+
+                </android.support.design.widget.TextInputLayout>
+
+
+
+                <TextView
+                    android:id="@+id/tvHintpassword"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/etPasswordAccount_create"
+                    android:text="@string/validationpass"
+                    android:textColor="@color/color_grey_light"
+                    android:textSize="@dimen/_10sdp" />
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/login_button_marginBottom"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    card_view:cardCornerRadius="@dimen/_4sdp">
+
+                <TextView
+                    android:id="@+id/btnCreate"
+                    style="@style/btn_all_normal"
+                    android:layout_width="fill_parent"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:text="@string/create_account" />
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

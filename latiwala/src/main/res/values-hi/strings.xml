@@ -1,0 +1,269 @@
+<resources>
+    <string name="app_name">Latiwalaa</string>
+
+    <string name="action_settings">सेटिंग्स</string>
+    <string name="action_search">खोज</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+   <!-- <string name="nav_item_home">Home</string>-->
+    <string name="nav_item_category">श्रेणियाँ</string>
+    <string name="nav_item_shop">दुकान</string>
+    <string name="nav_item_shoppingcart">शॉपिंग कार्ट</string>
+    <!--<string name="nav_item_wishlist">My Wishlist</string>-->
+    <string name="nav_item_contactus">हमसे संपर्क करें</string>
+    <string name="nav_item_terms_condition">नियम व शर्तें</string>
+    <string name="nav_item_account">मेरा खाता</string>
+
+    <!-- navigation drawer item labels  -->
+    <string-array name="nav_drawer_labels">
+        <!--<item>@string/nav_item_home</item>-->
+        <item>@string/nav_item_category</item>
+        <item>@string/nav_item_shop</item>
+        <item>@string/nav_item_shoppingcart</item>
+        <!--<item>@string/nav_item_wishlist</item>-->
+        <item>@string/nav_item_contactus</item>
+        <item>@string/nav_item_terms_condition</item>
+        <item>@string/nav_item_account</item>
+    </string-array>
+
+    <!--<string name="title_home">Home</string>-->
+    <string name="title_profile">प्रोफाइल</string>
+    <string name="title_category">श्रेणियाँ</string>
+    <string name="title_shop">दुकान</string>
+    <string name="title_recent">हाल का</string>
+    <string name="title_popular">सबसे लोकप्रिय</string>
+    <string name="title_product_detail">वास्तु की बारीकी</string>
+    <string name="title_shoppingcart">शॉपिंग कार्ट</string>
+    <string name="title_wishlist">मेरी इच्छा सूची</string>
+    <string name="title_search">खोज</string>
+
+    <string name="title_pastOrders">पिछले आदेश</string>
+    <string name="title_changepassword">पासवर्ड बदलें</string>
+    <string name="title_contactus">हमसे संपर्क करें</string>
+    <string name="title_terms_condition">नियम व शर्तें</string>
+    <string name="title_account">मेरा खाता</string>
+    <string name="title_editProfile">प्रोफाइल एडिट करें</string>
+    <string name="title_edit_address">पता संपादित करें</string>
+    <string name="title_edit_billing">बिल भेजने का पता</string>
+    <string name="title_edit_shipping">शिपिंग पता</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="name">नाम</string>
+
+    <string name="orderConfirm">आदेश की पुष्टि</string>
+    <string name="forgotPassword">पासवर्ड भूल गए?</string>
+    <string name="forgotusername">क्या उपयोगकर्ता का नाम भूल गए है?</string>
+
+    <string name="forgot_pass">क्या आप अपना पासवर्ड भूल गए?</string>
+    <string name="forgot_username">अपना उपयोगकर्ता नाम भूल गए?</string>
+    <string name="create_account">खाता बनाएं</string>
+    <string name="need_help">मदद चाहिए?</string>
+
+
+    <!--Create account-->
+    <string name="If_you_already"> अगर आपके पास पहले से एक खाता है, तो कृपया लॉगिन के लिए यहां क्लिक करें।</string>
+
+    <!--forgot password-->
+    <string name="Forgotten_Password">पासवर्ड भूल गए?</string>
+    <string name="Enter_email">अपने खाते से संबद्ध ईमेल पता दर्ज करें एक सत्यापन कोड आपको भेजा जाएगा। एक बार आपके पास है
+    सत्यापन कोड प्राप्त हुआ आप अपने खाते के लिए एक नया पासवर्ड चुनना होगा।</string>
+    <string name="product_shortdescription">विवरण उपलब्ध नहीं है</string>
+    <!--new address-->
+    <string name="firstName">पहला नाम *</string>
+    <string name="lastName">अंतिम नाम *</string>
+    <string name="address">पता *</string>
+    <string name="city">शहर *</string>
+    <string name="postCode">पोस्टकोड *</string>
+    <string name="State">राज्य *</string>
+    <string name="mobile">मोबाइल *</string>
+    <string name="phone">फ़ोन *</string>
+    <string name="company">कंपनी</string>
+    <string name="username">उपयोगकर्ता नाम *</string>
+    <string name="userName">उपयोगकर्ता नाम *</string>
+    <string name="password">पासवर्ड *</string>
+    <string name="confirmPassword">पासवर्ड की पुष्टि कीजिये *</string>
+    <string name="eMail">ईमेल पता *</string>
+    <string name="country">देश *</string>
+    <string name="confirmEmail">ईमेल की पुष्टि करें *</string>
+    <string name="e_mail">ई-मेल *</string>
+    <string name="validationpass">Hint: The password should be at least twelve characters long. To make it stronger, use upper and lower case letters, numbers, and symbols like ! " ? $ % ^ &amp; ).</string>
+
+
+    <string name="conf_detail">आपके आदेश के लिए धन्यवाद \n\nएक पुष्टिकरण ईमेल भेजी गयी है</string>
+    <string name="your_order">आपका आदेश</string>
+    <string name="paymentMethod">कोई भी भुगतान विकल्प चुनें</string>
+    <string name="ViewallReviews">सभी समीक्षाएं देखें</string>
+    <string name="reviews_rating"><![CDATA[समीक्षा & रेटिंग]]></string>
+    <string name="add_a_review">कोई समीक्षा जोड़ें</string>
+    <string name="sorry_combination_not_available">क्षमा करें, संयोजन उपलब्ध नहीं है</string>
+    <string name="select_variations">विविधताएं चुनें</string>
+
+    <string name="forgot_password">आपका पासवर्ड खो गया है?</string>
+    <string name="create_an_account">खाता बनाएं</string>
+    <string name="checkout_as_guest">अतिथि के रूप में चेकआउट करें</string>
+    <string name="price_details">मूल्य विवरण</string>
+    <string name="price_items">मूल्य (आइटम)</string>
+
+
+    <string name="alert_title_message">संदेश</string>
+    <string name="alert_body_network_error">कृपया अपने नेटवर्क कनेक्शन की जांच करें।</string>
+    <string name="alert_body_server_error">सर्वर त्रुटि। कृपया कुछ देर बाद प्रयास करें।</string>
+    <string name="alert_body_something_was_wrong">कृपया URL ठीक से जांचें।</string>
+    <string name="alert_title_loading">कृपया प्रतीक्षा करें</string>">
+    <string name="alert_body_wait">लोड हो रहा है&#8230;</string>
+
+    <string name="btn_ok">ठीक</string>
+    <string name="profile">प्रोफाइल</string>
+    <string name="orders">आदेश</string>
+    <string name="change_password">पासवर्ड बदलें</string>
+    <string name="logout">लोग आउट</string>
+    <string name="product_not_found">उत्पाद नहीं मिला</string>
+    <string name="wp_webservice_service"><![CDATA[http://phpjoomlacoders.com/christine/]]></string>
+    <string name="title_product">उत्पाद</string>
+    <string name="title_subcategory">उपश्रेणियाँ</string>
+    <string name="checkusername">कृपया उपयोगकर्ता नाम और पासवर्ड की जांच करें</string>
+    <string name="enter_your_url">Http: // या https: // के साथ यूआरएल दर्ज करें</string>
+    <string name="you_have_not_any_wish">आपके पास कोई इच्छा नहीं है</string>
+    <string name="back_to_category">वापस जाओ</string>
+    <string name="reload">सीमा से अधिक लादना</string>
+    <string name="apply_coupon">कूपन लगाइये</string>
+    <string name="coupon_code">कूपन कोड</string>
+    <string name="billing_address">बिल भेजने का पता</string>
+    <string name="change_billing_address">बिलिंग पता बदलें</string>
+    <string name="billing_address_same_as_shipping_address">बिल का पता पत्र - व्यवहार के पते के समान है</string>
+    <string name="shipping_address">शिपिंग पता</string>
+    <string name="change_shipping_address">शिपिंग पता बदलें</string>
+    <string name="shipping_methods">स्थानांतरण विधियां</string>
+    <string name="additional_charge">अतिरिक्त प्रभार</string>
+    <string name="tax">कर</string>
+    <string name="coupon">कूपन:</string>
+    <string name="payment_methods">भुगतान की विधि</string>
+    <string name="total">कुल:</string>
+    <string name="continue1">जारी रहना</string>
+    <string name="thank_you_your_order_has_been_received">धन्यवाद। आपका आदेश प्राप्त हो गया है।</string>
+    <string name="instructions">अनुदेश</string>
+    <string name="our_bank_details">हमारे बैंक विवरण</string>
+    <string name="finish">समाप्त</string>
+    <string name="billing_address_as_shipping_adress">शिपिंग एड्रेस के रूप में बिलिंग पता</string>
+    <string name="send_email">ईमेल भेजें</string>
+    <string name="connected">जुड़े हुए</string>
+    <string name="skip">छोड़ें</string>
+    <string name="login">लॉग इन करें</string>
+    <string name="sign_in_to_access_your_orders_and_recommendations">अपने आदेशों और अनुशंसाओं तक पहुंचने के लिए साइन इन करें</string>
+    <string name="login1">लॉग इन करें</string>
+    <string name="save">बचाना</string>
+    <string name="search">खोज</string>
+    <string name="choose_an_option">एक विकल्प चुनें</string>
+    <string name="add_to_cart">कार्ट में डालें</string>
+    <string name="buy_now">अभी खरीदें</string>
+    <string name="payable_amount">भुगतान योग्य राशि</string>
+    <string name="proceed_to_checkout">चेक आउट करने के लिए आगे बढ़ें</string>
+    <string name="your_rating">तुम्हारी रेटिंग</string>
+    <string name="write_review">समीक्षा लिखें</string>
+    <string name="current_password">वर्तमान पासवर्ड</string>
+    <string name="new_password">नया पासवर्ड</string>
+    <string name="confirm_new_password">नए पासवर्ड की पुष्टि करें</string>
+    <string name="save_change">बदलाव सुरक्षित करे</string>
+    <string name="cash_on_delivery">डिलवरी पर नकदी</string>
+    <string name="you_have_no_favourite">आपके पास कोई पसंदीदा नहीं है</string>
+    <string name="card_number">कार्ड नंबर</string>
+    <string name="valid_card_number">मान्य कार्ड नंबर</string>
+    <string name="expiration_date">समाप्ति तिथि</string>
+    <string name="mm">MM</string>
+    <string name="yy">YY</string>
+    <string name="cvc_doce">CVC DOCE</string>
+    <string name="cv">cv</string>
+    <string name="enter_coupon_code">कूपन कोड डालें</string>
+    <string name="paypal_method">paypal तरीका</string>
+    <string name="detail">विस्तार</string>
+    <string name="sale">बिक्री!</string>
+    <string name="load_more">और लोड करें</string>
+    <string name="i_am_empty">मैं खाली हूँ</string>
+    <string name="your_cart_is_empty">आपकी खरीदारी की टोकरी खाली है</string>
+    <string name="continue_shopping">खरीदारी जारी रखें</string>
+    <string name="color">रंग</string>
+    <string name="account_name">खाते का नाम</string>
+    <string name="bank_name">बैंक का नाम</string>
+    <string name="account_number">खाता संख्या</string>
+    <string name="sort_code">क्रमबद्ध कोड</string>
+    <string name="iban">IBAN</string>
+    <string name="bic_swift">BIC/Swift</string>
+    <string name="category_name">श्रेणी नाम</string>
+    <string name="category">श्रेणि</string>
+    <string name="order_id">आदेश आईडी:</string>
+    <string name="date">तारीख:</string>
+    <string name="status">स्थिति:</string>
+    <string name="on_hold">होल्ड पर</string>
+    <string name="amount">रकम:</string>
+    <string name="flat_rate">फ्लैट रेट</string>
+    <string name="cloth_title">cloth title</string>
+    <string name="title">Title</string>
+    <string name="trial">Trial</string>
+    <string name="cancel">रद्द करना</string>
+    <string name="please_add_your_shipping_address">कृपया अपना शिपिंग पता जोड़ें</string>
+    <string name="please_enter_code">कृपया कोड दर्ज करें</string>
+    <string name="register">रजिस्टर</string>
+    <string name="please_enter_your_rul">कृपया अपना URL दर्ज करें।</string>
+    <string name="invalid_url">अमान्य URL</string>
+    <string name="please_select_country">कृपया देश का चयन करें</string>
+    <string name="please_enter_your_first_name">कृपया अपना प्रथम नाम प्रविष्ट करें</string>
+    <string name="please_enter_your_last_name">कृपया अपना अंतिम नाम दर्ज करें</string>
+    <string name="please_enter_your_address">कृपया अपना पता दर्ज करें</string>
+    <string name="please_enter_your_country">कृपया अपना देश दर्ज करें</string>
+    <string name="please_enter_your_state">कृपया अपना राज्य दर्ज करें</string>
+    <string name="please_enter_your_city">कृपया अपना शहर दर्ज करें</string>
+    <string name="please_enter_your_postcode">कृपया अपना पिनकोड दर्ज करें</string>
+    <string name="please_enter_your_email">अपना ईमेल दर्ज करें</string>
+    <string name="please_enter_your_phone">कृपया अपना फोन दर्ज करें</string>
+    <string name="please_enter_password">कृप्या पास्वर्ड भरो</string>
+    <string name="please_enter_your_username">अपने उपयोगकर्ता नाम दर्ज करें</string>
+    <string name="please_enter_registered_email_ID">कृपया पंजीकृत ईमेल आईडी दर्ज करें</string>
+    <string name="please_enter_current_password">कृपया वर्तमान पासवर्ड दर्ज करें</string>
+    <string name="please_enter_new_password">कृपया नया पासवर्ड दर्ज करें</string>
+    <string name="please_re_enter_password">कृपया पासवर्ड फिर से दर्ज करें</string>
+    <string name="password_not_match">पासवर्ड मैच नहीं है</string>
+    <string name="please_add_your_billing_address">कृपया अपना बिलिंग पता जोड़ें</string>
+    <string name="please_add_your_shipping_address1">कृपया अपना शिपिंग पता जोड़ें</string>
+    <string name="press_back_again_to_exit">बाहर निकलने के लिए वापस फिर से दबाएं.</string>
+    <string name="order_not_found">ऑर्डर नहीं मिला</string>
+    <string name="order_detail">ऑर्डर विवरण</string>
+    <string name="subtotal">उप कुल</string>
+    <string name="discount">छूट</string>
+    <string name="shipping">शिपिंग</string>
+    <string name="payment_details">भुगतान विवरण</string>
+    <string name="customer_details">उपभोक्ता विवरण</string>
+    <string name="email">ईमेल</string>
+    <string name="please_select_variations">कृपया भिन्नता चुनें</string>
+    <string name="please_enter_review">कृपया समीक्षा दर्ज करें</string>
+    <string name="please_select_rating">कृपया रेटिंग का चयन करें</string>
+    <string name="please_enter_name">कृपया नाम दर्ज करें</string>
+    <string name="please_enter_email">कृपया ईमेल दर्ज करें</string>
+    <string name="review_for">समीक्षा</string>
+    <string name="no_review_for_this_prodcut">इस prodcut के लिए कोई समीक्षा नहीं</string>
+    <string name="error_to_fetch_data">डेटा लाने में त्रुटि</string>
+    <string name="all_product">सारे उत्पाद</string>
+    <string name="showing">दिखा रहा है</string>
+    <string name="items">आइटम</string>
+    <string name="please_add_your_phone_number">कृपया अपना फोन नंबर जोड़ें</string>
+    <string name="cart_is_empty">कार्ट खाली है</string>
+    <string name="subcategory_not_found">उपश्रेणी नहीं मिला</string>
+    <string name="unknown_error">अज्ञात त्रुटि</string>
+    <string name="data_was_empty">डेटा खाली है</string>
+    <string name="update_wishlist">इच्छा सूची अपडेट करें</string>
+    <string name="add_to_wishlist">इच्छा सूचि में डालें</string>
+    <string name="remove_from_wishlist">इच्छा सूची से निकालें</string>
+    <string name="updated_cart">अपडेटेड कार्ट</string>
+    <string name="item_added">मद जोड़ा गया</string>
+    <string name="price">मूल्य</string>
+    <string name="checkout">Checkout</string>
+    <string name="please_Check_Payment_method">please Check Payment method</string>
+    <string name="please_Check_shipping_Method_Payment_method_and_Shipping_address">please Check shipping Method, Payment method and Shipping address</string>
+    <string name="please_Enter_Keywords">कृपया कीवर्ड दर्ज करें</string>
+    <string name="enabled_your_input_language">आपकी इनपुट भाषा को सक्षम किया गया</string>
+    <string name="quantity">मात्रा</string>
+    <string name="readmore">अधिक पढ़ें</string>
+    <string name="please_choose_the_quantity_of_items_you_wish_to_add_to_your_cart">कृपया उन वस्तुओं की मात्रा चुनें, जिन्हें आप अपनी गाड़ी में जोड़ना चाहते हैं</string>
+    <string name="sorry_this_product_not_availabler">क्षमा करें, यह उत्पाद उपलब्ध नहीं है</string>
+    <string name="there_is_no_more_product_available">कोई और वस्तु उपलब्ध नहीं है</string>
+</resources>

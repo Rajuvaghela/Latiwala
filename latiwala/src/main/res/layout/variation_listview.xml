@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/rlVariation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/color_perpal">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <LinearLayout
+                android:id="@+id/llvariation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="10dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <Button
+                    android:id="@+id/btncancle_variation"
+                    android:layout_width="70dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/shape_button_grey"
+                    android:foreground="@drawable/ripple_effect"
+                    android:text="@string/cancel"
+                    android:textColor="@color/color_white" />
+            </LinearLayout>
+
+            <ListView
+                android:id="@+id/variationListView"
+                android:layout_width="@dimen/detail_tv_vrble_width"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/llvariation"></ListView>
+        </RelativeLayout>
+
+    </RelativeLayout>
+</RelativeLayout>

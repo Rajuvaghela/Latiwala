@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/reviews_margin">
+
+        <RelativeLayout
+            android:id="@+id/rlProfileRoundReview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:visibility="gone">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/ivProfilePict"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:border_color="@color/color_grey"
+                app:border_width="2dp"
+                />
+
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:id="@+id/rlReview"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/rlProfileRoundReview"
+            android:background="@drawable/shape_border">
+
+            <RelativeLayout
+                android:id="@+id/rlReview2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/reviews_chidmargin">
+
+                <TextView
+                    android:id="@+id/tvUserNameReview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="@dimen/reviews_name_size"
+                    android:textColor="@color/color_grey_light"
+                    android:textStyle="bold"
+                    android:layout_centerVertical="true"
+
+                    />
+
+                <TextView
+                    android:id="@+id/tvDateReview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" June 7, 2013:"
+                    android:textSize="@dimen/reviews_date_size"
+                    android:textColor="@color/color_grey_light"
+                    android:layout_toRightOf="@id/tvUserNameReview"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/reviews_dateMarginLeft"/>
+
+                <RatingBar
+                    android:id="@+id/RatingbarReview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="?android:attr/ratingBarStyleSmall"
+                    android:numStars="5"
+                    android:stepSize="0.1"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:theme="@style/Theme.Rating"
+                    />
+
+            </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/tvReivewDetail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/color_grey_light"
+            android:textSize="@dimen/reviews_tv_size"
+            android:layout_below="@id/rlReview2"
+            android:layout_margin="@dimen/reviews_tv_margin"
+            />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

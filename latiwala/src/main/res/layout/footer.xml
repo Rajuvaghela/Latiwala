@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/color_grey_light">
+
+    <LinearLayout
+        android:id="@+id/llfooter_detail"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/_35sdp"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginLeft="1dp"
+        android:elevation="5dp"
+        android:gravity="center"
+        android:background="@drawable/shadow">
+
+        <RelativeLayout
+            android:id="@+id/rl_add_to_cart"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/btnAddtoCart"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="@string/add_to_cart"
+                android:textColor="@color/color_white"
+                android:textSize="@dimen/_12sdp"
+                android:gravity="center"
+
+                android:foreground="@drawable/ripple_effect"
+                android:layout_centerInParent="true"/>
+
+            <TextView
+                android:id="@+id/amiAddtocart"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="@string/add_to_cart"
+                android:textColor="@color/color_white"
+                android:textSize="@dimen/_12sdp"
+                android:gravity="center"
+                android:foreground="@drawable/ripple_effect"
+                android:layout_centerInParent="true"
+                />
+
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/btnBuyNow"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/buy_now"
+            android:textColor="@color/color_black"
+            android:gravity="center"
+            android:textSize="@dimen/_12sdp"
+            android:layout_toRightOf="@id/btnAddtoCart"
+            android:background="@color/color_white"
+            android:foreground="@drawable/ripple_effect"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+
+
+</RelativeLayout>

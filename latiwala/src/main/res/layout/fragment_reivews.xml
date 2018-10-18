@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardview_reviews"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/card_margin"
+        android:elevation="3dp"
+        card_view:cardCornerRadius="@dimen/card_album_radius">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="16dp">
+
+    <TextView
+        android:id="@+id/tvReviewLable_review"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/reviews_rating"
+        android:textColor="@color/color_black"
+        android:textSize="@dimen/cellAmount_lablesize"
+        android:layout_marginRight="@dimen/activity_vertical_margin"
+        android:layout_marginLeft="@dimen/activity_vertical_margin"
+        android:layout_marginBottom="@dimen/activity_margin_bottom"
+        android:layout_marginTop="@dimen/activity_margin_top"/>
+
+    <View
+        android:id="@+id/view_review"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/color_grey_light"
+        android:layout_below="@id/tvReviewLable_review">
+    </View>
+
+     <TextView
+         android:id="@+id/tvReview_conter"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:text=""
+         android:layout_below="@id/view_review"
+         android:textSize="@dimen/cellAmount_textsize"
+         android:layout_marginRight="@dimen/activity_vertical_margin"
+         android:layout_marginLeft="@dimen/activity_vertical_margin"
+         android:layout_marginBottom="@dimen/activity_margin_bottom"
+         android:layout_marginTop="@dimen/activity_margin_top"
+         />
+
+     <LinearLayout
+         android:id="@+id/lvReivew"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:orientation="vertical"
+         android:layout_below="@id/tvReview_conter"
+         android:layout_marginRight="@dimen/activity_vertical_margin"
+         android:layout_marginLeft="@dimen/activity_vertical_margin"
+         android:layout_marginBottom="0dp"
+         android:layout_marginTop="0dp">
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvLoadMore"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:text="@string/load_more"
+        android:textColor="@color/color_blue"
+        android:textSize="15dp"
+        android:layout_below="@id/lvReivew"
+        android:gravity="center"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/empty_review"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="@string/i_am_empty"
+        android:textColor="@color/color_grey_light"
+        android:textSize="@dimen/product_tv_empty_textsize"
+        android:layout_below="@id/tvReview_conter"
+        android:layout_centerInParent="true"/>
+
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

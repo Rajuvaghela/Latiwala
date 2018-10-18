@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back_product">
+
+
+    <RelativeLayout
+        android:id="@+id/rl_header"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        android:background="@color/colorPrimary">
+
+        <LinearLayout
+            android:id="@+id/ll_back"
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="@dimen/_15sdp"
+                android:layout_height="@dimen/_15sdp"
+                android:background="@drawable/left_white" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/ll_back"
+            android:gravity="center"
+            android:paddingLeft="@dimen/_10sdp"
+            android:text=""
+            android:textColor="@color/color_white"
+            android:textSize="@dimen/_16sdp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/iv_right_search"
+            android:layout_width="@dimen/cart_icon_width"
+            android:layout_height="@dimen/cart_icon_width"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/icrl_marginLeft_toolbar"
+            android:layout_marginRight="@dimen/icrl_marginRight_toolbar"
+            android:foreground="@drawable/ripple_effect"
+            android:padding="@dimen/ic_padding_toolbar"
+            android:src="@drawable/ic_search" />
+
+        <RelativeLayout
+            android:id="@+id/rlCounter_toolbar"
+            android:layout_width="@dimen/cart_icon_width"
+            android:layout_height="@dimen/cart_icon_width"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/icrl_marginLeft_toolbar"
+            android:layout_marginRight="@dimen/icrl_marginRight_toolbar"
+            android:layout_toLeftOf="@id/iv_right_search"
+            android:foreground="@drawable/ripple_effect">
+
+            <ImageView
+                android:id="@+id/iv_cart_toolbar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_margin="@dimen/ic_margin_toolbar"
+                android:src="@drawable/ic_cart_white" />
+
+            <TextView
+                android:id="@+id/tvCounter"
+                android:layout_width="@dimen/tv_width_toolbar"
+                android:layout_height="@dimen/tv_height_toolbar"
+                android:layout_marginLeft="@dimen/tv_marginLeft_toolbar"
+                android:layout_marginTop="@dimen/tv_marginTop_toolbar"
+                android:background="@drawable/shape_counter"
+                android:gravity="center"
+                android:text="0"
+                android:textColor="@color/color_black"
+                android:textSize="@dimen/tv_size_toolbar" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/activity_main_swipe_refresh_layout"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/rl_header"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <GridView
+                android:id="@+id/gvCategory"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:numColumns="2"
+                android:verticalSpacing="@dimen/verticalSpace"
+                android:horizontalSpacing="@dimen/horizontalSpace"
+                android:gravity="center"
+                android:layout_margin="0dp"
+                android:visibility="gone"
+                >
+
+            </GridView>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerCategory"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:clipToPadding="false"
+                android:scrollbars="vertical"
+                />
+        </RelativeLayout>
+
+
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+    <TextView
+        android:id="@+id/empty_list_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/you_have_no_favourite"
+        android:textColor="@color/color_red_light"
+        android:textSize="@dimen/product_tv_empty_textsize"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        />
+</RelativeLayout>

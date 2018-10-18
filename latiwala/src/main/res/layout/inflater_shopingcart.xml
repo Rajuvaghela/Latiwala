@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto">
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/cart_card_margin"
+        android:elevation="3dp"
+        card_view:cardCornerRadius="@dimen/card_album_radius">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/activity_vertical_margin"
+        android:layout_marginLeft="@dimen/activity_vertical_margin"
+        android:layout_marginBottom="@dimen/activity_margin_bottom"
+        android:layout_marginTop="@dimen/activity_margin_top"
+        >
+
+
+        <ImageView
+            android:id="@+id/ivRemove"
+            android:layout_width="@dimen/cart_icon_width"
+            android:layout_height="@dimen/cart_icon_height"
+            android:src="@drawable/ic_remove"
+            android:layout_alignParentRight="true"
+            android:padding="@dimen/cart_icon_padding"
+            android:foreground="@drawable/ripple_effect"
+            />
+        <ImageView
+            android:id="@+id/ivCartImage"
+            android:layout_width="@dimen/cart_iv_width"
+            android:layout_height="@dimen/cart_iv_height"
+            android:scaleType="centerInside"
+            />
+
+        <TextView
+            android:id="@+id/tvNameCart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/cloth_title"
+            android:textColorHint="@color/color_grey_light"
+            android:textColor="@color/color_grey_light"
+            android:textSize="@dimen/cart_title_size"
+            android:layout_toRightOf="@id/ivCartImage"
+            android:layout_margin="@dimen/cart_title_margin"
+            android:layout_toLeftOf="@id/ivRemove"
+            />
+
+
+        <TextView
+            android:id="@+id/tvVariation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint=""
+            android:textColorHint="@color/color_grey_light"
+            android:textColor="@color/color_grey_light"
+            android:textSize="@dimen/cart_title_size"
+            android:layout_toRightOf="@id/ivCartImage"
+            android:layout_below="@id/tvNameCart"
+            android:layout_margin="@dimen/cart_title_margin"
+            android:layout_toLeftOf="@id/ivRemove"
+            />
+
+        <RelativeLayout
+            android:id="@+id/rlAddDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ivCartImage"
+            android:layout_marginTop="@dimen/cart_rlIcon_margin">
+            <ImageView
+                android:id="@+id/ivDelete"
+                android:layout_width="@dimen/cart_icon_width"
+                android:layout_height="@dimen/cart_icon_height"
+                android:src="@drawable/ic_delete"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:padding="@dimen/cart_icon_padding"
+                android:foreground="@drawable/ripple_effect"
+                />
+            <TextView
+                android:id="@+id/tvQnty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="1"
+                android:textSize="@dimen/cart_title_size"
+                android:layout_toRightOf="@id/ivDelete"
+                android:textColorHint="@color/color_black"
+                android:textColor="@color/color_black"
+                android:gravity="center"
+                android:layout_centerVertical="true"
+                android:layout_centerInParent="true"
+                android:layout_margin="@dimen/cart_title_margin"/>
+            <ImageView
+                android:id="@+id/ivAdd"
+                android:layout_width="@dimen/cart_icon_width"
+                android:layout_height="@dimen/cart_icon_height"
+                android:src="@drawable/ic_add"
+                android:layout_toRightOf="@id/tvQnty"
+                android:layout_centerVertical="true"
+                android:padding="@dimen/cart_icon_padding"
+                android:foreground="@drawable/ripple_effect"
+                />
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/tvPriceCart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="$ 149"
+            android:textColorHint="@color/color_black"
+            android:textSize="@dimen/cart_title_size"
+            android:textColor="@color/color_black"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/ivCartImage"
+            android:layout_margin="@dimen/cart_title_margin"
+            />
+
+
+
+    </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

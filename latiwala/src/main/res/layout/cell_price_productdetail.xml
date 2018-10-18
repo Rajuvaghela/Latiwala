@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/card_margin"
+        android:elevation="3dp"
+        card_view:cardCornerRadius="@dimen/card_album_radius">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/activity_vertical_margin"
+        android:layout_marginLeft="@dimen/activity_vertical_margin"
+        android:layout_marginBottom="@dimen/activity_margin_bottom"
+        android:layout_marginTop="@dimen/activity_margin_top">
+        <ImageView
+            android:id="@+id/icWish_detail"
+            android:layout_width="@dimen/cart_icon_width"
+            android:layout_height="@dimen/cart_icon_height"
+            android:src="@drawable/ic_heart"
+            android:clickable="true"
+            android:layout_alignParentRight="true"
+            android:padding="@dimen/cart_icon_padding"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/tvCellShortdescription"
+            android:layout_width="@dimen/cellPrice_srtDistcription_width"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color_black"
+            android:textSize="@dimen/_14sdp"
+            android:maxLines="2"
+            tools:text="shot Desciption"
+            android:ellipsize="end"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@id/icWish_detail"
+            />
+
+        <TextView
+            android:id="@+id/tvCellRegularPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Regular price :200"
+            android:textSize="@dimen/cellPrice_price_size"
+            android:textColor="@color/color_grey_light"
+            android:layout_below="@id/tvCellShortdescription"
+            android:layout_marginTop="@dimen/cellPrice_price_margin"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/tvCellPrice_product"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Cell price : 100"
+            android:textSize="@dimen/_16sdp"
+            android:textStyle="bold"
+            android:textColor="@color/color_black"
+            android:layout_below="@id/tvCellRegularPrice"
+            android:layout_marginTop="@dimen/cellPrice_price_margin"
+            android:layout_marginBottom="@dimen/cellPrice_price_margin"/>
+        <TextView
+            android:id="@+id/tvTax"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="210 tax"
+            android:textSize="@dimen/cellPrice_price_size"
+            android:textColor="@color/color_green"
+            android:layout_below="@id/tvCellRegularPrice"
+            android:layout_marginTop="@dimen/cellPrice_price_margin"
+            android:layout_marginBottom="@dimen/cellPrice_price_margin"
+            android:layout_marginLeft="@dimen/cellPrice_price_margin"
+            android:layout_toRightOf="@id/tvCellPrice_product"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@id/tvCellPrice_product"
+            android:layout_alignParentRight="true">
+            <RatingBar
+                android:id="@+id/cellRatingbar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="?android:attr/ratingBarStyleSmall"
+                android:numStars="5"
+                android:stepSize="0.1"
+                android:padding="1dp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:theme="@style/Theme.Rating"
+                android:layout_gravity="center_vertical"
+                />
+            <TextView
+                android:id="@+id/tvReviewlabel2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text=""
+                android:textSize="@dimen/detail_tv_reviews_fontsize"
+                android:textColor="@color/color_black"
+                android:gravity="center"
+                android:layout_gravity="center_vertical"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvStock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text=""
+            android:textSize="@dimen/detail_tv_reviews_fontsize"
+            android:textColor="@color/color_green"
+            android:layout_below="@id/tvCellPrice_product"
+            android:layout_marginTop="@dimen/cellPrice_price_margin"
+            android:layout_marginBottom="@dimen/cellPrice_price_margin"/>
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
+
+</LinearLayout>

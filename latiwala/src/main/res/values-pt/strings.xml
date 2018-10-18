@@ -1,0 +1,270 @@
+<resources>
+    <string name = "app_name"> Latiwalaa </string>
+
+    <string name = "action_settings"> Configurações </string>
+    <string name = "action_search"> Pesquisa </string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <!-- <string name = "nav_item_home"> Início </string>-->
+    <string name = "nav_item_category"> Categorias </string>
+    <string name = "nav_item_shop"> Loja </string>
+    <string name = "nav_item_shoppingcart"> carrinho de compras </string>
+    <!-- <string name = "nav_item_wishlist"> Minha lista de desejos </string> -->
+    <string name = "nav_item_contactus"> Fale conosco </string>
+    <string name = "nav_item_terms_condition"> Termos &amp; Condição </string>
+    <string name = "nav_item_account"> Minha conta </string>
+
+        <!-- navigation drawer item labels  -->
+    <string-array name="nav_drawer_labels">
+        <!--<item>@string/nav_item_home</item>-->
+        <item>@string/nav_item_category</item>
+        <item>@string/nav_item_shop</item>
+        <item>@string/nav_item_shoppingcart</item>
+        <!--<item>@string/nav_item_wishlist</item>-->
+        <item>@string/nav_item_contactus</item>
+        <item>@string/nav_item_terms_condition</item>
+        <item>@string/nav_item_account</item>
+    </string-array>
+
+    <!-- <string name = "title_home"> Início </string> -->
+    <string name = "title_profile"> Perfil </string>
+    <string name = "title_category"> Categorias </string>
+    <string name = "title_shop"> Loja </string>
+    <string name = "title_recent"> Recent </string>
+    <string name = "title_popular"> Mais populares </string>
+    <string name = "title_product_detail"> Detalhe do Produto </string>
+    <string name = "title_shoppingcart"> carrinho de compras </string>
+    <string name = "title_wishlist"> Minha lista de desejos </string>
+    <string name = "title_search"> Pesquisa </string>
+
+    <string name = "title_pastOrders"> Pedidos passadas </string>
+    <string name = "title_changepassword"> Alterar senha </string>
+    <string name = "title_contactus"> Fale conosco </string>
+    <string name = "title_terms_condition"> Termos &amp; Condição </string>
+    <string name = "title_account"> Minha conta </string>
+    <string name = "title_editProfile"> Editar perfil </string>
+    <string name = "title_edit_address"> Editar endereço </string>
+    <string name = "title_edit_billing"> Endereço de cobrança </string>
+    <string name = "title_edit_shipping"> Endereço de envio </string>
+    <!-- TODO: remova ou altere este texto do marcador de posição -->
+    <string name = "hello_blank_fragment"> Olá, fragmento em branco </string>
+
+    <string name = "name"> Nome </string>
+
+    <string name = "orderConfirm"> CONFERÊNCIA DE ORDEM </string>
+    <string name = "forgotPassword"> Esqueceu a senha </string>
+    <string name = "forgotusername"> Esqueceu o nome de usuário </string>
+
+    <string name = "forgot_pass"> Esqueceu sua senha? </string>
+    <string name = "forgot_username"> Esqueceu seu nome de usuário? </string>
+    <string name = "create_account"> Criar uma conta </string>
+    <string name = "need_help"> NEED HELP? </string>
+
+
+    <!-- Criar conta -->
+    <string name = "If_you_already"> Se você já possui uma conta conosco, clique aqui para entrar. </string>
+
+    <!-- esqueceu a senha -->
+    <string name = "Forgotten_Password"> Esqueceu a senha </string>
+    <string name = "Enter_email"> Digite o endereço de e-mail associado à sua conta. Um código de verificação será enviado a você. Uma vez que você tenha
+    recebeu o código de verificação. você escolherá uma nova senha para sua conta. </string>
+    <string name = "product_shortdescription"> Descrição não disponível </string>
+    <!-- novo endereço -->
+    <string name = "firstName"> Primeiro Nome *</string>
+    <string name = "lastName"> Last Name *</string>
+    <string name = "address"> Endereço *</string>
+    <string name = "city"> Cidade *</string>
+    <string name = "postCode"> Código postal *</string>
+    <string name = "State"> Estado *</string>
+    <string name = "mobile"> Mobile *</string>
+    <string name = "phone"> Telefone *</string>
+    <string name = "company"> Empresa </string>
+    <string name = "username"> Nome de usuário *</string>
+    <string name = "userName"> Nome de usuário *</string>
+    <string name = "password"> Senha *</string>
+    <string name = "confirmPassword"> Confirmar Senha *</string>
+    <string name = "eMail"> Endereço de e-mail *</string>
+    <string name = "country"> País *</string>
+    <string name = "confirmEmail"> Confirmar Email *</string>
+    <string name = "e_mail"> E-mail *</string>
+    <string name="validationpass">Hint: The password should be at least twelve characters long. To make it stronger, use upper and lower case letters, numbers, and symbols like ! " ? $ % ^ &amp; ).</string>
+
+
+    <string name = "conf_detail"> Obrigado pela sua ordem \ n \ nUm email de confirmação foi enviado para </string>
+    <string name = "your_order"> Sua ordem </string>
+    <string name = "paymentMethod"> Escolha qualquer uma das opções de pagamento </string>
+    <string name = "ViewallReviews"> Ver todos os Comentários </string>
+    <string name = "reviews_rating"> <![CDATA[Críticas & Classificação]]> </string>
+    <string name = "add_a_review"> Adicionar uma avaliação </string>
+    <string name = "sorry_combination_not_available"> Desculpe, combinação não disponível </string>
+    <string name = "select_variations"> Selecionar variações </string>
+
+    <string name = "forgot_password"> Perdeu sua senha? </string>
+    <string name = "create_an_account"> Criar uma conta </string>
+    <string name = "checkout_as_guest"> Checkout como convidado </string>
+    <string name = "price_details"> Detalhes do preço </string>
+    <string name = "price_items"> Preço (itens) </string>
+
+
+    <string name = "alert_title_message"> Mensagem </string>
+    <string name = "alert_body_network_error"> Verifique sua conexão de rede. </string>
+    <string name = "alert_body_server_error"> erro do servidor. Tente depois de algum tempo. </string>
+    <string name = "alert_body_something_was_wrong"> Verifique a URL corretamente. </string>
+    <string name = "alert_title_loading"> Aguarde </string> ">
+    <string name = "alert_body_wait"> Carregando &#8230; </string>
+
+    <string name = "btn_ok"> OK </string>
+    <string name = "profile"> Perfil </string>
+    <string name = "orders"> Pedidos </string>
+    <string name = "change_password"> Alterar senha </string>
+    <string name = "logout"> Logout </string>
+    <string name = "product_not_found"> ​​Produto não encontrado </string>
+    <string name = "wp_webservice_service"> <![CDATA[http://phpjoomlacoders.com/christine/]]> </string>
+    <string name = "title_product"> Produtos </string>
+    <string name = "title_subcategory"> subcategoria </string>
+    <string name = "checkusername"> Verifique o nome de usuário e a senha </string>
+    <string name = "enter_your_url"> Digite url com http: // ou https: // </string>
+    <string name = "you_have_not_any_wish"> Você não tem nenhum desejo </string>
+    <string name = "back_to_category"> Voltar </string>
+    <string name = "reload"> Recarregar </string>
+    <string name = "apply_coupon"> Aplicar cupom </string>
+    <string name = "coupon_code"> Código de cupom </string>
+    <string name = "billing_address"> Endereço de faturamento </string>
+    <string name = "change_billing_address"> Alterar endereço de cobrança </string>
+    <string name = "billing_address_same_as_shipping_address"> Endereço de cobrança igual ao endereço de envio </string>
+    <string name = "shipping_address"> Endereço de envio </string>
+    <string name = "change_shipping_address"> Alterar endereço de envio </string>
+    <string name = "shipping_methods"> Métodos de envio </string>
+    <string name = "additional_charge"> Taxa adicional </string>
+    <string name = "tax"> Taxa </string>
+    <string name = "coupon"> Cupom: </string>
+    <string name = "payment_methods"> Métodos de pagamento </string>
+    <string name = "total"> Total: </string>
+    <string name = "continue1"> CONTINUAR </string>
+    <string name = "thank_you_your_order_has_been_received"> Obrigado. O seu pedido foi recebido. </string>
+    <string name = "instructions"> Instruções </string>
+    <string name = "our_bank_details"> Nossos Detalhes do Banco </string>
+    <string name = "finish"> Finish </string>
+    <string name = "billing_address_as_shipping_adress"> Endereço de cobrança como endereço de envio </string>
+    <string name = "send_email"> Enviar e-mail </string>
+    <string name = "connected"> Connected </string>
+    <string name = "skip"> SKIP </string>
+    <string name = "login"> Login </string>
+    <string name = "sign_in_to_access_your_orders_and_recommendations"> Faça login para acessar seus pedidos e recomendações. </string>
+    <string name = "login1"> LOGIN </string>
+    <string name = "save"> SAVE </string>
+    <string name = "search"> pesquisa </string>
+    <string name = "choose_an_option"> Escolha uma opção </string>
+    <string name = "add_to_cart"> ADICIONAR AO CARRINHO </string>
+    <string name = "buy_now"> COMPRAR AGORA </string>
+    <string name = "payable_amount"> Valor a pagar </string>
+    <string name = "proceed_to_checkout"> PROCEDER A CONTROLE </string>
+    <string name = "your_rating"> Sua classificação </string>
+    <string name = "write_review"> Write Review </string>
+    <string name = "current_password"> Senha atual </string>
+    <string name = "new_password"> Nova senha </string>
+    <string name = "confirm_new_password"> Confirmar nova senha </string>
+    <string name = "save_change"> Salvar Alterar </string>
+    <string name = "cash_on_delivery"> dinheiro na entrega </string>
+    <string name = "you_have_no_favourite"> Você não tem nenhum favorito </string>
+    <string name = "card_number"> NÚMERO DO CARTÃO </string>
+    <string name = "valid_card_number"> Número de cartão válido </string>
+    <string name = "expiration_date"> EXPIRATION DATE </string>
+    <string name = "mm"> MM </string>
+    <string name = "yy"> YY </string>
+    <string name = "cvc_doce"> CVC DOCE </string>
+    <string name = "cv"> cv </string>
+    <string name = "enter_coupon_code"> Digite o Código do cupom </string>
+    <string name = "paypal_method"> método paypal </string>
+    <string name = "detail"> Detalhe </string>
+    <string name = "sale"> Sale! </string>
+    <string name = "load_more"> Carregar mais </string>
+    <string name = "i_am_empty"> estou vazio </string>
+    <string name = "your_cart_is_empty"> seu carrinho está vazio </string>
+    <string name = "continue_shopping"> CONTINUAR COMPRAS </string>
+    <string name = "color"> Cor </string>
+    <string name = "account_name"> Nome da conta </string>
+    <string name = "bank_name"> Nome do banco </string>
+    <string name = "account_number"> Número de conta </string>
+    <string name = "sort_code"> Código de classificação </string>
+    <string name = "iban"> IBAN </string>
+    <string name = "bic_swift"> BIC / Swift </string>
+    <string name = "category_name"> nome da categoria </string>
+    <string name = "category"> Categoria </string>
+    <string name = "order_id"> Order Id: </string>
+    <string name = "date"> Data: </string>
+    <string name = "status"> Status: </string>
+    <string name = "on_hold"> em espera </string>
+    <string name = "amount"> Quantidade: </string>
+    <string name = "flat_rate"> Taxa plana </string>
+    <string name = "cloth_title"> título do pano </string>
+    <string name = "title"> Título </string>
+    <string name = "trial"> Trial </string>
+    <string name = "cancel"> Cancelar </string>
+    <string name = "please_add_your_shipping_address"> Por favor adicione seu endereço de envio </string>
+    <string name = "please_enter_code"> Digite o código </string>
+    <string name = "register"> Registrar </string>
+    <string name = "please_enter_your_rul"> insira sua url </string>
+    <string name = "invalid_url"> URL inválido </string>
+    <string name = "please_select_country"> selecione o país </string>
+    <string name = "please_enter_your_first_name"> digite seu primeiro nome </string>
+    <string name = "please_enter_your_last_name"> digite o seu último nome </string>
+    <string name = "please_enter_your_address"> digite seu endereço </string>
+    <string name = "please_enter_your_country"> digite seu país </string>
+    <string name = "please_enter_your_state"> digite seu estado </string>
+    <string name = "please_enter_your_city"> digite sua cidade </string>
+    <string name = "please_enter_your_postcode"> digite seu código postal </string>
+    <string name = "please_enter_your_email"> digite seu e-mail </string>
+    <string name = "please_enter_your_phone"> digite seu telefone </string>
+    <string name = "please_enter_password"> Digite a senha </string>
+    <string name = "please_enter_your_username"> digite seu nome de usuário </string>
+    <string name = "please_enter_registered_email_ID"> insira uma ID de e-mail registrada </string>
+    <string name = "please_enter_current_password"> Digite a senha atual </string>
+    <string name = "please_enter_new_password"> Digite nova senha </string>
+    <string name = "please_re_enter_password"> Digite novamente a senha </string>
+    <string name = "password_not_match"> Senha não corresponde </string>
+    <string name = "please_add_your_billing_address"> Adicione seu endereço de cobrança </string>
+    <string name = "please_add_your_shipping_address1"> Adicione seu endereço de remessa </string>
+    <string name = "press_back_again_to_exit"> Pressione Voltar novamente para Sair. </string>
+    <string name = "order_not_found"> ​​Ordem não encontrada </string>
+    <string name = "order_detail"> Detalhes da encomenda </string>
+    <string name = "subtotal"> Subtotal </string>
+    <string name = "discount"> Desconto </string>
+    <string name = "shipping"> Envio </string>
+    <string name = "payment_details"> Detalhes de pagamento </string>
+    <string name = "customer_details"> Detalhes do cliente </string>
+    <string name = "email"> E-mail </string>
+    <string name = "please_select_variations"> Selecione as variações </string>
+    <string name = "please_enter_review"> digite review </string>
+    <string name = "please_select_rating"> selecione classificação </string>
+    <string name = "please_enter_name"> digite Nome </string>
+    <string name = "please_enter_email"> digite Email </string>
+    <string name = "review_for"> comentário para </string>
+    <string name = "no_review_for_this_prodcut"> Nenhuma revisão para este produto </string>
+    <string name = "error_to_fetch_data"> erro para buscar dados </string>
+    <string name = "all_product"> Todos os produtos </string>
+    <string name = "showing"> Mostrando </string>
+    <string name = "items"> items </string>
+    <string name = "please_add_your_phone_number"> adicione seu número de telefone </string>
+    <string name = "cart_is_empty"> O carrinho está vazio </string>
+    <string name = "subcategory_not_found"> ​​Subcategoria não encontrada </string>
+    <string name = "unknown_error"> erro desconhecido </string>
+    <string name = "data_was_empty"> Os dados estavam vazios </string>
+    <string name = "update_wishlist"> Atualizar listagem </string>
+    <string name = "add_to_wishlist"> Adicionar à lista de desejos </string>
+    <string name = "remove_from_wishlist"> Remover da lista de desejos </string>
+    <string name = "updated_cart"> carrinho atualizado </string>
+    <string name = "item_added"> Item Adicionado </string>
+    <string name = "price"> Preço </string>
+    <string name = "checkout"> Checkout </string>
+    <string name = "please_Check_Payment_method"> por favor Verifique o método de pagamento </string>
+    <string name = "please_Check_shipping_Method_Payment_method_and_Shipping_address"> Verifique o método de envio, método de pagamento e endereço de envio </string>
+
+    <string name = "please_Enter_Keywords"> Digite as palavras-chave </string>
+    <string name = "enabled_your_input_language"> Ativado seu idioma de entrada </string>
+    <string name="quantity">Quantidade</string>
+    <string name="readmore">Consulte Mais informação</string>
+    <string name="please_choose_the_quantity_of_items_you_wish_to_add_to_your_cart">Escolha a quantidade de itens que deseja adicionar ao seu carrinho</string>
+    <string name="sorry_this_product_not_availabler">Desculpe, este produto não está disponível</string>
+    <string name="there_is_no_more_product_available">Não há mais itens disponíveis</string>
+</resources>

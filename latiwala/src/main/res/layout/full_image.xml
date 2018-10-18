@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewPager_full"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/indicator"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#80000000">
+            <ImageView
+                android:id="@+id/icBackarro_full"
+                android:layout_width="@dimen/cart_icon_width"
+                android:layout_height="@dimen/cart_icon_height"
+                android:padding="@dimen/cart_icon_padding"
+                android:src="@drawable/cancel" />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <com.viewpagerindicator.CirclePageIndicator
+        android:id="@+id/indicator_full"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/_15sdp"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center_horizontal|bottom"
+        android:padding="5dp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        app:fillColor="@color/colorPrimary"
+        app:pageColor="#DFDFDF"
+        app:radius="4dp"
+        app:strokeColor="@android:color/transparent" />
+
+</RelativeLayout>

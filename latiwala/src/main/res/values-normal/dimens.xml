@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!--footer-->
+
+    <dimen name="ll_height_footer">50dp</dimen>
+    <dimen name="tv_textsize_footer">15dp</dimen>
+
+
+    <!--footer_review-->
+    <dimen name="ftReview_iv_height">35dp</dimen>
+    <dimen name="ftReview_iv_width">35dp</dimen>
+    <dimen name="ftReview_et_size">15dp</dimen>
+    <dimen name="ftReview_rt_height">23dip</dimen>
+    <dimen name="ftReview_tv_lable_textsize">15dp</dimen>
+    <dimen name="ftReview_tv_lable_marginBottom">6dp</dimen>
+    <dimen name="ftReview_tv_lable_marginTop">6dp</dimen>
+
+
+    <!--toolbar-->
+    <dimen name="ic_height_toolbar">25dp</dimen>
+    <dimen name="ic_width_toolbar">25dp</dimen>
+
+    <dimen name="ic_padding_toolbar">10dp</dimen>
+    <dimen name="ic_margin_toolbar">9dp</dimen>
+    <dimen name="icrl_marginLeft_toolbar">5dp</dimen>
+    <dimen name="icrl_marginRight_toolbar">5dp</dimen>
+    <dimen name="tv_height_toolbar">13dp</dimen>
+    <dimen name="tv_width_toolbar">13dp</dimen>
+    <dimen name="tv_size_toolbar">10dp</dimen>
+    <dimen name="tv_marginLeft_toolbar">24dp</dimen>
+    <dimen name="tv_marginTop_toolbar">7dp</dimen>
+    <dimen name="Title_size_toolbar">17dp</dimen>
+
+    <!--inflater Home page-->
+    <dimen name="iv_height_home">230dp</dimen>
+    <dimen name="iv_width_home">200dp</dimen>
+    <dimen name="tv_heigh_home">40dp</dimen>
+    <dimen name="tv_size">18dp</dimen>
+
+    <!--category page-->
+    <dimen name="iv_height_category">150dp</dimen>
+    <dimen name="iv_width_category">200dp</dimen>
+    <dimen name="tv_size_category">14dp</dimen>
+    <dimen name="horizontalSpace">2dp</dimen>
+    <dimen name="verticalSpace">2dp</dimen>
+    <dimen name="category_tv_name_height">25dp</dimen>
+
+    <dimen name="gridview_horizontalSpacing">5dp</dimen>
+    <dimen name="gridview_verticalSpacing">5dp</dimen>
+
+    <!--product page-->
+
+    <dimen name="tv_size_productname">14sp</dimen>
+    <dimen name="tv_size_price">13sp</dimen>
+    <dimen name="product_rlimage_height">150dp</dimen>
+    <dimen name="product_rlimage_padding">0dp</dimen>
+    <dimen name="product_offer_textsize">14dp</dimen>
+    <dimen name="product_offer_padding">2dp</dimen>
+    <dimen name="product_offer_margingBottome">10dp</dimen>
+    <dimen name="product_image_height">140dp</dimen>
+    <dimen name="product_tv_items_height">30dp</dimen>
+    <dimen name="product_tv_items_textsize">12dp</dimen>
+    <dimen name="product_tv_empty_textsize">15dp</dimen>
+
+    <dimen name="product_ll_paddingTop">8dp</dimen>
+    <dimen name="product_ll_paddingBottom">8dp</dimen>
+    <dimen name="product_tax_textsize">10dp</dimen>
+
+    <dimen name="reload_tv_width">100dp</dimen>
+    <dimen name="reload_tv_hight">40dp</dimen>
+    <dimen name="reload_tv_textsize">17dp</dimen>
+    <dimen name="reload_tv_marginTop">10dp</dimen>
+    <dimen name="reload_tv_padding">5dp</dimen>
+
+    <dimen name="card_margin">1dp</dimen>
+    <dimen name="card_album_radius">0dp</dimen>
+
+
+    <!--Login page-->
+
+    <dimen name="login_button_height">30dp</dimen>
+    <dimen name="login_button_fontsize">15dp</dimen>
+    <dimen name="login_button_marginTop">10dp</dimen>
+    <dimen name="login_button_marginBottom">10dp</dimen>
+    <dimen name="login_et_fontsize">15dp</dimen>
+    <dimen name="login_tv_fontsize">13dp</dimen>
+    <dimen name="login_tv_margin">10dp</dimen>
+    <dimen name="login_ll_tv_margin">3dp</dimen>
+    <dimen name="connect_fontsize">12dp</dimen>
+    <dimen name="login_top_height">100dp</dimen>
+    <dimen name="login_tv_lable_textsize">18dp</dimen>
+    <dimen name="login_tv_inst_textsize">14dp</dimen>
+    <dimen name="login_tv_inst_width">200dp</dimen>
+    <dimen name="login_ic_width">30dp</dimen>
+    <dimen name="login_ic_height">30dp</dimen>
+
+
+
+    <!--create account-->
+    <dimen name="account_fontSize">16dp</dimen>
+    <dimen name="account_padding">10dp</dimen>
+
+    <!--drawer layout-->
+    <dimen name="nav_drawer_width">260dp</dimen>
+    <dimen name="nav_drawer_tv_textsize">15dp</dimen>
+    <dimen name="nav_drawer_tv_paddingLeft">30dp</dimen>
+    <dimen name="nav_drawer_tv_paddingTop">10dp</dimen>
+    <dimen name="nav_drawer_tv_paddingBottom">10dp</dimen>
+
+    <!--FAB Buttom-->
+
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="fab_margin_b">45dp</dimen>
+    <dimen name="fab_margin_r">16dp</dimen>
+
+
+
+    <!--Forgot Password-->
+    <dimen name="fp_ll_marging">16dp</dimen>
+    <dimen name="fp_vw_margin">4dp</dimen>
+    <dimen name="fp_et_size">18dp</dimen>
+    <dimen name="fp_btn_size">20dp</dimen>
+    <dimen name="fp_btn_height">40dp</dimen>
+    <dimen name="fp_top_height">150dp</dimen>
+    <dimen name="fp_tv_lable_textsize">18dp</dimen>
+    <dimen name="fp_tv_instruction_textsize">13dp</dimen>
+
+    <!--add new address-->
+    <dimen name="address_padding">10dp</dimen>
+    <dimen name="address_tvsize">16dp</dimen>
+    <dimen name="address_ckbx_margingTop">10dp</dimen>
+    <dimen name="address_ckbx1_marginTop">10dp</dimen>
+    <dimen name="address_btn_marginTop">20dp</dimen>
+
+    <!--profile page-->
+    <dimen name="prfl_rl_padding">10dp</dimen>
+    <dimen name="prfl_rl_height">80dp</dimen>
+    <dimen name="prfl_iv_pic_height">140dp</dimen>
+    <dimen name="prfl_iv_pic_width">130dp</dimen>
+    <dimen name="prfl_ic_edit_width">40dp</dimen>
+    <dimen name="prfl_ic_edit_height">40dp</dimen>
+    <dimen name="prfl_ic_edit_marginTop">20dp</dimen>
+    <dimen name="prfl_ic_edit_marginRight">10dp</dimen>
+    <dimen name="prfl_ic_edit_padding">5dp</dimen>
+    <dimen name="prfl_tv_name_fontsize">20dp</dimen>
+    <dimen name="prfl_ic_width">35dp</dimen>
+    <dimen name="prfl_ic_height">35dp</dimen>
+    <dimen name="prfl_ic_padding">5dp</dimen>
+    <dimen name="prfl_tv_fontsize">15dp</dimen>
+
+
+
+    <dimen name="pl_ll_height">150dp</dimen>
+    <dimen name="pl_ic_height">60dp</dimen>
+    <dimen name="pl_ic_width">60dp</dimen>
+    <dimen name="pl_tv_padding">5dp</dimen>
+    <dimen name="pl_tv_height">30dp</dimen>
+
+    <!--Detail page-->
+    <dimen name="detail_rl_margin">1dp</dimen>
+    <dimen name="detail_tv_vrble_width">80dp</dimen>
+    <dimen name="detail_tv_vrble_height">90dp</dimen>
+    <dimen name="detail_tv_vrble_fontsize">15dp</dimen>
+    <dimen name="detail_tv_vrble_padding">6dp</dimen>
+    <dimen name="detail_tv_vrble_margingRight">8dp</dimen>
+
+    <dimen name="detail_tv_rating_fontsize">20dp</dimen>
+    <dimen name="detail_tv_reviews_fontsize">14dp</dimen>
+    <dimen name="detail_tv_reviews_padding">8dp</dimen>
+
+    <dimen name="detail_discrp_size">13dp</dimen>
+    <dimen name="detail_discrp_padding">10dp</dimen>
+    <dimen name="detail_iv_height">300dp</dimen>
+    <dimen name="detail_marginTop">5dp</dimen>
+
+    <dimen name="popup_tv_textsize">12dp</dimen>
+    <dimen name="popup_tv_padding">5dp</dimen>
+
+    <!--checkout page-->
+    <dimen name="checkout_paddingBottom">10dp</dimen>
+    <dimen name="checkout_button_width">150dp</dimen>
+    <dimen name="checkout_button_height">30dp</dimen>
+    <dimen name="checkout_button_textsize">14dp</dimen>
+
+
+    <!--cell_price_productdetail-->
+    <dimen name="cellPrice_srtDistcription_size">12dp</dimen>
+    <dimen name="cellPrice_srtDistcription_width">300dp</dimen>
+    <dimen name="cellPrice_price_size">13dp</dimen>
+    <dimen name="cellPrice_price_margin">2dp</dimen>
+    <dimen name="cellPrice_offer_size">12dp</dimen>
+    <dimen name="cellPrice_offer_padding">2dp</dimen>
+    <dimen name="cellPrice_iv_padding">5dp</dimen>
+    <dimen name="cellPrice_tv_offer_height">40dp</dimen>
+    <dimen name="cellPrice_tv_offer_width">40dp</dimen>
+
+    <!--cell amount-->
+    <dimen name="cellAmount_padding">5dp</dimen>
+    <dimen name="cellAmount_lablesize">17dp</dimen>
+    <dimen name="cellAmount_textsize">13dp</dimen>
+    <dimen name="cellAmount_txt_padding">5dp</dimen>
+    <dimen name="cellAmount_btn_height">30dp</dimen>
+    <dimen name="cellAmount_btn_margin">5dp</dimen>
+    <dimen name="cellAmount_btn_padding">5dp</dimen>
+    <dimen name="cellAmount_et_txtsize">12dp</dimen>
+    <dimen name="cellAmount_et_padding">3dp</dimen>
+    <dimen name="cellAmount_iv_width">30dp</dimen>
+    <dimen name="cellAmount_iv_height">30dp</dimen>
+    <dimen name="cellAmount_iv_padding">5dp</dimen>
+    <dimen name="cellAmount_btn_txtsize">12dp</dimen>
+    <dimen name="cellAmount_chbx_txtsize">12dp</dimen>
+
+    <!--cell paymentf info-->
+    <dimen name="cellPaymentInfo_padding">0dp</dimen>
+    <dimen name="cellPaymentInfo_lablesize">18dp</dimen>
+    <dimen name="cellPaymentInfo_textsize">15dp</dimen>
+    <dimen name="cellPaymentInfo_txt_padding">5dp</dimen>
+
+
+    <!--shopping cart-->
+    <dimen name="cart_card_margin">1dp</dimen>
+    <dimen name="cart_rl_margin">3dp</dimen>
+    <dimen name="cart_iv_height">90dp</dimen>
+    <dimen name="cart_iv_width">90dp</dimen>
+    <dimen name="cart_title_size">15dp</dimen>
+    <dimen name="cart_title_margin">5dp</dimen>
+    <dimen name="cart_rlIcon_margin">5dp</dimen>
+    <dimen name="cart_icon_width">35dp</dimen>
+    <dimen name="cart_icon_height">35dp</dimen>
+    <dimen name="cart_icon_padding">5dp</dimen>
+
+    <dimen name="cart_footer_padding">5dp</dimen>
+    <dimen name="cart_footer_marginleft">2dp</dimen>
+    <dimen name="cart_footer_marginRight">10dp</dimen>
+    <dimen name="cart_footer_tv_size">13dp</dimen>
+    <dimen name="cart_footer_tv_marginLeft">4dp</dimen>
+    <dimen name="cart_footer_tv_marginRight">4dp</dimen>
+    <dimen name="cart_footer_btn_height">40dp</dimen>
+    <dimen name="cart_footer_btn_width">155dp</dimen>
+    <dimen name="cart_footer_btn_size">12dp</dimen>
+    <dimen name="cart_footer_btn_margin">5dp</dimen>
+    <dimen name="cart_footer_btn_padding">2dp</dimen>
+
+    <!--reviews-->
+    <dimen name="reviews_margin">5dp</dimen>
+    <dimen name="reviews_name_size">14dp</dimen>
+    <dimen name="reviews_date_size">10dp</dimen>
+    <dimen name="reviews_padding">5dp</dimen>
+    <dimen name="reviews_chidmargin">5dp</dimen>
+    <dimen name="reviews_rt_padding">2dp</dimen>
+    <dimen name="reviews_tv_margin">5dp</dimen>
+    <dimen name="reviews_tv_size">14dp</dimen>
+    <dimen name="reviews_dateMarginLeft">4dp</dimen>
+
+
+    <!--search page-->
+    <dimen name="search_rl_height">50dp</dimen>
+    <dimen name="search_rl1_margin">5dp</dimen>
+    <dimen name="search_iv_height">50dp</dimen>
+    <dimen name="search_iv_width">50dp</dimen>
+    <dimen name="search_et_tvsize">15dp</dimen>
+    <dimen name="search_et_padding">5dp</dimen>
+
+    <!--edit profile-->
+    <dimen name="edtPrl_et_tvSize">15dp</dimen>
+    <dimen name="edtPrl_rl_margin">10dp</dimen>
+    <dimen name="edtPrl_label_tvSize">18dp</dimen>
+    <dimen name="edtPrl_iv_height">30dp</dimen>
+    <dimen name="edtPrl_iv_width">30dp</dimen>
+    <dimen name="edtPrl_iv_padding">3dp</dimen>
+    <dimen name="edtPrl_tv_size">15dp</dimen>
+    <dimen name="edtPrl_btn_tvSize">15dp</dimen>
+    <dimen name="edtPrl_btn_margin">10dp</dimen>
+
+    <!--past orders-->
+    <dimen name="past_iv_padding">10dp</dimen>
+    <dimen name="past_arrow_width">40dp</dimen>
+    <dimen name="past_arrow_padding">15dp</dimen>
+    <dimen name="past_tv_size">11dp</dimen>
+
+    <dimen name="past_tv_title_textsize">20dp</dimen>
+    <dimen name="past_tv_title_margin">5dp</dimen>
+
+
+    <!--confirmation screen-->
+    <dimen name="conf_tv_textsize">15dp</dimen>
+    <dimen name="conf_tv_padding">5dp</dimen>
+    <dimen name="conf_ic_height">40dp</dimen>
+    <dimen name="conf_ic_width">40dp</dimen>
+    <dimen name="conf_ic_padding">5dp</dimen>
+
+    <!--banklist-->
+    <dimen name="bank_tvlable_width">120dp</dimen>
+    <dimen name="bank_tv_textsize">12dp</dimen>
+    <dimen name="bank_tv_marginRight">6dp</dimen>
+    <dimen name="bank_tv_marginTop">6dp</dimen>
+    <dimen name="bank_tv_marginBottom">6dp</dimen>
+
+
+    <!---->
+    <dimen name="am_rl_padding">6dp</dimen>
+    <dimen name="am_tvname_textsize">15dp</dimen>
+    <dimen name="am_tvname_margin">2dp</dimen>
+    <dimen name="am_ll_marginLeft">3dp</dimen>
+
+    <!--splash screen-->
+    <dimen name="sp_iv_height">196dp</dimen>
+    <dimen name="sp_iv_width">196dp</dimen>
+
+    <!--my account-->
+    <dimen name="account_textsize">15dp</dimen>
+    <dimen name="account_ic_height">40dp</dimen>
+    <dimen name="account_ic_width">40dp</dimen>
+
+</resources>

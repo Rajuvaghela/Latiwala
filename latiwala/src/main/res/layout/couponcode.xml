@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/color_white">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view_coupon"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center"
+        android:elevation="3dp"
+        card_view:cardCornerRadius="@dimen/card_album_radius">
+
+        <RelativeLayout
+            android:id="@+id/rlcellCoupon"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/btnApplyCoupon"
+                style="@style/btn_all_normal"
+                android:layout_width="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:layout_marginRight="@dimen/activity_vertical_margin"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:gravity="center"
+                android:text="@string/apply_coupon" />
+
+            <EditText
+                android:id="@+id/etCouponcode1"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/checkout_button_height"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginBottom="@dimen/activity_margin_bottom"
+                android:layout_marginLeft="@dimen/activity_vertical_margin"
+                android:layout_marginRight="@dimen/cellAmount_btn_margin"
+                android:layout_marginTop="@dimen/activity_margin_top"
+                android:layout_toLeftOf="@id/btnApplyCoupon"
+                android:background="@color/color_white"
+                android:hint="@string/coupon_code"
+                android:padding="@dimen/cellAmount_et_padding"
+                android:textSize="@dimen/cellAmount_et_txtsize" />
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

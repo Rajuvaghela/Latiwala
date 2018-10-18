@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.payumoney.graphics:asset-download-sdk-0.3.2">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/asset-download-sdk-0.3.2.aar/bb3d645a6c7d7151b415fb9c46113126/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/asset-download-sdk-0.3.2.aar/bb3d645a6c7d7151b415fb9c46113126/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.payumoney.graphics/asset-download-sdk/0.3.2/af882b2b47fc8a626f2d2859279a339ad0e8def/asset-download-sdk-0.3.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

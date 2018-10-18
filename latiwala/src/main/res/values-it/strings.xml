@@ -1,0 +1,268 @@
+<resources>
+    <string name="app_name">Latiwalaa</string>
+
+    <string name="action_settings">impostazioni</string>
+    <string name="action_search">Ricerca</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+   <!-- <string name="nav_item_home">Home</string>-->
+    <string name="nav_item_category">Categorie</string>
+    <string name="nav_item_shop">Negozio</string>
+    <string name="nav_item_shoppingcart">Carrello della spesa</string>
+    <!--<string name="nav_item_wishlist">My Wishlist</string>-->
+    <string name="nav_item_contactus">Contattaci</string>
+    <string name="nav_item_terms_condition">Termini e condizioni</string>
+    <string name="nav_item_account">Il mio account</string>
+
+    <!-- navigation drawer item labels  -->
+    <string-array name="nav_drawer_labels">
+        <!--<item>@string/nav_item_home</item>-->
+        <item>@string/nav_item_category</item>
+        <item>@string/nav_item_shop</item>
+        <item>@string/nav_item_shoppingcart</item>
+        <!--<item>@string/nav_item_wishlist</item>-->
+        <item>@string/nav_item_contactus</item>
+        <item>@string/nav_item_terms_condition</item>
+        <item>@string/nav_item_account</item>
+    </string-array>
+
+    <!--<string name="title_home">Home</string>-->
+    <string name="title_profile">Profilo</string>
+    <string name="title_category">Categorie</string>
+    <string name="title_shop">Negozio</string>
+    <string name="title_recent">Recente</string>
+    <string name="title_popular">Più popolare</string>
+    <string name="title_product_detail">Dettagli del prodotto</string>
+    <string name="title_shoppingcart">Carrello della spesa</string>
+    <string name="title_wishlist">La mia lista dei desideri</string>
+    <string name="title_search">Ricerca</string>
+
+    <string name="title_pastOrders">Ordini passati</string>
+    <string name="title_changepassword">Cambia la password</string>
+    <string name="title_contactus">Contattaci</string>
+    <string name="title_terms_condition">Termini e condizioni</string>
+    <string name="title_account">Il mio account</string>
+    <string name="title_editProfile">Modifica Profilo</string>
+    <string name="title_edit_address">Modifica indirizzo</string>
+    <string name="title_edit_billing">Indirizzo Di Fatturazione</string>
+    <string name="title_edit_shipping">indirizzo di spedizione</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="name">Nome</string>
+
+    <string name="orderConfirm">CONFERMA DELL\'ORDINE</string>
+    <string name="forgotPassword">Ha dimenticato la password?</string>
+    <string name="forgotusername">Hai dimenticato il nome utente</string>
+
+    <string name="forgot_pass">Hai dimenticato la password?</string>
+    <string name="forgot_username">Hai dimenticato il tuo nome utente?</string>
+    <string name="create_account">Crea un account</string>
+    <string name="need_help">HO BISOGNO DI AIUTO?</string>
+
+
+    <!--Create account-->
+    <string name="If_you_already">Se hai già un account con noi, clicca qui per accedere.</string>
+
+    <!--forgot password-->
+    <string name="Forgotten_Password">Ha dimenticato la password</string>
+    <string name="Enter_email">Inserisci l\'indirizzo email associato al tuo account. Un codice di verifica verrà inviato. Una volta ricevuto il codice di verifica. si sceglierà una nuova password per il tuo account.</string>
+    <string name="product_shortdescription">Descrizione non disponibile</string>
+    <!--new address-->
+    <string name="firstName">Nome di battesimo *</string>
+    <string name="lastName">Cognome *</string>
+    <string name="address">Indirizzo *</string>
+    <string name="city">Città *</string>
+    <string name="postCode">Codice postale *</string>
+    <string name="State">Stato *</string>
+    <string name="mobile">Mobile *</string>
+    <string name="phone">Telefono *</string>
+    <string name="company">Azienda</string>
+    <string name="username">Nome utente *</string>
+    <string name="userName">Nome utente *</string>
+    <string name="password">Parola d\'ordine *</string>
+    <string name="confirmPassword">conferma password *</string>
+    <string name="eMail">Indirizzo email *</string>
+    <string name="country">Nazione *</string>
+    <string name="confirmEmail">Conferma email *</string>
+    <string name="e_mail">E-mail *</string>
+    <string name="validationpass">Hint: The password should be at least twelve characters long. To make it stronger, use upper and lower case letters, numbers, and symbols like ! " ? $ % ^ &amp; ).</string>
+
+
+    <string name="conf_detail">Grazie per il vostro ordine \n\nE \'stata inviata un\'email di conferma</string>
+    <string name="your_order">Il tuo ordine</string>
+    <string name="paymentMethod">Scegli una delle opzioni di pagamento</string>
+    <string name="ViewallReviews">Visualizza tutte le recensioni</string>
+    <string name="reviews_rating">Recensioni e rating</string>
+    <string name="add_a_review">Aggiungi una recensione</string>
+    <string name="sorry_combination_not_available">Spiacenti, combinazione non disponibile</string>
+    <string name="select_variations">Seleziona le varianti</string>
+
+    <string name="forgot_password">Hai perso la password?</string>
+    <string name="create_an_account">Crea un account</string>
+    <string name="checkout_as_guest">Checkout come ospite</string>
+    <string name="price_details">Dettagli del prezzo</string>
+    <string name="price_items">Prezzo (articoli)</string>
+
+
+    <string name="alert_title_message">Messaggio</string>
+    <string name="alert_body_network_error">Controllare la connessione di rete.</string>
+    <string name="alert_body_server_error">Errore del server. Prova dopo qualche tempo.</string>
+    <string name="alert_body_something_was_wrong">Verifica correttamente l\'URL.</string>
+    <string name="alert_title_loading">Attendere prego</string>">
+    <string name="alert_body_wait">Caricamento in corso&#8230;</string>
+
+    <string name="btn_ok">ok</string>
+    <string name="profile">Profilo</string>
+    <string name="orders">Ordini</string>
+    <string name="change_password">Cambia la password</string>
+    <string name="logout">Logout</string>
+    <string name="product_not_found">Prodotto non trovato</string>
+    <string name="wp_webservice_service"><![CDATA[http://phpjoomlacoders.com/christine/]]></string>
+    <string name="title_product">Prodotti</string>
+    <string name="title_subcategory">sottocategoria</string>
+    <string name="checkusername">Controlli nome utente e password</string>
+    <string name="enter_your_url">Inserisci URL con http: // o https: //</string>
+    <string name="you_have_not_any_wish">Non hai alcun desiderio</string>
+    <string name="back_to_category">Torna indietro</string>
+    <string name="reload">Ricaricare</string>
+    <string name="apply_coupon">Applica Coupon</string>
+    <string name="coupon_code">codice coupon</string>
+    <string name="billing_address">Indirizzo Di Fatturazione</string>
+    <string name="change_billing_address">Modifica indirizzo di fatturazione</string>
+    <string name="billing_address_same_as_shipping_address">Indirizzo di fatturazione uguale a Indirizzo di spedizione</string>
+    <string name="shipping_address">indirizzo di spedizione</string>
+    <string name="change_shipping_address">Cambia l\'indirizzo di spedizione</string>
+    <string name="shipping_methods">Metodi di spedizione</string>
+    <string name="additional_charge">Costi aggiuntivi</string>
+    <string name="tax">Imposta</string>
+    <string name="coupon">buono:</string>
+    <string name="payment_methods">Modalità di pagamento</string>
+    <string name="total">Totale:</string>
+    <string name="continue1">CONTINUA</string>
+    <string name="thank_you_your_order_has_been_received">Grazie. Il suo ordine è stato ricevuto.</string>
+    <string name="instructions">Istruzioni</string>
+    <string name="our_bank_details">Le nostre coordinate bancarie</string>
+    <string name="finish">finire</string>
+    <string name="billing_address_as_shipping_adress">Indirizzo di fatturazione come indirizzo di spedizione</string>
+    <string name="send_email">Invia una email</string>
+    <string name="connected">Collegato</string>
+    <string name="skip">SALTA</string>
+    <string name="login">Accesso</string>
+    <string name="sign_in_to_access_your_orders_and_recommendations">Accedi per accedere ai tuoi ordini e raccomandazioni.</string>
+    <string name="login1">ACCESSO</string>
+    <string name="save">SALVARE</string>
+    <string name="search">ricerca</string>
+    <string name="choose_an_option">Scegliere un\'opzione</string>
+    <string name="add_to_cart">AGGIUNGI AL CARRELLO</string>
+    <string name="buy_now">ACQUISTA ORA</string>
+    <string name="payable_amount">Importo da pagare</string>
+    <string name="proceed_to_checkout">PROCEDERE AL CHECKOUT</string>
+    <string name="your_rating">Il tuo punteggio</string>
+    <string name="write_review">Scrivere una recensione</string>
+    <string name="current_password">Password attuale</string>
+    <string name="new_password">nuova password</string>
+    <string name="confirm_new_password">Conferma la nuova password</string>
+    <string name="save_change">Salva la modifica</string>
+    <string name="cash_on_delivery">pagamento alla consegna</string>
+    <string name="you_have_no_favourite">Non hai nessun preferito</string>
+    <string name="card_number">NUMERO DI CARTA</string>
+    <string name="valid_card_number">Valido numero di carta</string>
+    <string name="expiration_date">DATA DI SCADENZA</string>
+    <string name="mm">MM</string>
+    <string name="yy">YY</string>
+    <string name="cvc_doce">CVC DOCE</string>
+    <string name="cv">cv</string>
+    <string name="enter_coupon_code">Inserisci il codice coupon</string>
+    <string name="paypal_method">metodo paypal</string>
+    <string name="detail">Dettaglio</string>
+    <string name="sale">saldi!</string>
+    <string name="load_more">Carica più</string>
+    <string name="i_am_empty">sono vuoto</string>
+    <string name="your_cart_is_empty">il tuo carrello è vuoto</string>
+    <string name="continue_shopping">CONTINUA A FARE ACQUISTI</string>
+    <string name="color">Colore</string>
+    <string name="account_name">Nome utente</string>
+    <string name="bank_name">Nome della banca</string>
+    <string name="account_number">Numero di conto</string>
+    <string name="sort_code">Ordinare il codice</string>
+    <string name="iban">IBAN</string>
+    <string name="bic_swift">BIC/Swift</string>
+    <string name="category_name">Nome della categoria</string>
+    <string name="category">Categoria</string>
+    <string name="order_id">ID ordine:</string>
+    <string name="date">Data:</string>
+    <string name="status">Stato:</string>
+    <string name="on_hold">In attesa</string>
+    <string name="amount">Quantità:</string>
+    <string name="flat_rate">Tasso fisso</string>
+    <string name="cloth_title">cloth title</string>
+    <string name="title">Title</string>
+    <string name="trial">Prova</string>
+    <string name="cancel">Annulla</string>
+    <string name="please_add_your_shipping_address">Aggiungi il tuo indirizzo di spedizione</string>
+    <string name="please_enter_code">Inserisci il codice</string>
+    <string name="register">Registrare</string>
+    <string name="please_enter_your_rul">inserisci il tuo url</string>
+    <string name="invalid_url">URL non valido</string>
+    <string name="please_select_country">Seleziona il paese</string>
+    <string name="please_enter_your_first_name">Per favore immettere il proprio Nome</string>
+    <string name="please_enter_your_last_name">inserisci il tuo cognome</string>
+    <string name="please_enter_your_address">inserisci il tuo indirizzo</string>
+    <string name="please_enter_your_country">inserisci il tuo paese</string>
+    <string name="please_enter_your_state">inserisci il tuo stato</string>
+    <string name="please_enter_your_city">inserisci la tua città</string>
+    <string name="please_enter_your_postcode">inserisci il tuo codice postale</string>
+    <string name="please_enter_your_email">inserisci la tua email</string>
+    <string name="please_enter_your_phone">inserisci il tuo telefono</string>
+    <string name="please_enter_password">Per favore, inserisci la password</string>
+    <string name="please_enter_your_username">Per favore inserisci il tuo cognome</string>
+    <string name="please_enter_registered_email_ID">inserisci l\'ID registrato</string>
+    <string name="please_enter_current_password">Inserisci la password corrente</string>
+    <string name="please_enter_new_password">Inserisci nuova password</string>
+    <string name="please_re_enter_password">Inserisci nuovamente la password</string>
+    <string name="password_not_match">La password non corrisponde</string>
+    <string name="please_add_your_billing_address">Aggiungi l\'indirizzo di fatturazione</string>
+    <string name="please_add_your_shipping_address1">Aggiungi il tuo indirizzo di spedizione</string>
+    <string name="press_back_again_to_exit">Premere di nuovo Back to Exit.</string>
+    <string name="order_not_found">Ordine non trovato</string>
+    <string name="order_detail">Dettagli ordine</string>
+    <string name="subtotal">totale parziale</string>
+    <string name="discount">Sconto</string>
+    <string name="shipping">spedizione</string>
+    <string name="payment_details">Dettagli di pagamento</string>
+    <string name="customer_details">Dettagli cliente</string>
+    <string name="email">E-mail</string>
+    <string name="please_select_variations">Seleziona le varianti</string>
+    <string name="please_enter_review">inserisci recensione</string>
+    <string name="please_select_rating">seleziona la valutazione</string>
+    <string name="please_enter_name">inserisci Nome</string>
+    <string name="please_enter_email">inserisci Email</string>
+    <string name="review_for">recensione per</string>
+    <string name="no_review_for_this_prodcut">Nessuna recensione per questo prodotto</string>
+    <string name="error_to_fetch_data">errore per recuperare i dati</string>
+    <string name="all_product">Tutto il prodotto</string>
+    <string name="showing">Mostrando</string>
+    <string name="items">elementi</string>
+    <string name="please_add_your_phone_number">si prega di aggiungere il tuo numero di telefono</string>
+    <string name="cart_is_empty">Il carrello è vuoto</string>
+    <string name="subcategory_not_found">Sottocategoria non trovata</string>
+    <string name="unknown_error">Errore sconosciuto</string>
+    <string name="data_was_empty">I dati erano vuoti</string>
+    <string name="update_wishlist">Aggiorna la wishlist</string>
+    <string name="add_to_wishlist">Aggiungi alla lista dei desideri</string>
+    <string name="remove_from_wishlist">Rimuovi dalla wishlist</string>
+    <string name="updated_cart">Carrello aggiornato</string>
+    <string name="item_added">Articolo aggiunto</string>
+    <string name="price">Prezzo</string>
+    <string name="checkout">Check-out</string>
+    <string name="please_Check_Payment_method">si prega di controllare il metodo di pagamento</string>
+    <string name="please_Check_shipping_Method_Payment_method_and_Shipping_address">si prega di controllare il metodo di spedizione, il metodo di pagamento e l\'indirizzo di spedizione</string>
+    <string name="please_Enter_Keywords">Inserisci parole chiave</string>
+    <string name="enabled_your_input_language">Abilitato la lingua di input</string>
+    <string name="quantity">Quantità</string>
+    <string name="readmore">Leggi di più</string>
+    <string name="please_choose_the_quantity_of_items_you_wish_to_add_to_your_cart">Seleziona la quantità di articoli che desideri aggiungere al tuo carrello</string>
+    <string name="sorry_this_product_not_availabler">Siamo spiacenti, questo prodotto non è disponibile</string>
+    <string name="there_is_no_more_product_available">Non c\'è più articolo disponibile</string>
+</resources>

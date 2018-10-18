@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/card_margin"
+        android:elevation="3dp"
+        card_view:cardCornerRadius="@dimen/card_album_radius">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/tvLableYourOrder"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/billing_address"
+                android:textSize="@dimen/cellAmount_lablesize"
+                android:textColor="@color/color_grey_light"
+                android:background="@color/color_white"
+                android:layout_marginRight="@dimen/activity_vertical_margin"
+                android:layout_marginLeft="@dimen/activity_vertical_margin"
+                android:layout_marginBottom="@dimen/activity_margin_bottom"
+                android:layout_marginTop="@dimen/activity_margin_top"/>
+
+            <View
+                android:id="@+id/vwCheckout"
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@color/color_viewLine"
+                android:layout_below="@id/tvLableYourOrder">
+
+            </View>
+
+            <TextView
+                android:id="@+id/tvBillingAddress_checkout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/billing_address"
+                android:textSize="@dimen/cellAmount_textsize"
+                android:textColor="@color/color_grey_light"
+                android:layout_below="@id/vwCheckout"
+                android:layout_marginRight="@dimen/activity_vertical_margin"
+                android:layout_marginLeft="@dimen/activity_vertical_margin"
+                android:layout_marginBottom="@dimen/activity_margin_bottom"
+                android:layout_marginTop="@dimen/activity_margin_top"/>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardChangeBillAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvBillingAddress_checkout"
+                android:layout_marginRight="@dimen/activity_vertical_margin"
+                android:layout_marginLeft="@dimen/activity_vertical_margin"
+                android:layout_marginBottom="@dimen/activity_margin_bottom"
+                android:layout_marginTop="@dimen/activity_margin_top"
+                card_view:cardCornerRadius="@dimen/_4sdp">
+
+            <TextView
+                android:id="@+id/tvChangeBilling"
+                android:layout_width="fill_parent"
+                android:text="@string/change_billing_address"
+                style="@style/btn_all_normal"
+                android:gravity="center" />
+
+            </android.support.v7.widget.CardView>
+
+
+            <CheckBox
+                android:id="@+id/chbxBillingsameAsShippinn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/billing_address_same_as_shipping_address"
+                android:layout_below="@id/cardChangeBillAddress"
+                android:textColor="@color/color_grey_light"
+                android:textSize="@dimen/cellAmount_chbx_txtsize"
+                android:layout_marginRight="@dimen/activity_vertical_margin"
+                android:layout_marginLeft="@dimen/activity_vertical_margin"
+                android:layout_marginBottom="@dimen/activity_margin_bottom"
+                android:layout_marginTop="@dimen/activity_margin_top" />
+        </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+</RelativeLayout>
